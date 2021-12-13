@@ -1,0 +1,7 @@
+name: GitHub Actions Pull Requests
+on: [pull_request]
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+    - run: npm install && npm run build && npm run test
