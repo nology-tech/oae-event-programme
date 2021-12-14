@@ -1,5 +1,4 @@
 import "./App.scss";
-import TitleArticle from "./assets/components/TitleArticle/TitleArticle";
 
 function App() {
   return (
