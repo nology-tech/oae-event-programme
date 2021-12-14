@@ -2,10 +2,10 @@
 @use "../../sass/typography" as *;
 
 .title-article {
-  font-family: ptSans;
   line-height: 150%;
+  font-family: "PT Sans";
   &__header {
-    // font-family:$fontOne;
+    font-family: $fontOne;
   }
   &__text {
     font-size: 1.125rem;
