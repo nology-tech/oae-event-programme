@@ -1,9 +1,10 @@
 name: Pull Requests build and test
 on: [pull_request]
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-    - run: npm install
-    - run: npm run build
-    - npm: run test
+  starts_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run build
+      - npm: run test
