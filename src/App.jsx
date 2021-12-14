@@ -5,14 +5,15 @@ import About from './containers/pages/About/About';
 import Schedule from './containers/pages/Schedule/Schedule';
 
 const  App = () => {
+  const baseURL = "/oae-event-programme";
   return ( 
     <Router>
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/our-story" element={<About/>} />
-        <Route path="/event-schedule" element={<Schedule />} />
-        <Route path="*" element={<Home/>} />
+        <Route path={baseURL} element={<Home />}/>
+        <Route path={baseURL +"/our-story"} element={<About/>} />
+        <Route path={baseURL + "/event-schedule"} element={<Schedule />} />
+        <Route path={baseURL +"*"} element={<Home/>} />
       </Routes>
     </div>
     </Router>
