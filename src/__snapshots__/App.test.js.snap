@@ -4,10 +4,6 @@ exports[`Renders App component 1`] = `
 <div>
   <div
     class="App"
-  >
-    <header
-      class="App-header"
-    />
-  </div>
+  />
 </div>
 `;
