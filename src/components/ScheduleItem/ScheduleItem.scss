@@ -1,0 +1,25 @@
+.schedule-item{
+    display: flex;
+    justify-content: space-between;    
+    border-bottom: 1px solid lightgrey;     
+    width: 20rem;
+    padding: 1rem;
+&__headers{
+    position: relative;
+    left: 0.5rem;
+&__header{
+
+}
+&__subheader{
+    
+}
+}
+&__image-conatiner{        
+    &__image{ 
+        position: relative;
+        right: 0.5rem;       
+        width: 20px;
+        height: 11px;
+    }
+}
+}
