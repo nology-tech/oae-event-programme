@@ -1,25 +1,58 @@
 .schedule-item{
-    border-bottom: 1px solid lightgrey;  
-    border-width: 100%;
-    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 2rem;
-    align-items: baseline;
     line-height: 1.5rem;
     &__top{
         display: flex;
+        align-items: center;
         justify-content: space-between;      
-        width: 15rem;
+        width: 16rem;
         align-items: baseline;
         line-height: 0.8rem;
 }
-&__top-image-conatiner{   
+&__image-conatiner{   
     display: flex;    
-    &__image{ 
-        
-        position: relative;
-        right: 0.5rem;       
-        width: 20px;
-        height: 11px;
+}
+&__hr{
+    width: 16rem;
+    color: lightgray;
+}
+}
+
+@media screen and (min-width: 375px) {
+    .schedule-item{
+        &__top{      
+            width: 20rem;
+            line-height: 0.8rem;
     }
-}
-}
+    &__hr{
+        width: 20rem;
+    }
+    }
+  }
+
+@media screen and (min-width: 425px) {
+    .schedule-item{
+        &__top{      
+            width: 22rem;
+            line-height: 0.8rem;
+    }
+    &__hr{
+        width: 23rem;
+    }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .schedule-item{
+        &__top{      
+            width: 40rem;
+            line-height: 0.8rem;
+    }
+    &__hr{
+        width: 43.5rem;
+    }
+    }
+  }

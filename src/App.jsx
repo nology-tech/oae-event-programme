@@ -1,5 +1,5 @@
 import './App.scss';
-import ScheduleItem from './components/ScheduleItem/ScheduleItem';
+import Schedule from './containers/Schedule/Schedule';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
        
       </header>
-      <ScheduleItem header="header" subHeader="subheader" description="lorem ipsum whatever"/>
+      <Schedule />
     </div>
   );
 }
