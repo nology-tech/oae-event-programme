@@ -1,8 +1,8 @@
 import './App.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from './containers/pages/Home/Home';
-import About from './containers/pages/About/About';
-import Schedule from './containers/pages/Schedule/Schedule';
+import Home from './pages/Home/Home';
+import About from './pages/About/About';
+import Schedule from './pages/Schedule/Schedule';
 
 const  App = () => {
   const baseURL = "/oae-event-programme";
