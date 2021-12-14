@@ -1,0 +1,17 @@
+@use "../../sass/variables" as *;
+@use "../../sass/typography" as *;
+
+.title-article {
+  font-family:ptSans;
+  line-height: 150%;
+
+
+
+.title-article__header {
+  // font-family:$fontOne;
+  
+}
+.title-article__text {
+  font-size: 1.125rem;
+}
+}
