@@ -1,21 +1,21 @@
 .schedule-item{
-    display: flex;
-    justify-content: space-between;    
-    border-bottom: 1px solid lightgrey;     
-    width: 20rem;
-    padding: 1rem;
-&__headers{
-    position: relative;
-    left: 0.5rem;
-&__header{
-
+    border-bottom: 1px solid lightgrey;  
+    border-width: 100%;
+    width: 10rem;
+    padding: 2rem;
+    align-items: baseline;
+    line-height: 1.5rem;
+    &__top{
+        display: flex;
+        justify-content: space-between;      
+        width: 15rem;
+        align-items: baseline;
+        line-height: 0.8rem;
 }
-&__subheader{
-    
-}
-}
-&__image-conatiner{        
+&__top-image-conatiner{   
+    display: flex;    
     &__image{ 
+        
         position: relative;
         right: 0.5rem;       
         width: 20px;

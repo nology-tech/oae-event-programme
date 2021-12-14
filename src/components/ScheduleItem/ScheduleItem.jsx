@@ -23,13 +23,15 @@ const ScheduleItem = (props) => {
 
     return (
         <div className="schedule-item">
-            <span className="schedule-item__headers">
-                <h3 className="schedule-item__headers__header">{header}</h3>
-                <h4 className="schedule-item__headers__subheader">{subHeader}</h4>
+            <div className="schedule-item__top">
+            <span className="schedule-item__top-headers">
+                <h3 className="schedule-item__top-headers__header">{header}</h3>
+                <p className="schedule-item__top-headers__subheader">{subHeader}</p>
             </span>
-            <span className="schedule-item__image-container">
-                <img className="schedule-item__image-container__image" src={Img} alt="" onClick={handleClick}></img>
+            <span className="schedule-item__top-image-container">
+                <img className="schedule-item__top-image-container__image" src={Img} alt="" onClick={handleClick}></img>
             </span>
+            </div>
             { showText && <p>{description}</p> }
         </div>
     );
