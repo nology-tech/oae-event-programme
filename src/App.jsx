@@ -4,6 +4,8 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Schedule from './pages/Schedule/Schedule';
 
+
+
 const  App = () => {
   const baseURL = "/oae-event-programme";
   return ( 
@@ -15,6 +17,7 @@ const  App = () => {
         <Route path={baseURL + "/event-schedule"} element={<Schedule />} />
         <Route path={baseURL +"*"} element={<Home/>} />
       </Routes>
+      
     </div>
     </Router>
     

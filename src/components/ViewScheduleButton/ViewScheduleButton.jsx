@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const ViewScheduleButton = () => {
   return (
-    <Link to="">
+    <Link to={"/event-schedule"}>
       <button className="schedule-button">View Schedule</button>
     </Link>
   );
