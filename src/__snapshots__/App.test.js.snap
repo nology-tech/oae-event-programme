@@ -1,11 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component with default page 1`] = `
+exports[`Renders photo component in the About page 1`] = `
 <div>
   <div>
     <h1>
-      Home page
+      About page
     </h1>
+    <div
+      class="image-container"
+    >
+      <img
+        alt="placeholder"
+        src="image.png"
+      />
+      <p>
+        description here :)
+      </p>
+    </div>
   </div>
 </div>
 `;
