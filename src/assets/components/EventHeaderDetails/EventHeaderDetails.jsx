@@ -3,15 +3,15 @@ import "./EventHeaderDetails.scss";
 const EventHeaderDetails = (props) => {
   const { time, date, venue, location } = props;
   return (
-    <div className="event-details">
-      <p className="event-details__time-date">
+    <div className="event-header-details">
+      <p className="event-header-details__time-date">
         {time}
-        <span className="event-details__divider">|</span>
+        <span className="event-header-details__divider">|</span>
         {date}
       </p>
-      <p className="event-details__venue">
+      <p className="event-header-details__venue">
         {venue}
-        <span className="event-details__location">, {location}</span>
+        <span className="event-header-details__location">, {location}</span>
       </p>
     </div>
   );

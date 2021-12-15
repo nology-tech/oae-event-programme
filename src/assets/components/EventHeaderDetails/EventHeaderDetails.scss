@@ -1,10 +1,12 @@
 @use "../../sass/variables" as *;
 @use "../../sass/typography" as *;
 
-.event-details {
-  color: white;
-  background-color: #fa825d;
+.event-header-details {
+  color: #ffffff;
+  background-color: $modern-primary;
   line-height: 24px;
+  font-family: $fontOne;
+  padding: 23px;
   & > * {
     margin: 0;
   }
