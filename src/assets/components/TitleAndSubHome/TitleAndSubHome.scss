@@ -1,0 +1,27 @@
+@use "../../sass/variables" as *;
+@use "../../sass/_typography" as *;
+
+.header-home {
+  color: white;
+  background-color: #F97850;
+  padding-left:10px ;
+  font-family: $primary-font;
+  letter-spacing:-0.05em;
+
+  &__subtitle {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-top: 5px;
+    font-size: 16px;
+  
+    color: #FFFFC7;
+  }
+  &__title {
+    line-height: 38px;
+    margin-top: 5px;
+
+  
+  }
+
+}
