@@ -3,10 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router } from "react-router-dom";
+
+const baseURL = "/oae-event-programme";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router basename={baseURL}>
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );

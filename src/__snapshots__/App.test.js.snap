@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders App component with default page 1`] = `
+<div>
+  <div>
+    <h1>
+      Home page
+    </h1>
+  </div>
+</div>
+`;
