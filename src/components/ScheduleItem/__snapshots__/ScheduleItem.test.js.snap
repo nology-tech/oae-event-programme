@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders App component with default page 1`] = `
+<div>
+  <div
+    class="schedule-item"
+  >
+    <div
+      class="schedule-item__top"
+    >
+      <span
+        class="schedule-item__headers"
+      >
+        <h3
+          class="schedule-item__header"
+        />
+        <p
+          class="schedule-item__subheader"
+        />
+      </span>
+      <span
+        class="schedule-item__button-container"
+      >
+        <img
+          alt=""
+          class="schedule-item__button"
+          role="button"
+          src=""
+        />
+      </span>
+    </div>
+    <hr
+      class="schedule-item__hr"
+    />
+  </div>
+</div>
+`;
