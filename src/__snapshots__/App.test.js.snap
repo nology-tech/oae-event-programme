@@ -1,13 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component 1`] = `
+exports[`Renders App component with default page 1`] = `
 <div>
-  <div
-    class="App"
-  >
-    <header
-      class="App-header"
-    />
+  <div>
+    <h1>
+      Home page
+    </h1>
   </div>
 </div>
 `;
