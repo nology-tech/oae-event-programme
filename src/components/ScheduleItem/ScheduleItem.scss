@@ -48,11 +48,22 @@
   @media screen and (min-width: 768px) {
     .schedule-item{
         &__top{      
-            width: 40rem;
+            width: 42rem;
             line-height: 0.8rem;
     }
     &__hr{
         width: 43.5rem;
+    }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .schedule-item{
+        &__top{      
+            width: 59rem;
+            line-height: 0.8rem;
+    }
+    &__hr{
+        width: 60rem;
     }
     }
   }
