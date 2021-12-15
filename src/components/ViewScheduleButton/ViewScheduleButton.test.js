@@ -1,18 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import ViewScheduleButton from "./ViewScheduleButton";
+import { customRender } from "../../utils/testUtils";
 
-it ("it should render the button", ()=> {
-  render(<ViewScheduleButton />);
-  const button  = screen.getByRole("button");
+it("should render the button", () => {
+  customRender(<ViewScheduleButton />);
+  const button = screen.getByRole("link");
 
-  expect(button).toBeInTheDocument();
-})
-
-
-
-// it ("it should send the user to the event schedule", ()=> {
-//   render(<ViewScheduleButton />);
-//   const link = screen.getByRole("Link");
-
-//   expect(link).toBe();
-// })
+  expect(button).toMatchSnapshot();
+});
