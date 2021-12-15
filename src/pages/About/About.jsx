@@ -1,7 +1,5 @@
-import React from 'react';
-import Photo from '../../Components/Photo/Photo';
-import testImage from "../../assets/images/image.png";
 
+import React from "react";
 
 
 const About = () => {
@@ -10,7 +8,7 @@ const About = () => {
       <h1>About page</h1>
       <Photo imageSrc={testImage}/>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
