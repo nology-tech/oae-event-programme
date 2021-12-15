@@ -25,6 +25,7 @@ const ScheduleItem = (props) => {
             setImg(chevron.down);
         } else {
             setImg(chevron.up);
+            console.log(chevron.up)
         }       
   };
 
