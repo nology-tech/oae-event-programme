@@ -3,13 +3,13 @@
 exports[`Renders App component with default page 1`] = `
 <div>
   <div
-    class="homepage"
+    class="home"
   >
     <h1>
       Home page
     </h1>
     <a
-      class="schedule-button"
+      class="view-schedule-button"
       href="/event-schedule"
     >
       View Schedule
