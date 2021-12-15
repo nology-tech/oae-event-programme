@@ -1,13 +1,9 @@
-import { render } from "@testing-library/react";
-//import App from "./App";
-import About from "./pages/About/About"
 
-// test("Renders App component", () => {
-//   const { container } = render(<App />);
-//   expect(container).toMatchSnapshot();
-// });
+import App from "./App";
+import { customRender } from "./utils/testUtils";
 
-test("Renders About component, photo and description should appear", () => {
-  const { container } = render(<About />);
+test("Renders App component with default page", () => {
+  const { container } = customRender(<App />);
+
   expect(container).toMatchSnapshot();
 });
