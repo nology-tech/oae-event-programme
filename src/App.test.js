@@ -1,8 +1,7 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from "./App";
+import { customRender } from "./utils/testUtils";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("Renders App component with default page", () => {
+  const { container } = customRender(<App />);
+  expect(container).toMatchSnapshot();
 });

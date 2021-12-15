@@ -27,6 +27,7 @@ const ScheduleItem = (props) => {
             setImg(chevron.up);
         }       
   };
+  
 
     return (
         <div className="schedule-item">
