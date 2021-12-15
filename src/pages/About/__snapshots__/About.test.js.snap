@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders photo component in the About page 1`] = `
+<div>
+  <div>
+    <h1>
+      About page
+    </h1>
+    <div
+      class="photo-container"
+    >
+      <img
+        alt="placeholder"
+        class="photo-container__image"
+        src="image.png"
+      />
+      <p
+        class="photo-container__description"
+      >
+        description here :)
+      </p>
+    </div>
+  </div>
+</div>
+`;
