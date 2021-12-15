@@ -2,10 +2,18 @@
 
 exports[`Renders App component with default page 1`] = `
 <div>
-  <div>
+  <div
+    class="homepage"
+  >
     <h1>
       Home page
     </h1>
+    <a
+      class="schedule-button"
+      href="/event-schedule"
+    >
+      View Schedule
+    </a>
   </div>
 </div>
 `;

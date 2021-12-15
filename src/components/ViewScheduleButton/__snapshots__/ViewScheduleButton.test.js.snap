@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the button 1`] = `
+<a
+  class="schedule-button"
+  href="/event-schedule"
+>
+  View Schedule
+</a>
+`;

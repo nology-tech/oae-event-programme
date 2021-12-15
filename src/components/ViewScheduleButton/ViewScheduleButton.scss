@@ -11,4 +11,9 @@
   font-weight: 700;
   font-family: $modern-header;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }

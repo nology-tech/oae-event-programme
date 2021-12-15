@@ -1,9 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
 import ViewScheduleButton from "./ViewScheduleButton";
+import { customRender } from "../../utils/testUtils";
 
 it("should render the button", () => {
-  custom(<ViewScheduleButton />);
-  const button = screen.getByRole("button");
+  customRender(<ViewScheduleButton />);
+  const button = screen.getByRole("link");
 
-  expect(button).toBeInTheDocument();
+  expect(button).toMatchSnapshot();
 });
