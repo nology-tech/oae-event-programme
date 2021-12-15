@@ -4,7 +4,7 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 
 const Home = () => {
   return (
-    <div className="homepage">
+    <div className="home">
       <h1>Home page</h1>
       <ViewScheduleButton />
     </div>
