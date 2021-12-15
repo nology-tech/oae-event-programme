@@ -1,6 +1,6 @@
-
 import React from "react";
-
+import Photo from "../../Components/Photo/Photo";
+import testImage from "../../assets/images/image.png";
 
 const About = () => {
   return (
