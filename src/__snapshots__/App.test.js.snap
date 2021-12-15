@@ -1,9 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component 1`] = `
+exports[`Renders About component, photo and description should appear 1`] = `
 <div>
-  <div
-    class="App"
-  />
+  <div>
+    <h1>
+      About page
+    </h1>
+    <div
+      class="image-container"
+    >
+      <img
+        alt="placeholder"
+        src="image.png"
+      />
+      <p>
+        description here :)
+      </p>
+    </div>
+  </div>
 </div>
 `;
