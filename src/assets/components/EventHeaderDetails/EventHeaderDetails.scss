@@ -1,0 +1,21 @@
+@use "../../sass/variables" as *;
+@use "../../sass/typography" as *;
+
+.event-details {
+  color: white;
+  background-color: #fa825d;
+  line-height: 24px;
+  & > * {
+    margin: 0;
+  }
+  &__divider {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  &__venue {
+    font-weight: bold;
+  }
+  &__location {
+    font-weight: normal;
+  }
+}
