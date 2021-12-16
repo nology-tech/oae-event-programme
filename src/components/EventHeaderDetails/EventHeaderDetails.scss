@@ -1,5 +1,5 @@
-@use "../../sass/variables" as *;
-@use "../../sass/typography" as *;
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
 
 .event-header-details {
   color: $color-white;
