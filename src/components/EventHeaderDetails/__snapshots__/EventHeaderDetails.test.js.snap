@@ -1,27 +1,122 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders EventHeaderDetails component 1`] = `
+exports[` EventHeaderDetails component 1`] = `
 <div>
   <div
-    class="event-details"
+    class="event-header-details"
   >
     <p
-      class="event-details__time-date"
+      class="event-header-details__time-date"
+    />
+    <p
+      class="event-header-details__venue-location"
     >
       <span
-        class="event-details__divider"
+        class="event-header-details__venue"
+      />
+       
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Comma divider span element should not render if there is no location 1`] = `
+<div>
+  <div
+    class="event-header-details"
+  >
+    <p
+      class="event-header-details__time-date"
+    >
+      11.30am
+      <span
+        class="event-header-details__divider"
       >
         |
       </span>
+      Sun 21 Nov 2021
     </p>
     <p
-      class="event-details__venue"
+      class="event-header-details__venue-location"
     >
       <span
-        class="event-details__location"
+        class="event-header-details__venue"
       >
-        , 
+        London South Bank
       </span>
+       
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Comma divider span element should render if there is a venue and location 1`] = `
+<div>
+  <div
+    class="event-header-details"
+  >
+    <p
+      class="event-header-details__time-date"
+    >
+      11.30am
+      <span
+        class="event-header-details__divider"
+      >
+        |
+      </span>
+      Sun 21 Nov 2021
+    </p>
+    <p
+      class="event-header-details__venue-location"
+    >
+      <span
+        class="event-header-details__venue"
+      >
+        London South Bank
+      </span>
+      <span
+        class="event-header-details__comma"
+      >
+        ,
+      </span>
+       
+      London
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Vertical divider span element should only render when there is both a time and date 1`] = `
+<div>
+  <div
+    class="event-header-details"
+  >
+    <p
+      class="event-header-details__time-date"
+    >
+      11.30am
+      <span
+        class="event-header-details__divider"
+      >
+        |
+      </span>
+      Sun 21 Nov 2021
+    </p>
+    <p
+      class="event-header-details__venue-location"
+    >
+      <span
+        class="event-header-details__venue"
+      >
+        London South Bank
+      </span>
+      <span
+        class="event-header-details__comma"
+      >
+        ,
+      </span>
+       
+      London
     </p>
   </div>
 </div>
@@ -30,26 +125,20 @@ exports[`Renders EventHeaderDetails component 1`] = `
 exports[`date should be Sun 21 Nov 2021 1`] = `
 <div>
   <div
-    class="event-details"
+    class="event-header-details"
   >
     <p
-      class="event-details__time-date"
+      class="event-header-details__time-date"
     >
-      <span
-        class="event-details__divider"
-      >
-        |
-      </span>
       Sun 21 Nov 2021
     </p>
     <p
-      class="event-details__venue"
+      class="event-header-details__venue-location"
     >
       <span
-        class="event-details__location"
-      >
-        , 
-      </span>
+        class="event-header-details__venue"
+      />
+       
     </p>
   </div>
 </div>
@@ -58,26 +147,24 @@ exports[`date should be Sun 21 Nov 2021 1`] = `
 exports[`location should be London 1`] = `
 <div>
   <div
-    class="event-details"
+    class="event-header-details"
   >
     <p
-      class="event-details__time-date"
-    >
-      <span
-        class="event-details__divider"
-      >
-        |
-      </span>
-    </p>
+      class="event-header-details__time-date"
+    />
     <p
-      class="event-details__venue"
+      class="event-header-details__venue-location"
     >
       <span
-        class="event-details__location"
+        class="event-header-details__venue"
+      />
+      <span
+        class="event-header-details__comma"
       >
-        , 
-        London
+        ,
       </span>
+       
+      London
     </p>
   </div>
 </div>
@@ -86,26 +173,20 @@ exports[`location should be London 1`] = `
 exports[`time should display as 11.30am 1`] = `
 <div>
   <div
-    class="event-details"
+    class="event-header-details"
   >
     <p
-      class="event-details__time-date"
+      class="event-header-details__time-date"
     >
       11.30am
-      <span
-        class="event-details__divider"
-      >
-        |
-      </span>
     </p>
     <p
-      class="event-details__venue"
+      class="event-header-details__venue-location"
     >
       <span
-        class="event-details__location"
-      >
-        , 
-      </span>
+        class="event-header-details__venue"
+      />
+       
     </p>
   </div>
 </div>
@@ -114,26 +195,20 @@ exports[`time should display as 11.30am 1`] = `
 exports[`venue should be King's place 1`] = `
 <div>
   <div
-    class="event-details"
+    class="event-header-details"
   >
     <p
-      class="event-details__time-date"
-    >
-      <span
-        class="event-details__divider"
-      >
-        |
-      </span>
-    </p>
+      class="event-header-details__time-date"
+    />
     <p
-      class="event-details__venue"
+      class="event-header-details__venue-location"
     >
-      King's place
       <span
-        class="event-details__location"
+        class="event-header-details__venue"
       >
-        , 
+        King's place
       </span>
+       
     </p>
   </div>
 </div>

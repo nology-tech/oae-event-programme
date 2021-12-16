@@ -8,12 +8,37 @@ exports[`Renders App component with default page 1`] = `
     <h1>
       Home page
     </h1>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
+    <div
+      class="event-header-details"
     >
-      View Schedule
-    </a>
+      <p
+        class="event-header-details__time-date"
+      >
+        11.30am
+        <span
+          class="event-header-details__divider"
+        >
+          |
+        </span>
+        Sun 21 Nov 2021
+      </p>
+      <p
+        class="event-header-details__venue-location"
+      >
+        <span
+          class="event-header-details__venue"
+        >
+          South Bank
+        </span>
+        <span
+          class="event-header-details__comma"
+        >
+          ,
+        </span>
+         
+        London
+      </p>
+    </div>
   </div>
 </div>
 `;

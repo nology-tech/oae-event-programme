@@ -4,15 +4,15 @@
 .event-header-details {
   color: $color-white;
   background-color: $modern-primary;
-  line-height: 24px;
+  line-height: 1.5rem;
   font-family: $modern-content;
-  padding: 23px;
+  padding: 1.438rem;
   & > * {
     margin: 0;
   }
   &__divider {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.313rem;
+    margin-right: 0.313rem;
   }
   &__venue {
     font-weight: bold;
