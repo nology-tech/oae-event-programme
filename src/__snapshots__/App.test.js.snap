@@ -5,7 +5,9 @@ exports[`Renders App component with default page 1`] = `
   <div
     class="home"
   >
-    <h1>
+    <h1
+      class="home__header"
+    >
       Home page
     </h1>
     <div
@@ -39,6 +41,12 @@ exports[`Renders App component with default page 1`] = `
         London
       </p>
     </div>
+    <a
+      class="view-schedule-button"
+      href="/event-schedule"
+    >
+      View Schedule
+    </a>
   </div>
 </div>
 `;

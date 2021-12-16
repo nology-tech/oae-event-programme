@@ -7,12 +7,17 @@ const EventHeaderDetails = (props) => {
     <div className="event-header-details">
       <p className="event-header-details__time-date">
         {time}
-        {time && date && <span className="event-header-details__divider">|</span>}
+        {time && date && (
+          <span className="event-header-details__divider">|</span>
+        )}
         {date}
       </p>
       <p className="event-header-details__venue-location">
         <span className="event-header-details__venue">{venue}</span>
-        {location && <span className="event-header-details__comma">,</span>} {location}
+        {location && (
+          <span className="event-header-details__comma">,</span>
+        )}{" "}
+        {location}
       </p>
     </div>
   );
