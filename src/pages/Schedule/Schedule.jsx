@@ -5,7 +5,7 @@ import "./Schedule.scss";
 const Schedule = () => {
   return (
     <div className="schedule">
-      <ScheduleItem header="Welome" />
+      <ScheduleItem header="Welcome" />
       <ScheduleItem
         header="header"
         subHeader="subheader"

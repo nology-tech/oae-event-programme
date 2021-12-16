@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 import ScheduleItem from "./ScheduleItem";
 
 test("Renders App component with default page", () => {
-  const { container } = customRender(<ScheduleItem />);
+  const { container } = customRender(<ScheduleItem src="chevron-down.png" />);
   expect(container).toMatchSnapshot();
 });
 
@@ -34,7 +34,7 @@ it("header should render and description should render on button click", () => {
   const description = screen.queryAllByText("lorem ipsum");
   expect(description[0]).toBeVisible();
 });
-it("should render the buuton and change the picture on click of the button", () => {
+it("should render the button and change the picture on click of the button", () => {
   customRender(
     <ScheduleItem
       header="header"
@@ -48,7 +48,8 @@ it("should render the buuton and change the picture on click of the button", () 
   userEvent.click(button);
   expect(button).toHaveAttribute("src", "chevron-up.png");
 });
-it("should not render the button when there is no description", () => {
+
+it("the image should not appear in the document when there is no {description} prop", () => {
   customRender(<ScheduleItem header="header" subHeader="subheader" />);
   const button = screen.getByRole("button");
   expect(button).toHaveAttribute("src", "");
