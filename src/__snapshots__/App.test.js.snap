@@ -1,9 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component 1`] = `
+exports[`Renders App component with default page 1`] = `
 <div>
   <div
-    class="App"
-  />
+    class="home"
+  >
+    <h1>
+      Home page
+    </h1>
+    <a
+      class="view-schedule-button"
+      href="/event-schedule"
+    >
+      View Schedule
+    </a>
+  </div>
 </div>
 `;
