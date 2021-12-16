@@ -4,6 +4,10 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 import ParagraphComponent from "../../components/ParagraphComponent/ParagraphComponent";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
 
+import event from "../../assets/data/data.js";
+
+// console.log(event.content[1].text);
+
 const Home = () => {
   return (
     <div className="home">
@@ -14,7 +18,7 @@ const Home = () => {
         venue="South Bank"
         location="London"
       />
-      <ParagraphComponent />
+      <ParagraphComponent text={event.content[1].text} />
       <ViewScheduleButton />
     </div>
   );
