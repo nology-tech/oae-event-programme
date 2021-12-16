@@ -13,10 +13,14 @@ exports[`Renders App component with default page 1`] = `
       >
         <h3
           class="schedule-item__header"
-        />
+        >
+          header
+        </h3>
         <p
           class="schedule-item__subheader"
-        />
+        >
+          subheader
+        </p>
       </span>
       <span
         class="schedule-item__button-container"
@@ -25,7 +29,7 @@ exports[`Renders App component with default page 1`] = `
           alt=""
           class="schedule-item__button"
           role="button"
-          src=""
+          src="chevron-down.png"
         />
       </span>
     </div>

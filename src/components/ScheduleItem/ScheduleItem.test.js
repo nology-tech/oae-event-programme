@@ -4,7 +4,9 @@ import userEvent from "@testing-library/user-event";
 import ScheduleItem from "./ScheduleItem";
 
 test("Renders App component with default page", () => {
-  const { container } = customRender(<ScheduleItem src="chevron-down.png" />);
+  const { container } = customRender(<ScheduleItem  header="header"
+  subHeader="subheader"
+  description="lorem ipsum" />);
   expect(container).toMatchSnapshot();
 });
 
