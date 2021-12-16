@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/oae-event-programme/static/css/main.56cda763.chunk.css",
-    "main.js": "/oae-event-programme/static/js/main.984da3b2.chunk.js",
-    "main.js.map": "/oae-event-programme/static/js/main.984da3b2.chunk.js.map",
-    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.21edf237.js",
-    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.21edf237.js.map",
-    "static/js/2.0c2dbce6.chunk.js": "/oae-event-programme/static/js/2.0c2dbce6.chunk.js",
-    "static/js/2.0c2dbce6.chunk.js.map": "/oae-event-programme/static/js/2.0c2dbce6.chunk.js.map",
-    "static/js/3.11601000.chunk.js": "/oae-event-programme/static/js/3.11601000.chunk.js",
-    "static/js/3.11601000.chunk.js.map": "/oae-event-programme/static/js/3.11601000.chunk.js.map",
+    "main.css": "/oae-event-programme/static/css/main.57373bba.chunk.css",
+    "main.js": "/oae-event-programme/static/js/main.4a598441.chunk.js",
+    "main.js.map": "/oae-event-programme/static/js/main.4a598441.chunk.js.map",
+    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.c845ab29.js",
+    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.c845ab29.js.map",
+    "static/js/2.aa9037bd.chunk.js": "/oae-event-programme/static/js/2.aa9037bd.chunk.js",
+    "static/js/2.aa9037bd.chunk.js.map": "/oae-event-programme/static/js/2.aa9037bd.chunk.js.map",
+    "static/js/3.1b5c9f2c.chunk.js": "/oae-event-programme/static/js/3.1b5c9f2c.chunk.js",
+    "static/js/3.1b5c9f2c.chunk.js.map": "/oae-event-programme/static/js/3.1b5c9f2c.chunk.js.map",
     "index.html": "/oae-event-programme/index.html",
-    "static/css/main.56cda763.chunk.css.map": "/oae-event-programme/static/css/main.56cda763.chunk.css.map",
-    "static/js/2.0c2dbce6.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.0c2dbce6.chunk.js.LICENSE.txt"
+    "static/css/main.57373bba.chunk.css.map": "/oae-event-programme/static/css/main.57373bba.chunk.css.map",
+    "static/js/2.aa9037bd.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.aa9037bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.21edf237.js",
-    "static/js/2.0c2dbce6.chunk.js",
-    "static/css/main.56cda763.chunk.css",
-    "static/js/main.984da3b2.chunk.js"
+    "static/js/runtime-main.c845ab29.js",
+    "static/js/2.aa9037bd.chunk.js",
+    "static/css/main.57373bba.chunk.css",
+    "static/js/main.4a598441.chunk.js"
   ]
 }
