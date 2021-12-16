@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` EventHeaderDetails component 1`] = `
+<div>
+  <div
+    class="event-header-details"
+  >
+    <p
+      class="event-header-details__time-date"
+    >
+      11.30am
+      <span
+        class="event-header-details__divider"
+      >
+        |
+      </span>
+      Sun 21 Nov 2021
+    </p>
+    <p
+      class="event-header-details__venue-location"
+    >
+      <span
+        class="event-header-details__venue"
+      >
+        London South Bank
+      </span>
+      <span
+        class="event-header-details__comma"
+      >
+        ,
+      </span>
+       
+      London
+    </p>
+  </div>
+</div>
+`;
