@@ -1,0 +1,13 @@
+@use "../../assets/sass/variables" as *;
+@use "../../assets/sass/typography" as *;
+
+.title-article {
+  line-height: 150%;
+  font-family: $modern-content;
+  &__header {
+   
+  }
+  &__text {
+    font-size: 1.125rem;
+  }
+}
