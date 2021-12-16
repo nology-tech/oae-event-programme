@@ -8,6 +8,7 @@ The data folder contains a mock data file to test if the application works.
 ## Testing ⚗️
 This project utilises Jest with React Testing Library (RTL), which are built into Create React App (CRA).
 All component folders will have an associated test file within the same folder. Each component is tested independently (unit testing) to ensure they work in isolation and aren't affected by external factors(such as other components).
+Any test that would use the 'render' function from RTL, use the 'customRender' function from testUtils.js. This adds routing by default so we can easily test components that include route/link logic.
 
 
 ## Routing🚦
