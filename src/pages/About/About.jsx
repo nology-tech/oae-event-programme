@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <h1>About page</h1>
       <Photo
-        imageSrc="https://place-puppy.com/300x300"
+        imageSrc="https://place-puppy.com/300x300" alt="puppy"
         description="A picture of a man's best friend"/>
     </div>
   );

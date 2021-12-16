@@ -6,47 +6,15 @@ exports[`Renders Photo component 1`] = `
     class="photo"
   >
     <img
-      alt="placeholder"
+      alt="hello world"
       class="photo__image"
-    />
-    <span
-      class="photo__description"
-    />
-  </div>
-</div>
-`;
-
-exports[`Renders description prop with text 'Hello world' 1`] = `
-<div>
-  <div
-    class="photo"
-  >
-    <img
-      alt="placeholder"
-      class="photo__image"
+      src="image.png"
     />
     <span
       class="photo__description"
     >
       Hello world
     </span>
-  </div>
-</div>
-`;
-
-exports[`Renders imageSrc prop with test image 1`] = `
-<div>
-  <div
-    class="photo"
-  >
-    <img
-      alt="placeholder"
-      class="photo__image"
-      src="image.png"
-    />
-    <span
-      class="photo__description"
-    />
   </div>
 </div>
 `;

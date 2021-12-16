@@ -10,7 +10,7 @@ exports[`Renders photo component in the About page 1`] = `
       class="photo"
     >
       <img
-        alt="placeholder"
+        alt="puppy"
         class="photo__image"
         src="https://place-puppy.com/300x300"
       />
