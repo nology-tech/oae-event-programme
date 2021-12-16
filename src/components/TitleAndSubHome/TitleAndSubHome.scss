@@ -1,0 +1,38 @@
+@use "../../assets/sass/variables" as *;
+@use "../../assets/sass/typography" as *;
+
+.header-home {
+  color: $color-white;
+  background-color: $modern-primary;
+  padding-left:10px ;
+  font-family:$modern-header;
+  letter-spacing:-0.05em;
+  padding-bottom: 10px;
+  font-weight: 700;
+ 
+
+
+  &__title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: $home-title;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    font-family: $modern-header-sub; 
+    font-size: 16px;
+    line-height: 111.2%;
+   }
+
+  &__subtitle {
+    line-height: 111.2%;
+    text-transform: capitalize;
+    font-size: 36px;
+    margin-top: 10px;
+    text-align: left;
+  
+  
+   
+  }
+ 
+
+}
