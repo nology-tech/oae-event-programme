@@ -5,12 +5,8 @@ import chevronUp from "../../assets/images/chevron-up.png";
 
 const ScheduleItem = (props) => {
   const { header, subHeader, description } = props;
-  const up = chevronUp;
-  const down = chevronDown;
-  const chevron = { up, down };
-
   const [showText, setShowText] = useState(false);
-  const [Img, setImg] = useState(chevron.down);
+  const [Img, setImg] = useState(chevronDown);
 
   useEffect(() => {
     if (description === undefined) {
@@ -21,9 +17,9 @@ const ScheduleItem = (props) => {
   const handleClick = () => {
     setShowText(!showText);
     if (showText) {
-      setImg(chevron.down);
+      setImg(chevronDown);
     } else {
-      setImg(chevron.up);
+      setImg(chevronUp);
     }
   };
 
