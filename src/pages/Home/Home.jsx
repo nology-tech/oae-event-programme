@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.scss";
-import ViewScheduleButton from "../../Components/ViewScheduleButton/ViewScheduleButton";
+import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 
 const Home = () => {
   return (
