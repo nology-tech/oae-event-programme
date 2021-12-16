@@ -8,7 +8,7 @@ const Photo = (props) => {
   return (
     <div className="photo">
       <img src={imageSrc} alt="placeholder" className="photo__image" />
-      <p className="photo__description">{description}</p>
+      <span className="photo__description">{description}</span>
     </div>
   );
 };
