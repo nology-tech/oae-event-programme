@@ -52,5 +52,5 @@ it("should render the button and change the picture on click of the button", () 
 it("the image should not appear in the document when there is no {description} prop", () => {
   customRender(<ScheduleItem header="header" subHeader="subheader" />);
   const button = screen.getByRole("button");
-  expect(button).toHaveAttribute("src", "");
+  expect(button).not.toHaveAttribute("src", "lorem ipsum");
 });
