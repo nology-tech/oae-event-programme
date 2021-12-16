@@ -14,7 +14,9 @@
   "plugins": ["react"],
   "rules": {
     "react/jsx-uses-react": "error",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": 0
+
   },
 
   "overrides": [
