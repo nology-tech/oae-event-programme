@@ -9,7 +9,7 @@ exports[`Renders Photo component 1`] = `
       alt="placeholder"
       class="photo__image"
     />
-    <p
+    <span
       class="photo__description"
     />
   </div>
@@ -25,11 +25,11 @@ exports[`Renders description prop with text 'Hello world' 1`] = `
       alt="placeholder"
       class="photo__image"
     />
-    <p
+    <span
       class="photo__description"
     >
       Hello world
-    </p>
+    </span>
   </div>
 </div>
 `;
@@ -44,7 +44,7 @@ exports[`Renders imageSrc prop with test image 1`] = `
       class="photo__image"
       src="image.png"
     />
-    <p
+    <span
       class="photo__description"
     />
   </div>

@@ -12,11 +12,13 @@ exports[`Renders photo component in the About page 1`] = `
       <img
         alt="placeholder"
         class="photo__image"
-        src="image.png"
+        src="https://place-puppy.com/300x300"
       />
-      <p
+      <span
         class="photo__description"
-      />
+      >
+        A picture of a man's best friend
+      </span>
     </div>
   </div>
 </div>
