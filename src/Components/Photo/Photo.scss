@@ -1,2 +1,9 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
+
+
+.photo{
+  &__image{
+    width: 100%;
+  }
+}
