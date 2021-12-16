@@ -1,69 +1,74 @@
-.schedule-item{
+@import "../../assets/sass/typography";
+@import "../../assets/sass/variables";
+
+.schedule-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  line-height: 1.5rem;
+  font: $modern-content;
+  &__top {
+    font: $modern-header;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 2rem;
-    line-height: 1.5rem;
-    &__top{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;      
-        width: 16rem;
-        align-items: baseline;
-        line-height: 0.8rem;
-}
-&__image-conatiner{   
-    display: flex;    
-}
-&__hr{
+    align-items: center;
+    justify-content: space-between;
+    width: 16rem;
+    align-items: baseline;
+    line-height: 0.8rem;
+  }
+  &__image-conatiner {
+    display: flex;
+  }
+  &__hr {
     width: 16rem;
     color: lightgray;
-}
+  }
 }
 
 @media screen and (min-width: 375px) {
-    .schedule-item{
-        &__top{      
-            width: 20rem;
-            line-height: 0.8rem;
+  .schedule-item {
+    &__top {
+      width: 20rem;
+      line-height: 0.8rem;
     }
-    &__hr{
-        width: 20rem;
-    }
+    &__hr {
+      width: 20rem;
     }
   }
+}
 
 @media screen and (min-width: 425px) {
-    .schedule-item{
-        &__top{      
-            width: 22rem;
-            line-height: 0.8rem;
+  .schedule-item {
+    &__top {
+      width: 22rem;
+      line-height: 0.8rem;
     }
-    &__hr{
-        width: 23rem;
-    }
+    &__hr {
+      width: 23rem;
     }
   }
+}
 
-  @media screen and (min-width: 768px) {
-    .schedule-item{
-        &__top{      
-            width: 42rem;
-            line-height: 0.8rem;
+@media screen and (min-width: 768px) {
+  .schedule-item {
+    &__top {
+      width: 42rem;
+      line-height: 0.8rem;
     }
-    &__hr{
-        width: 43.5rem;
-    }
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    .schedule-item{
-        &__top{      
-            width: 59rem;
-            line-height: 0.8rem;
-    }
-    &__hr{
-        width: 60rem;
-    }
+    &__hr {
+      width: 43.5rem;
     }
   }
+}
+@media screen and (min-width: 1024px) {
+  .schedule-item {
+    &__top {
+      width: 59rem;
+      line-height: 0.8rem;
+    }
+    &__hr {
+      width: 60rem;
+    }
+  }
+}
