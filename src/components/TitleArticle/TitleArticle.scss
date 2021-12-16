@@ -3,11 +3,11 @@
 
 .title-article {
   line-height: 150%;
-  font-family: $modern-content;
   &__header {
-   
+    font-family: $modern-header; 
   }
   &__text {
     font-size: 1.125rem;
+    font-family: $modern-content;
   }
 }
