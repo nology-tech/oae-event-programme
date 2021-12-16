@@ -1,6 +1,5 @@
-import React from 'react';
-import TitleSubHome from '../../assets/components/TitleAndSubHome/TitleAndSubHome';
-
+import React from "react";
+import TitleSubHome from '../../components/TitleAndSubHome/TitleAndSubHome';
 
 const About = () => {
   return (
@@ -8,7 +7,7 @@ const About = () => {
       <h1>About page</h1>
       <TitleSubHome />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
