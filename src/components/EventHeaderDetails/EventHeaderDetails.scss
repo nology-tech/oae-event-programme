@@ -1,0 +1,23 @@
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
+
+.event-header-details {
+  color: $color-white;
+  background-color: $modern-primary;
+  line-height: 1.5rem;
+  font-family: $modern-content;
+  padding: 1.438rem;
+  & > * {
+    margin: 0;
+  }
+  &__divider {
+    margin-left: 0.313rem;
+    margin-right: 0.313rem;
+  }
+  &__venue {
+    font-weight: bold;
+  }
+  &__location {
+    font-weight: normal;
+  }
+}
