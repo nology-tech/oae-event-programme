@@ -1,19 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component 1`] = `
+exports[`Renders Photo component 1`] = `
 <div>
   <div
-    class="photo-container"
+    class="photo"
   >
     <img
       alt="placeholder"
-      class="photo-container__image"
+      class="photo__image"
     />
     <p
-      class="photo-container__description"
+      class="photo__description"
+    />
+  </div>
+</div>
+`;
+
+exports[`Renders description prop with text 'Hello world' 1`] = `
+<div>
+  <div
+    class="photo"
+  >
+    <img
+      alt="placeholder"
+      class="photo__image"
+    />
+    <p
+      class="photo__description"
     >
-      description here :)
+      Hello world
     </p>
+  </div>
+</div>
+`;
+
+exports[`Renders imageSrc prop with test image 1`] = `
+<div>
+  <div
+    class="photo"
+  >
+    <img
+      alt="placeholder"
+      class="photo__image"
+      src="image.png"
+    />
+    <p
+      class="photo__description"
+    />
   </div>
 </div>
 `;

@@ -5,4 +5,3 @@ test("Renders photo component in the About page", () => {
   const { container } = customRender(<About />);
   expect(container).toMatchSnapshot();
 });
-

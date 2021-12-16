@@ -7,18 +7,16 @@ exports[`Renders photo component in the About page 1`] = `
       About page
     </h1>
     <div
-      class="photo-container"
+      class="photo"
     >
       <img
         alt="placeholder"
-        class="photo-container__image"
+        class="photo__image"
         src="image.png"
       />
       <p
-        class="photo-container__description"
-      >
-        description here :)
-      </p>
+        class="photo__description"
+      />
     </div>
   </div>
 </div>
