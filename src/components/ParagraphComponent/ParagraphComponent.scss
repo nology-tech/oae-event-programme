@@ -1,0 +1,8 @@
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
+
+.paragraph-component {
+  font-family: $modern-content;
+  font-size: 1rem;
+  padding: 0 41px;
+}
