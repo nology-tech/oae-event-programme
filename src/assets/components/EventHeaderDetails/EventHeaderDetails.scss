@@ -2,10 +2,10 @@
 @use "../../sass/typography" as *;
 
 .event-header-details {
-  color: #ffffff;
+  color: $color-white;
   background-color: $modern-primary;
   line-height: 24px;
-  font-family: $fontOne;
+  font-family: $modern-content;
   padding: 23px;
   & > * {
     margin: 0;
