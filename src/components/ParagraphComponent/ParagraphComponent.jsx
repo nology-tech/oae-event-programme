@@ -2,7 +2,7 @@ import React from "react";
 import "./ParagraphComponent.scss";
 const ParagraphComponent = () => {
   return (
-    <p className="paragraph-component">
+    <article className="paragraph-component">
       The Cantata being performed today is BWV 26 -
       <i>Ach wie flüchtig, ach wie nichtig.</i> The chorale of this name forms
       the linchpin of the outer movements and it is the only time Bach used this
@@ -17,7 +17,7 @@ const ParagraphComponent = () => {
       works by George-Philipp Telemann this season and this movement from his
       “Darmstadt” Ouverture (the title of which roughly translates as
       “boasting”!) is a witty interplay between the wind and string teams.
-    </p>
+    </article>
   );
 };
 export default ParagraphComponent;
