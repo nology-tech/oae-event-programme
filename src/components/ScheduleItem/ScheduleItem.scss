@@ -4,21 +4,28 @@
 .schedule-item {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 2rem;
-  line-height: 1.5rem;
-  font: $modern-content;
+  line-height: 1.5rem;  
+  font-family: $modern-content;
   &__top {
-    font: $modern-header;
+    font-family: $modern-header;
+    width: 16rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 16rem;
+    justify-content: space-between;    
     align-items: baseline;
     line-height: 0.8rem;
   }
+  &__subheader{
+      color: rgb(156, 156, 156);
+  }
   &__image-conatiner {
     display: flex;
+  }
+  &__content{    
+      width: 16rem;
+    word-wrap: break-word;
   }
   &__hr {
     width: 16rem;
@@ -35,6 +42,9 @@
     &__hr {
       width: 20rem;
     }
+    &__content{    
+        width: 20rem;
+    }
   }
 }
 
@@ -47,8 +57,26 @@
     &__hr {
       width: 23rem;
     }
+    &__content{    
+        width: 22rem;
+    }
   }
 }
+
+@media screen and (min-width: 576px) {
+    .schedule-item {
+      &__top {
+        width: 30rem;
+        line-height: 0.8rem;
+      }
+      &__hr {
+        width: 33em;
+      }
+      &__content{    
+          width: 30rem;
+      }
+    }
+  }
 
 @media screen and (min-width: 768px) {
   .schedule-item {
@@ -59,8 +87,12 @@
     &__hr {
       width: 43.5rem;
     }
+    &__content{    
+        width: 42rem;
+    }
   }
 }
+
 @media screen and (min-width: 1024px) {
   .schedule-item {
     &__top {
@@ -69,6 +101,9 @@
     }
     &__hr {
       width: 60rem;
+    }
+    &__content{    
+        width: 60rem;
     }
   }
 }
