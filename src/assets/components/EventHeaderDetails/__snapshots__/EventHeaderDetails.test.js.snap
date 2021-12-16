@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders EventHeaderDetails component 1`] = `
+<div>
+  <div
+    class="event-details"
+  >
+    <p
+      class="event-details__time-date"
+    >
+      <span
+        class="event-details__divider"
+      >
+        |
+      </span>
+    </p>
+    <p
+      class="event-details__venue"
+    >
+      <span
+        class="event-details__location"
+      >
+        , 
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`date should be Sun 21 Nov 2021 1`] = `
+<div>
+  <div
+    class="event-details"
+  >
+    <p
+      class="event-details__time-date"
+    >
+      <span
+        class="event-details__divider"
+      >
+        |
+      </span>
+      Sun 21 Nov 2021
+    </p>
+    <p
+      class="event-details__venue"
+    >
+      <span
+        class="event-details__location"
+      >
+        , 
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`location should be London 1`] = `
+<div>
+  <div
+    class="event-details"
+  >
+    <p
+      class="event-details__time-date"
+    >
+      <span
+        class="event-details__divider"
+      >
+        |
+      </span>
+    </p>
+    <p
+      class="event-details__venue"
+    >
+      <span
+        class="event-details__location"
+      >
+        , 
+        London
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`time should display as 11.30am 1`] = `
+<div>
+  <div
+    class="event-details"
+  >
+    <p
+      class="event-details__time-date"
+    >
+      11.30am
+      <span
+        class="event-details__divider"
+      >
+        |
+      </span>
+    </p>
+    <p
+      class="event-details__venue"
+    >
+      <span
+        class="event-details__location"
+      >
+        , 
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`venue should be King's place 1`] = `
+<div>
+  <div
+    class="event-details"
+  >
+    <p
+      class="event-details__time-date"
+    >
+      <span
+        class="event-details__divider"
+      >
+        |
+      </span>
+    </p>
+    <p
+      class="event-details__venue"
+    >
+      King's place
+      <span
+        class="event-details__location"
+      >
+        , 
+      </span>
+    </p>
+  </div>
+</div>
+`;
