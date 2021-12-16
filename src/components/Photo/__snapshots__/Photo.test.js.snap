@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Photo component 1`] = `
+<div>
+  <div
+    class="photo"
+  >
+    <img
+      alt="hello world"
+      class="photo__image"
+      src="image.png"
+    />
+    <span
+      class="photo__description"
+    >
+      Hello world
+    </span>
+  </div>
+</div>
+`;
