@@ -2,6 +2,7 @@ import "./EventHeaderDetails.scss";
 
 const EventHeaderDetails = (props) => {
   const { time, date, venue, location } = props;
+
   return (
     <div className="event-header-details">
       <p className="event-header-details__time-date">
