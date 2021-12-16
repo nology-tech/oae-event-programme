@@ -1,0 +1,19 @@
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
+
+.view-schedule-button {
+  height: 66px;
+  width: 335px;
+  text-transform: uppercase;
+  background-color: $btn-modern;
+  border-radius: 5px;
+  color: $color-white;
+  font-weight: 700;
+  font-family: $modern-header;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
