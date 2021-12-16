@@ -9,12 +9,12 @@ const Schedule = () => {
       <ScheduleItem
         header="header"
         subHeader="subheader"
-        description="lorem ipsum whatever"
+        description="lorem ipsum"
       />
       <ScheduleItem
         header="header"
         subHeader="subheader"
-        description="lorem ipsum whatever"
+        description="lorem ipsum"
       />
     </div>
   );

@@ -13,10 +13,10 @@ it("description should not render on load", () => {
     <ScheduleItem
       header="header"
       subHeader="subheader"
-      description="lorem ipsum whatever"
+      description="lorem ipsum"
     />
   );
-  const description = screen.queryByText("lorem ipsum whatever");
+  const description = screen.queryByText("lorem ipsum");
   expect(description).not.toBeInTheDocument();
 });
 it("header should render and description should render on button click", () => {
@@ -24,14 +24,14 @@ it("header should render and description should render on button click", () => {
     <ScheduleItem
       header="header"
       subHeader="subheader"
-      description="lorem ipsum whatever"
+      description="lorem ipsum"
     />
   );
   const header = screen.queryByText("header");
   expect(header).toBeInTheDocument();
   const button = screen.getByRole("button");
   userEvent.click(button);
-  const description = screen.queryAllByText("lorem ipsum whatever");
+  const description = screen.queryAllByText("lorem ipsum");
   expect(description[0]).toBeVisible();
 });
 it("should render the buuton and change the picture on click of the button", () => {
@@ -39,7 +39,7 @@ it("should render the buuton and change the picture on click of the button", () 
     <ScheduleItem
       header="header"
       subHeader="subheader"
-      description="lorem ipsum whatever"
+      description="lorem ipsum"
     />
   );
   const button = screen.getByRole("button");
