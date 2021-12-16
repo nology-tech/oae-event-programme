@@ -14,6 +14,7 @@ const Home = () => {
         venue="South Bank"
         location="London"
       />
+      <ParagraphComponent />
       <ViewScheduleButton />
     </div>
   );
