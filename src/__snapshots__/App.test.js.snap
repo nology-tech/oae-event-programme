@@ -49,6 +49,37 @@ exports[`Renders App component with default page 1`] = `
       src="https://www.youtube.com/embed/q6EoRBvdVPQ"
       title="Embedded youtube"
     />
+    <div
+      class="event-header-details"
+    >
+      <p
+        class="event-header-details__time-date"
+      >
+        11.30am
+        <span
+          class="event-header-details__divider"
+        >
+          |
+        </span>
+        Sun 21 Nov 2021
+      </p>
+      <p
+        class="event-header-details__venue-location"
+      >
+        <span
+          class="event-header-details__venue"
+        >
+          South Bank
+        </span>
+        <span
+          class="event-header-details__comma"
+        >
+          ,
+        </span>
+         
+        London
+      </p>
+    </div>
     <p
       class="paragraph"
       data-testid="paragraph"
