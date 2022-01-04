@@ -2,51 +2,67 @@
 
 exports[`Renders App component with default page 1`] = `
 <div>
-  <div
-    class="home"
-  >
-    <h1
-      class="home__header"
-    >
-      Home page
-    </h1>
+  <div>
     <div
-      class="event-header-details"
+      class="home"
     >
-      <p
-        class="event-header-details__time-date"
+      <h1
+        class="home__header"
       >
-        11.30am
-        <span
-          class="event-header-details__divider"
-        >
-          |
-        </span>
-        Sun 21 Nov 2021
-      </p>
-      <p
-        class="event-header-details__venue-location"
+        Home page
+      </h1>
+      <div
+        class="header-home"
       >
-        <span
-          class="event-header-details__venue"
+        <h1
+          class="header-home__title"
         >
-          South Bank
-        </span>
-        <span
-          class="event-header-details__comma"
+          BACH, THE UNIVERSE & EVERYTHING
+        </h1>
+        <h1
+          class="header-home__subtitle"
         >
-          ,
-        </span>
-         
-        London
-      </p>
+          Can You Hear The Shape of The Drum?
+        </h1>
+      </div>
+      <div
+        class="event-header-details"
+      >
+        <p
+          class="event-header-details__time-date"
+        >
+          11.30am
+          <span
+            class="event-header-details__divider"
+          >
+            |
+          </span>
+          Sun 21 Nov 2021
+        </p>
+        <p
+          class="event-header-details__venue-location"
+        >
+          <span
+            class="event-header-details__venue"
+          >
+            South Bank
+          </span>
+          <span
+            class="event-header-details__comma"
+          >
+            ,
+          </span>
+           
+          London
+        </p>
+      </div>
+      <a
+        class="view-schedule-button"
+        href="/event-schedule"
+      >
+        View Schedule
+      </a>
     </div>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
-    >
-      View Schedule
-    </a>
   </div>
 </div>
 `;

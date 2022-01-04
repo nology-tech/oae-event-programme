@@ -1,9 +1,10 @@
-import TitleSubHome from "./TitleAndSubHome";
+
 import { screen } from "@testing-library/react";
 import { customRender } from "../../utils/testUtils";
+import EventHeaderTitle from "./EventHeaderTitle";
 
 test("Renders TitleSubhome component on homepage", () => {
-  const { container } = customRender(<TitleSubHome title="If this is your first Bach" subtitle="We'd like to think of" />);
+  const { container } = customRender(<EventHeaderTitle title="If this is your first Bach" subtitle="We'd like to think of" />);
   expect(container).toMatchSnapshot();
 
 
@@ -13,7 +14,7 @@ test("Renders TitleSubhome component on homepage", () => {
 test("Should check if the title is If this is your first Bach", () => {
 
   customRender (
-    <TitleSubHome 
+    <EventHeaderTitle
     title="If this is your first Bach" subtitle="We'd like to think of" />
   )
   

@@ -1,7 +1,7 @@
 
-import "./TitleAndSubHome.scss";
+import "./EventHeaderTitle.scss";
 
-const TitleSubHome = (props) =>{
+const EventHeaderTitle = (props) =>{
   const {title, subtitle}= props;
   return <div className="header-home">
     <h1 className="header-home__title">{title}</h1>
@@ -9,4 +9,4 @@ const TitleSubHome = (props) =>{
   </div>
 }
 
-export default TitleSubHome;
+export default EventHeaderTitle;
