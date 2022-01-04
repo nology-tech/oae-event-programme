@@ -5,6 +5,7 @@ import "./Schedule.scss";
 
 const Schedule = () => {
   return (
+    <>
     <div className="schedule">
       <ScheduleItem header="Welcome" />
       <ScheduleItem
@@ -17,8 +18,10 @@ const Schedule = () => {
         subHeader="subheader"
         description="lorem ipsum"
       />
-      <Navbar/>
+      
     </div>
+    <Navbar/>
+    </>
   );
 };
 

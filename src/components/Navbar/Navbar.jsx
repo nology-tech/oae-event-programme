@@ -7,7 +7,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <nav className="navbar">
         <div className="navbar__content">
           <Link to="/event-schedule">
@@ -33,7 +33,7 @@ const Navbar = () => {
           <span className="navbar__title">ABOUT</span>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
