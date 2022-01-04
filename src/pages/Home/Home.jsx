@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.scss";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
+import Navbar from "../../components/Navbar/Navbar";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         location="London"
       />
       <ViewScheduleButton />
+      <Navbar/>
     </div>
   );
 };

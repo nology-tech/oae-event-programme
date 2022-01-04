@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
 
@@ -16,6 +17,7 @@ const Schedule = () => {
         subHeader="subheader"
         description="lorem ipsum"
       />
+      <Navbar/>
     </div>
   );
 };
