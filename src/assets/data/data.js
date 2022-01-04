@@ -47,7 +47,7 @@ export const events = [
   {
     id: "5101a840-5606-4097-9b66-a567213ae915",
     name: "Sample Name",
-    series: "Sample Name",
+    series: "Sample Series",
     date: "01-01-22/12.45",
     location: "Sample Location",
     imageSrc: "images/placeholder.png",
