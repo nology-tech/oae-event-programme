@@ -6,7 +6,6 @@ import Schedule from "./pages/Schedule/Schedule";
 
 const App = () => {
   return (
-    <div> 
     <Routes>
       <Route index element={<Home />} />
       <Route path="/our-story" element={<About />} />
@@ -16,7 +15,6 @@ const App = () => {
 
   
   
-    </div>
 
   );
 };
