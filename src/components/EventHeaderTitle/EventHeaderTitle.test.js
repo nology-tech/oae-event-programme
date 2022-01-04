@@ -21,8 +21,7 @@ test("Should check if the title is If this is your first Bach", () => {
 
   const title = screen.getByText(/If this is your first Bach/);
   const subtitle = screen.getByText(/We'd like to think of/)
-
-
+  
   expect(title).toBeInTheDocument();
   expect(subtitle).toBeInTheDocument();
 
