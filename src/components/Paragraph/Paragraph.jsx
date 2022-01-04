@@ -1,8 +1,13 @@
 import React from "react";
-import "./ParagraphComponent.scss";
-const ParagraphComponent = (props) => {
+import "./Paragraph.scss";
+
+const Paragraph = (props) => {
   const { text } = props;
 
-  return <p className="paragraph-component">{text}</p>;
+  return (
+    <p data-testid="paragraph" className="paragraph">
+      {text}
+    </p>
+  );
 };
-export default ParagraphComponent;
+export default Paragraph;

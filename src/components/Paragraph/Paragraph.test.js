@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph.jsx";
 
 it("should render the article", () => {
   customRender(<Paragraph />);
-  const paragraph = screen.getByRole("p");
+  const paragraph = screen.getByTestId("paragraph");
 
   expect(paragraph).toMatchSnapshot();
 });

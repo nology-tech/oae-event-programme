@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the article 1`] = `
+<p
+  class="paragraph"
+  data-testid="paragraph"
+/>
+`;
