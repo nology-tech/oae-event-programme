@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.scss";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
+import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
         venue="South Bank"
         location="London"
       />
-      <ViewScheduleButton />
+      <YoutubeEmbed embedId = "q6EoRBvdVPQ"/>
+      <ViewScheduleButton />      
     </div>
   );
 };
