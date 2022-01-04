@@ -56,6 +56,12 @@ exports[`Renders App component with default page 1`] = `
           London
         </p>
       </div>
+      <p
+        class="paragraph"
+        data-testid="paragraph"
+      >
+        this is some paragraph
+      </p>
       <a
         class="view-schedule-button"
         href="/event-schedule"
@@ -63,21 +69,6 @@ exports[`Renders App component with default page 1`] = `
         View Schedule
       </a>
     </div>
-
-
-    <p
-      class="paragraph"
-      data-testid="paragraph"
-    >
-      this is some paragraph
-    </p>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
-    >
-      View Schedule
-    </a>
-
   </div>
 </div>
 `;
