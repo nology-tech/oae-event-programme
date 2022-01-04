@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders TitleArticle component 1`] = `
+<div>
+  <div
+    class="title-article"
+  >
+    <h2
+      class="title-article__header"
+    >
+      Our Instruments
+    </h2>
+    <p
+      class="title-article__text"
+    >
+       
+      Article text
+    </p>
+  </div>
+</div>
+`;
