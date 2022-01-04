@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
+import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
 import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle";
 
@@ -18,6 +19,7 @@ const Home = () => {
         venue="South Bank"
         location="London"
       />
+      <Paragraph text="this is some paragraph" />
       <ViewScheduleButton />
      
     </div>
