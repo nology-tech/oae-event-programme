@@ -3,10 +3,6 @@ import "./ParagraphComponent.scss";
 const ParagraphComponent = (props) => {
   const { text } = props;
 
-  return (
-    <article className="paragraph-component">
-      <p>{text}</p>
-    </article>
-  );
+  return <p className="paragraph-component">{text}</p>;
 };
 export default ParagraphComponent;

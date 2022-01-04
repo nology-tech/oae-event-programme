@@ -1,12 +1,8 @@
 import React from "react";
 import "./Home.scss";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
-import ParagraphComponent from "../../components/ParagraphComponent/ParagraphComponent";
+import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
-
-import event from "../../assets/data/data.js";
-
-// console.log(event.content[1].text);
 
 const Home = () => {
   return (
@@ -18,7 +14,7 @@ const Home = () => {
         venue="South Bank"
         location="London"
       />
-      <ParagraphComponent text={event.content[1].text} />
+      <Paragraph text="this is some paragraph" />
       <ViewScheduleButton />
     </div>
   );
