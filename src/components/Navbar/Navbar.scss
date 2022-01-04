@@ -1,13 +1,17 @@
 
 
-nav{
+.navbar{
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
   bottom: 4;
-  span{
+  &__content{
     display: flex;
-    font-size: .7rem;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title{
+    font-size: .7rem;
   }
 }
