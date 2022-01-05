@@ -1,4 +1,3 @@
-//import { screen } from "@testing-library/react";
 import { customRender } from "../../utils/testUtils";
 import placeHolderImage from "../../assets/images/image33.png";
 import HeaderImageVideoContainer from "./HeaderImageVideoContainer";
