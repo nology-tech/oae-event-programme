@@ -1,5 +1,15 @@
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
 .home {
   &__header {
     text-align: center;
   }
+}
+
+.home__header--modern{
+  font-family: $modern-header;
+}
+
+.home__header--classic{
+  font-family: $classic-header;
 }
