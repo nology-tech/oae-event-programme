@@ -41,14 +41,15 @@ exports[`Renders App component with default page 1`] = `
         London
       </p>
     </div>
-    <iframe
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen=""
-      class="youtube-embed"
-      frameborder="0"
-      src="https://www.youtube.com/embed/q6EoRBvdVPQ"
-      title="Embedded youtube"
-    />
+    <div
+      class="header-container"
+    >
+      <img
+        alt=""
+        class="header-image"
+        src="image33.png"
+      />
+    </div>
     <p
       class="paragraph"
       data-testid="paragraph"
