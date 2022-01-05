@@ -11,20 +11,6 @@ exports[`Renders App component with default page 1`] = `
       Home page
     </h1>
     <div
-      class="header-home"
-    >
-      <h1
-        class="header-home__title"
-      >
-        BACH, THE UNIVERSE & EVERYTHING
-      </h1>
-      <span
-        class="header-home__subtitle"
-      >
-        Can You Hear The Shape of The Drum?
-      </span>
-    </div>
-    <div
       class="event-header-details"
     >
       <p
