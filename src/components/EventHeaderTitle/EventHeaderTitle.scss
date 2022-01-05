@@ -1,0 +1,31 @@
+@use "../../assets/sass/variables" as *;
+@use "../../assets/sass/typography" as *;
+
+.header-home {
+  color: $color-white;
+  background-color: $modern-primary;
+  padding-left: 0.625rem;
+  font-family: $modern-header;
+  letter-spacing: -0.05em;
+  padding-bottom: 0.625rem;
+  font-weight: 700;
+ 
+
+  &__title {
+    margin-bottom: 0.313rem;
+    font-size: 1rem;
+    color: $home-title;
+    padding-top: 0.625rem;
+    margin-bottom:$sub-heading-font;
+    font-size: 1rem;
+    line-height: 111.2%;
+  }
+
+  &__subtitle {
+    line-height: 111.2%;
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    margin-top: 0.625rem;
+    text-align: left;
+  }
+}

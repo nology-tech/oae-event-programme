@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders TitleSubhome component on homepage 1`] = `
+<div>
+  <div
+    class="header-home"
+  >
+    <h1
+      class="header-home__title"
+    >
+      If this is your first Bach
+    </h1>
+    <span
+      class="header-home__subtitle"
+    >
+      We'd like to think of
+    </span>
+  </div>
+</div>
+`;
