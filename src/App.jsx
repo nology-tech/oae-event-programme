@@ -12,6 +12,10 @@ const App = () => {
       <Route path="/event-schedule" element={<Schedule />} />
       <Route path="/*" element={<Home />} />
     </Routes>
+
+  
+  
+
   );
 };
 
