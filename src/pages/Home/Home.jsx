@@ -13,9 +13,9 @@ const Home = () => {
   const { series, subtitle, time, date, venue, location, content } =
     getMockEventById(eventId);
 
-  const headingsArr = content.map((content) => content.heading);
+  // const text = content.map((content) => content.heading);
 
-  console.log(headingsArr);
+  // console.log(headingsArr);
   return (
     <div className="home">
       <h1 className="home__header">heading</h1>
@@ -28,7 +28,12 @@ const Home = () => {
       />
       <YoutubeEmbed embedId="q6EoRBvdVPQ" />
 
-      <Paragraph text={content[0].text} />
+      {content.map((event, i) => (
+        <div key={"event" + i}>
+          <h2>{event.heading}</h2>
+          <Paragraph text={event.text} />
+        </div>
+      ))}
       <ViewScheduleButton />
     </div>
   );
