@@ -47,6 +47,67 @@ exports[`Renders App component with default page 1`] = `
     >
       View Schedule
     </a>
+    <nav
+      class="navbar"
+    >
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="schedule-link"
+          href="/event-schedule"
+        >
+          <img
+            alt="schedule icon"
+            class="navbar__icon"
+            src="schedule.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          SCHEDULE
+        </span>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="home-link"
+          href="/"
+        >
+          <img
+            alt="home icon"
+            class="navbar__icon"
+            src="home.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          HOME
+        </span>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="about-link"
+          href="/our-story"
+        >
+          <img
+            alt="about icon"
+            class="navbar__icon"
+            src="info.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          ABOUT
+        </span>
+      </div>
+    </nav>
   </div>
 </div>
 `;
