@@ -1,24 +1,27 @@
-@use "../../assets/sass/variables.scss" as *;
-@use "../../assets/sass/typography.scss" as *;
+@use "../../assets/sass/variables.scss"as *;
+@use "../../assets/sass/typography.scss"as *;
 
-.navbar{
+.navbar {
+  padding: 1.25rem 0 1.25rem 0;
+  background-color: rgb(255, 251, 251);
   display: flex;
   position: fixed;
-  bottom: 1rem;
+  bottom: 0;
   align-items: flex-end;
   width: 100%;
   justify-content: space-evenly;
-    &__content{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      width: 3.25rem;
-    }
-    &__title{
-      font-size: .7rem;
-      font-family: "Jost", sans-serif;
-      font-weight: 700;
-    }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 3.25rem;
   }
-  
+
+  &__title {
+    font-size: .7rem;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+  }
+}
