@@ -20,6 +20,21 @@ exports[`Renders photo component in the About page 1`] = `
         A picture of a man's best friend
       </span>
     </div>
+    <div
+      class="orchestraquote"
+    >
+      <q
+        class="orchestraquote__content"
+      >
+        COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
+      </q>
+      <p
+        class="orchestraquote__author"
+      >
+        -
+        Vladmir Jurowski
+      </p>
+    </div>
   </div>
 </div>
 `;
