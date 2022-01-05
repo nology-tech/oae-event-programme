@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the YouTube embed component 1`] = `
+<div>
+  <iframe
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen=""
+    class="youtube-embed"
+    frameborder="0"
+    src="https://www.youtube.com/embed/q6EoRBvdVPQ"
+    title="Embedded youtube"
+  />
+</div>
+`;
+
+exports[`shouldn't render the YouTube embed component if no embedId has been input 1`] = `<div />`;
