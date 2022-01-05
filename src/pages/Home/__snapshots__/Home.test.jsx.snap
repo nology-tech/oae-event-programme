@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <h1
+      class="home__header"
+    >
+      Home page
+    </h1>
+    <div
+      class="header-home"
+    >
+      <h1
+        class="header-home__title"
+      >
+        BACH, THE UNIVERSE & EVERYTHING
+      </h1>
+      <span
+        class="header-home__subtitle"
+      >
+        Can You Hear The Shape of The Drum? 
+      </span>
+    </div>
+    <div
+      class="event-header-details"
+    >
+      <p
+        class="event-header-details__time-date"
+      >
+        11.30am
+        <span
+          class="event-header-details__divider"
+        >
+          |
+        </span>
+        Sun 21 Nov 2021
+      </p>
+      <p
+        class="event-header-details__venue-location"
+      >
+        <span
+          class="event-header-details__venue"
+        >
+          South Bank
+        </span>
+        <span
+          class="event-header-details__comma"
+        >
+          ,
+        </span>
+         
+        London
+      </p>
+    </div>
+    <p
+      class="paragraph"
+      data-testid="paragraph"
+    >
+      We like to think of the series as a community, similar to the one Bach enjoyed in Leipzig where he produced cantatas at an extraordinary rate, providing innovative music for the weekly services at the church where he worked from 1723 until his death in 1750. At that time, the congregation was as open to science and new ideas as it was united by faith. It is in the spirit that we come together for a thought-provoking cantata and a talk from a leading scientist. &lt;br&gt; Professor Jon Chapman from the University of Oxford invites us to ponder the fleeting moment when sound waves reach our ears before they disappear. Using some careful calculations, Jon suggests that we might even be able to hear the shape of a drum.
+    </p>
+    <div
+      class="header-home"
+    >
+      <h1
+        class="header-home__title"
+      >
+        BACH, THE UNIVERSE & EVERYTHING
+      </h1>
+      <span
+        class="header-home__subtitle"
+      >
+        Can You Hear The Shape of The Drum? 
+      </span>
+    </div>
+    <div
+      class="event-header-details"
+    >
+      <p
+        class="event-header-details__time-date"
+      >
+        11.30am
+        <span
+          class="event-header-details__divider"
+        >
+          |
+        </span>
+        Sun 21 Nov 2021
+      </p>
+      <p
+        class="event-header-details__venue-location"
+      >
+        <span
+          class="event-header-details__venue"
+        >
+          South Bank
+        </span>
+        <span
+          class="event-header-details__comma"
+        >
+          ,
+        </span>
+         
+        London
+      </p>
+    </div>
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""
+      class="youtube-embed"
+      frameborder="0"
+      src="https://www.youtube.com/embed/q6EoRBvdVPQ"
+      title="Embedded youtube"
+    />
+    <p
+      class="paragraph"
+      data-testid="paragraph"
+    >
+      this is some paragraph
+    </p>
+    <a
+      class="view-schedule-button"
+      href="/event-schedule"
+    >
+      View Schedule
+    </a>
+  </div>
+</div>
+`;
