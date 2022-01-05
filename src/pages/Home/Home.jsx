@@ -10,7 +10,8 @@ import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle
 
 const Home = () => {
   const { eventId } = useParams();
-  const { venue, location, content } = getMockEventById(eventId);
+  const { series, subtitle, time, date, venue, location, content } =
+    getMockEventById(eventId);
 
   const headingsArr = content.map((content) => content.heading);
 
@@ -18,13 +19,10 @@ const Home = () => {
   return (
     <div className="home">
       <h1 className="home__header">heading</h1>
-      <EventHeaderTitle
-        title="BACH, THE UNIVERSE & EVERYTHING"
-        subtitle="Can You Hear The Shape of The Drum? "
-      />
+      <EventHeaderTitle title={series} subtitle={subtitle} />
       <EventHeaderDetails
-        time="11.30am"
-        date="Sun 21 Nov 2021"
+        time={time}
+        date={date}
         venue={venue}
         location={location}
       />
