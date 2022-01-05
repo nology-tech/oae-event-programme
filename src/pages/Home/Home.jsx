@@ -3,8 +3,15 @@ import "./Home.scss";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
+import { useParams } from "react-router-dom";
+import { events } from "../../assets/data/data";
 
 const Home = () => {
+  const { eventId } = useParams();
+  const currentEvent = events.find((event) => event.id === eventId);
+
+  const { location, content } = currentEvent;
+
   return (
     <div className="home">
       <h1 className="home__header">Home page</h1>
@@ -12,9 +19,9 @@ const Home = () => {
         time="11.30am"
         date="Sun 21 Nov 2021"
         venue="South Bank"
-        location="London"
+        location={location}
       />
-      <Paragraph text="this is some paragraph" />
+      <Paragraph text={content[0].text} />
       <ViewScheduleButton />
     </div>
   );
