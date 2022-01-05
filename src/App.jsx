@@ -16,6 +16,10 @@ const App = () => {
       <Route path="/:eventId/event-schedule" element={<Schedule />} />
       <Route path="/:eventId/*" element={<Home />} />
     </Routes>
+
+  
+  
+
   );
 };
 
