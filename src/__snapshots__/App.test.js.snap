@@ -51,7 +51,7 @@ exports[`Renders App component with default page 1`] = `
       </p>
     </div>
     <div
-      class="header-container"
+      class="header-image-video-container"
     >
       <img
         alt="Event image"

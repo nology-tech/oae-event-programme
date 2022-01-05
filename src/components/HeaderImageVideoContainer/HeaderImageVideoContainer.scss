@@ -1,13 +1,13 @@
 @use "../../assets/sass/variables.scss" as *;
 
-.header-container{
-    background: linear-gradient(180deg, $modern-primary 50%, $color-white 50%);
-    padding: 1rem; 
-    display: flex;
-    justify-content: center;  
+.header-image-video-container {
+  background: linear-gradient(180deg, $modern-primary 50%, $color-white 50%);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
-.header-image{
-        border-radius: 15px;   
-        max-width: 100%;     
+.header-image {
+  border-radius: 15px;
+  max-width: 100%;
 }

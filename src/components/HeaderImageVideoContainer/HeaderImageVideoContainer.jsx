@@ -9,7 +9,7 @@ const HeaderImageVideoContainer = (props) => {
     return null;
   }
 
-  return <div className="header-container">{isVideo ? <YoutubeEmbed embedId={content} /> : <img src={content} className="header-image" alt="Event image" />}</div>;
+  return <div className="header-image-video-container">{isVideo ? <YoutubeEmbed embedId={content} /> : <img src={content} className="header-image" alt="Event image" />}</div>;
 };
 
 export default HeaderImageVideoContainer;
