@@ -4,13 +4,11 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
 import { useParams } from "react-router-dom";
-import { events } from "../../assets/data/data";
+import { getMockEventById } from "../../assets/data/data";
 
 const Home = () => {
   const { eventId } = useParams();
-  const currentEvent = events.find((event) => event.id === eventId);
-
-  const { location, content } = currentEvent;
+  const { location, content } = getMockEventById(eventId);
 
   return (
     <div className="home">
