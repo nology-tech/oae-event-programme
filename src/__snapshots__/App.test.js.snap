@@ -13,11 +13,11 @@ exports[`Renders App component with default page 1`] = `
     <div
       class="header-home"
     >
-      <span
+      <h1
         class="header-home__title"
       >
         BACH, THE UNIVERSE & EVERYTHING
-      </span>
+      </h1>
       <span
         class="header-home__subtitle"
       >
