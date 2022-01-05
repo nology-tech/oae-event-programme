@@ -4,9 +4,9 @@ import "./OrchestraQuote.scss";
 const OrchestraQuote = (props) => {
   const { quote, author } = props;
   return (
-    <div className="orchestraquote">
-      <q className="orchestraquote__content">{quote}</q>
-      <p className="orchestraquote__author">-{author}</p>
+    <div className="orchestra-quote">
+      <q className="orchestra-quote__content">{quote}</q>
+      <p className="orchestra-quote__author">-{author}</p>
     </div>
   );
 };
