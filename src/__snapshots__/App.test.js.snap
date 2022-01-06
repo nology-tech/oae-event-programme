@@ -3,78 +3,80 @@
 exports[`Renders App component with default page 1`] = `
 <div>
   <div
-    class="home"
+    class="layout"
   >
-    <h1
-      class="home__header"
-    >
-      Home page
-    </h1>
-    <div
-      class="header-home"
-    >
-      <h1
-        class="header-home__title"
+    <div>
+      <div
+        class="home"
       >
-        BACH, THE UNIVERSE & EVERYTHING
-      </h1>
-      <span
-        class="header-home__subtitle"
-      >
-        Can You Hear The Shape of The Drum? 
-      </span>
+        <div
+          class="header-home"
+        >
+          <h1
+            class="header-home__title"
+          >
+            BACH, THE UNIVERSE & EVERYTHING
+          </h1>
+          <span
+            class="header-home__subtitle"
+          >
+            Can You Hear The Shape of The Drum? 
+          </span>
+        </div>
+        <div
+          class="event-header-details"
+        >
+          <p
+            class="event-header-details__time-date"
+          >
+            11.30am
+            <span
+              class="event-header-details__divider"
+            >
+              |
+            </span>
+            Sun 21 Nov 2021
+          </p>
+          <p
+            class="event-header-details__venue-location"
+          >
+            <span
+              class="event-header-details__venue"
+            >
+              South Bank
+            </span>
+            <span
+              class="event-header-details__comma"
+            >
+              ,
+            </span>
+             
+            London
+          </p>
+        </div>
+        <div
+          class="header-image-video-container"
+        >
+          <img
+            alt="Event image"
+            class="header-image"
+            src="image33.png"
+          />
+        </div>
+        <p
+          class="paragraph"
+          data-testid="paragraph"
+        >
+          this is some paragraph
+        </p>
+        <a
+          class="view-schedule-button"
+          href="/event-schedule"
+        >
+          View Schedule
+        </a>
+      </div>
     </div>
-    <div
-      class="event-header-details"
-    >
-      <p
-        class="event-header-details__time-date"
-      >
-        11.30am
-        <span
-          class="event-header-details__divider"
-        >
-          |
-        </span>
-        Sun 21 Nov 2021
-      </p>
-      <p
-        class="event-header-details__venue-location"
-      >
-        <span
-          class="event-header-details__venue"
-        >
-          South Bank
-        </span>
-        <span
-          class="event-header-details__comma"
-        >
-          ,
-        </span>
-         
-        London
-      </p>
-    </div>
-    <iframe
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen=""
-      class="youtube-embed"
-      frameborder="0"
-      src="https://www.youtube.com/embed/q6EoRBvdVPQ"
-      title="Embedded youtube"
-    />
-    <p
-      class="paragraph"
-      data-testid="paragraph"
-    >
-      this is some paragraph
-    </p>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
-    >
-      View Schedule
-    </a>
     <nav
       class="navbar"
     >

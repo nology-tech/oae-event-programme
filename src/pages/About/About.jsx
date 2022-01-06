@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 import Photo from "../../components/Photo/Photo";
+import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 
 const About = () => {
   return (
@@ -11,6 +12,10 @@ const About = () => {
         alt="puppy"
         description="A picture of a man's best friend"
       />
+      <OrchestraQuote
+        quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
+        author="Vladmir Jurowski"
+        />
     </Layout>
   );
 };
