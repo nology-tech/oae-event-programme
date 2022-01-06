@@ -8,7 +8,7 @@ const Schedule = () => {
   const { eventId } = useParams();
 
   return (
-    <Layout eventId={eventId}>
+    <Layout eventId={eventId} fontType={1}>
       <div className="schedule">
         <ScheduleItem header="Welcome" />
         <ScheduleItem

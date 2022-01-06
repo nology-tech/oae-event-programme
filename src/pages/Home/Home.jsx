@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     // fetch the fontType info from the mock data here, then add to prop for Layout
-    <Layout eventId={eventId} fontType={2}>
+    <Layout eventId={eventId} fontType={1}>
       <div className="home">
         <EventHeaderTitle
           className="home__header"

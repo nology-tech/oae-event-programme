@@ -8,7 +8,7 @@ const About = () => {
   const { eventId } = useParams();
 
   return (
-    <Layout eventId={eventId}>
+    <Layout eventId={eventId} fontType={1}>
       <h1>About page</h1>
       <Photo
         imageSrc="https://place-puppy.com/300x300"
