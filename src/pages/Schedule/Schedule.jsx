@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar";
+import Layout from "../../components/Layout/Layout";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
 
 const Schedule = () => {
   return (
-    <>
+    <Layout>
       <div className="schedule">
         <ScheduleItem header="Welcome" />
         <ScheduleItem
@@ -19,8 +19,7 @@ const Schedule = () => {
           description="lorem ipsum"
         />
       </div>
-      <Navbar />
-    </>
+    </Layout>
   );
 };
 
