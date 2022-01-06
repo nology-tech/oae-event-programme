@@ -2,11 +2,11 @@ import "./Layout.scss";
 import Navbar from "../Navbar/Navbar";
 
 const Layout = (props) => {
-  const { children } = props;
+  const { children, eventId } = props;
   return (
     <div className="layout">
       <div>{children}</div>
-      <Navbar />
+      <Navbar eventId={eventId} />
     </div>
   );
 };
