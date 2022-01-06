@@ -3,7 +3,7 @@
 exports[`Test 1`] = `
 <div>
   <div
-    class="layout"
+    class="layout classic"
   >
     <div>
       <div
@@ -54,6 +54,14 @@ exports[`Test 1`] = `
             London
           </p>
         </div>
+        <iframe
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen=""
+          class="youtube-embed"
+          frameborder="0"
+          src="https://www.youtube.com/embed/q6EoRBvdVPQ"
+          title="Embedded youtube"
+        />
         <div
           class="header-image-video-container"
         >
