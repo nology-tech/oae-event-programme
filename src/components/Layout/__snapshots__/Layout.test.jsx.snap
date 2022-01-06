@@ -18,7 +18,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__schedule-link"
-          href="/event-schedule"
+          href="/123/event-schedule"
         >
           <img
             alt="schedule icon"
@@ -37,7 +37,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__home-link"
-          href="/"
+          href="/123"
         >
           <img
             alt="home icon"
@@ -56,7 +56,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__about-link"
-          href="/our-story"
+          href="/123/our-story"
         >
           <img
             alt="about icon"
