@@ -46,7 +46,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="schedule-link"
+          class="navbar__schedule-link"
           href="/event-schedule"
         >
           <img
@@ -65,7 +65,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="home-link"
+          class="navbar__home-link"
           href="/"
         >
           <img
@@ -84,7 +84,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="about-link"
+          class="navbar__about-link"
           href="/our-story"
         >
           <img
