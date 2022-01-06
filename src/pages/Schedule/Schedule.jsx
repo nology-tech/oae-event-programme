@@ -1,10 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
+import PageHeader from "../../components/PageHeader/PageHeader";
 
 const Schedule = () => {
-  return (
-    <div className="schedule">
+  return (    
+    <Fragment>
+    <PageHeader title="can you hear the shape of the drums?" subtitle="Event Schedule." />
+    <div className="schedule">      
       <ScheduleItem header="Welcome" />
       <ScheduleItem
         header="header"
@@ -17,6 +20,7 @@ const Schedule = () => {
         description="lorem ipsum"
       />
     </div>
+    </Fragment>
   );
 };
 

@@ -6,58 +6,62 @@ exports[`Renders App component with default page 1`] = `
     class="home"
   >
     <div
-      class="header-home"
+      class="page-header"
     >
-      <h1
-        class="header-home__title"
+      <div
+        class="header-home"
       >
-        BACH, THE UNIVERSE & EVERYTHING
-      </h1>
-      <span
-        class="header-home__subtitle"
-      >
-        Can You Hear The Shape of The Drum? 
-      </span>
-    </div>
-    <div
-      class="event-header-details"
-    >
-      <p
-        class="event-header-details__time-date"
-      >
-        11.30am
-        <span
-          class="event-header-details__divider"
+        <h1
+          class="header-home__title"
         >
-          |
+          BACH, THE UNIVERSE & EVERYTHING
+        </h1>
+        <span
+          class="header-home__subtitle"
+        >
+          Can You Hear The Shape of The Drum?
         </span>
-        Sun 21 Nov 2021
-      </p>
-      <p
-        class="event-header-details__venue-location"
+      </div>
+      <div
+        class="event-header-details"
       >
-        <span
-          class="event-header-details__venue"
+        <p
+          class="event-header-details__time-date"
         >
-          South Bank
-        </span>
-        <span
-          class="event-header-details__comma"
+          11.30am
+          <span
+            class="event-header-details__divider"
+          >
+            |
+          </span>
+          Sun 21 Nov 2021
+        </p>
+        <p
+          class="event-header-details__venue-location"
         >
-          ,
-        </span>
-         
-        London
-      </p>
-    </div>
-    <div
-      class="header-image-video-container"
-    >
-      <img
-        alt="Event image"
-        class="header-image"
-        src="image33.png"
-      />
+          <span
+            class="event-header-details__venue"
+          >
+            South Bank
+          </span>
+          <span
+            class="event-header-details__comma"
+          >
+            ,
+          </span>
+           
+          London
+        </p>
+      </div>
+      <div
+        class="header-image-video-container"
+      >
+        <img
+          alt="Event image"
+          class="header-image"
+          src="image33.png"
+        />
+      </div>
     </div>
     <p
       class="paragraph"

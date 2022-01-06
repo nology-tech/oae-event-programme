@@ -1,15 +1,18 @@
 import React from "react";
 import Photo from "../../components/Photo/Photo";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
+import PageHeader from "../../components/PageHeader/PageHeader";
+import OrchestraImg from "../../assets/images/image.png"
 
 const About = () => {
   return (
     <div>
-      <h1>About page</h1>
+      <PageHeader title="our story" subtitle="30 Years of Breaking The Rules" content="aString" isVideo={true}/>
+
       <Photo
-        imageSrc="https://place-puppy.com/300x300"
-        alt="puppy"
-        description="A picture of a man's best friend"
+        imageSrc={OrchestraImg}
+        alt=""
+        description="-"
       />
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
