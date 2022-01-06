@@ -5,7 +5,8 @@ import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
 import { useParams } from "react-router-dom";
 import { getMockEventById } from "../../assets/data/data";
-import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
+import HeaderImageVideoContainer from "../../components/HeaderImageVideoContainer/HeaderImageVideoContainer";
+import placeHolderImg from "../../assets/images/image33.png";
 import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle";
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
         venue={venue}
         location={location}
       />
-      <YoutubeEmbed embedId="q6EoRBvdVPQ" />
+      <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
 
       {content.map((event, i) => (
         <div className="home__content" key={"event" + i}>
