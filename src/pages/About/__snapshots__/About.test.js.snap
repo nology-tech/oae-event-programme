@@ -2,6 +2,7 @@
 
 exports[`Renders photo component in the About page 1`] = `
 <div>
+<<<<<<< HEAD
   <div>
     <div
       class="page-header"
@@ -61,22 +62,106 @@ exports[`Renders photo component in the About page 1`] = `
       >
         -
       </span>
+=======
+  <div
+    class="layout"
+  >
+    <div>
+      <h1>
+        About page
+      </h1>
+      <div
+        class="photo"
+      >
+        <img
+          alt="puppy"
+          class="photo__image"
+          src="https://place-puppy.com/300x300"
+        />
+        <span
+          class="photo__description"
+        >
+          A picture of a man's best friend
+        </span>
+      </div>
+      <div
+        class="orchestra-quote"
+      >
+        <q
+          class="orchestra-quote__content"
+        >
+          COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
+        </q>
+        <p
+          class="orchestra-quote__author"
+        >
+          -
+          Vladmir Jurowski
+        </p>
+      </div>
+>>>>>>> 121cae44a7869ba7d1d28da4535824af62951851
     </div>
-    <div
-      class="orchestra-quote"
+    <nav
+      class="navbar"
     >
-      <q
-        class="orchestra-quote__content"
+      <div
+        class="navbar__content"
       >
-        COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
-      </q>
-      <p
-        class="orchestra-quote__author"
+        <a
+          class="navbar__schedule-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
+        >
+          <img
+            alt="schedule icon"
+            class="navbar__icon"
+            src="schedule.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          SCHEDULE
+        </span>
+      </div>
+      <div
+        class="navbar__content"
       >
-        -
-        Vladmir Jurowski
-      </p>
-    </div>
+        <a
+          class="navbar__home-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"
+        >
+          <img
+            alt="home icon"
+            class="navbar__icon"
+            src="home.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          HOME
+        </span>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__about-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
+        >
+          <img
+            alt="about icon"
+            class="navbar__icon"
+            src="info.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          ABOUT
+        </span>
+      </div>
+    </nav>
   </div>
 </div>
 `;

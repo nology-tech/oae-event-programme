@@ -1,5 +1,5 @@
 import { customRender } from "../../utils/testUtils";
-import About from "./About";
+import Home from "./Home";
 
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
@@ -8,7 +8,7 @@ jest.mock("react-router-dom", () => ({
   }),
 }));
 
-test("Renders photo component in the About page", () => {
-  const { container } = customRender(<About />);
+test("Test", () => {
+  const { container } = customRender(<Home />);
   expect(container).toMatchSnapshot();
 });
