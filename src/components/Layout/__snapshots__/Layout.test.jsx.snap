@@ -1,43 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders photo component in the About page 1`] = `
+exports[`Renders Layout component with default page 1`] = `
 <div>
   <div
     class="layout"
   >
     <div>
-      <h1>
-        About page
-      </h1>
-      <div
-        class="photo"
-      >
-        <img
-          alt="puppy"
-          class="photo__image"
-          src="https://place-puppy.com/300x300"
-        />
-        <span
-          class="photo__description"
-        >
-          A picture of a man's best friend
-        </span>
-      </div>
-      <div
-        class="orchestra-quote"
-      >
-        <q
-          class="orchestra-quote__content"
-        >
-          COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
-        </q>
-        <p
-          class="orchestra-quote__author"
-        >
-          -
-          Vladmir Jurowski
-        </p>
-      </div>
+      <p>
+        sample children
+      </p>
     </div>
     <nav
       class="navbar"
