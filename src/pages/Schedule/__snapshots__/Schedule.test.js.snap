@@ -3,7 +3,7 @@
 exports[`Test 1`] = `
 <div>
   <div
-    class="layout"
+    class="layout modern"
   >
     <div>
       <div
