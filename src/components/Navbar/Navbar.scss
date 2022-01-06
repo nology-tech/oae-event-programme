@@ -1,5 +1,5 @@
-@use "../../assets/sass/variables.scss"as *;
-@use "../../assets/sass/typography.scss"as *;
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
 
 .navbar {
   padding: 1.25rem 0 1.25rem 0;
@@ -20,7 +20,7 @@
   }
 
   &__title {
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-family: "Jost", sans-serif;
     font-weight: 700;
   }
