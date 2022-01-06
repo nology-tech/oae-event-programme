@@ -1,0 +1,27 @@
+@use "../../assets/sass/typography" as *;
+@use "../../assets/sass/variables" as *;
+
+.orchestra-quote {
+  background-color: #0091cf;
+  color: $color-white;
+  height: 8.37rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: $modern-content;
+  font-size: 1.125rem;
+
+  &__content {
+    font-weight: 700;
+    line-height: 1.688rem;
+    margin-top: 0.313rem;
+  }
+
+  &__author {
+    font-weight: 400;
+    margin-top: 0.313rem;
+    margin-bottom: 0.626rem;
+  }
+}

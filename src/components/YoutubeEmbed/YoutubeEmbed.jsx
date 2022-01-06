@@ -8,7 +8,16 @@ const YoutubeEmbed = (props) => {
     return null;
   }
 
-  return <iframe className="youtube-embed" src={`https://www.youtube.com/embed/${embedId}`} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="Embedded youtube" />;
+  return (
+    <iframe
+      className="youtube-embed"
+      src={`https://www.youtube.com/embed/${embedId}`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    />
+  );
 };
 
 export default YoutubeEmbed;

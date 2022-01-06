@@ -5,11 +5,6 @@ exports[`Renders App component with default page 1`] = `
   <div
     class="home"
   >
-    <h1
-      class="home__header"
-    >
-      Home page
-    </h1>
     <div
       class="header-home"
     >
@@ -56,10 +51,10 @@ exports[`Renders App component with default page 1`] = `
       </p>
     </div>
     <div
-      class="header-container"
+      class="header-image-video-container"
     >
       <img
-        alt=""
+        alt="Event image"
         class="header-image"
         src="image33.png"
       />

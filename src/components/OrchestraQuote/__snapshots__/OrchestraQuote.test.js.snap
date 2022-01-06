@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders OrchestraQuote component on homepage 1`] = `
+<div>
+  <div
+    class="orchestra-quote"
+  >
+    <q
+      class="orchestra-quote__content"
+    >
+      COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
+    </q>
+    <p
+      class="orchestra-quote__author"
+    >
+      -
+      Vladmir Jurowski
+    </p>
+  </div>
+</div>
+`;
