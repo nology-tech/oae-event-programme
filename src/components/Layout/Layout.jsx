@@ -8,13 +8,10 @@ const Layout = (props) => {
 
   return (
     <div className={`layout ${theme}`}>
-      <div>
-          {children}
-        </div>
+      <div>{children}</div>
       <Navbar />
-      </div>
+    </div>
   );
-
 };
 
 export default Layout;

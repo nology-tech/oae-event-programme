@@ -9,7 +9,6 @@ import HeaderImageVideoContainer from "../../components/HeaderImageVideoContaine
 import placeHolderImg from "../../assets/images/image33.png";
 import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle";
 
-
 const Home = () => {
   return (
     // fetch the fontType info from the mock data here, then add to prop for Layout
