@@ -11,13 +11,21 @@ import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle
 const Home = () => {
   return (
     <Layout>
-    <div className="home">
-      <EventHeaderTitle title="BACH, THE UNIVERSE & EVERYTHING" subtitle="Can You Hear The Shape of The Drum? " />
-      <EventHeaderDetails time="11.30am" date="Sun 21 Nov 2021" venue="South Bank" location="London" />
-      <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
-      <Paragraph text="this is some paragraph" />
-      <ViewScheduleButton />
-    </div>
+      <div className="home">
+        <EventHeaderTitle
+          title="BACH, THE UNIVERSE & EVERYTHING"
+          subtitle="Can You Hear The Shape of The Drum? "
+        />
+        <EventHeaderDetails
+          time="11.30am"
+          date="Sun 21 Nov 2021"
+          venue="South Bank"
+          location="London"
+        />
+        <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
+        <Paragraph text="this is some paragraph" />
+        <ViewScheduleButton />
+      </div>
     </Layout>
   );
 };

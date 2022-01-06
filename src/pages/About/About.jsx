@@ -15,7 +15,7 @@ const About = () => {
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
-        />
+      />
     </Layout>
   );
 };
