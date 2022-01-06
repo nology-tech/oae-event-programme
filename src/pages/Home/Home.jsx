@@ -19,7 +19,7 @@ const Home = () => {
   const { series, subtitle, time, date, venue, location, content } = event;
 
   return (
-    <Layout>
+    <Layout eventId={eventId}>
       <div className="home">
         <EventHeaderTitle
           className="home__header"
