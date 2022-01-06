@@ -5,11 +5,6 @@ exports[`Renders App component with default page 1`] = `
   <div
     class="home"
   >
-    <h1
-      class="home__header"
-    >
-      Home page
-    </h1>
     <div
       class="header-home"
     >
@@ -55,14 +50,15 @@ exports[`Renders App component with default page 1`] = `
         London
       </p>
     </div>
-    <iframe
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen=""
-      class="youtube-embed"
-      frameborder="0"
-      src="https://www.youtube.com/embed/q6EoRBvdVPQ"
-      title="Embedded youtube"
-    />
+    <div
+      class="header-image-video-container"
+    >
+      <img
+        alt="Event image"
+        class="header-image"
+        src="image33.png"
+      />
+    </div>
     <p
       class="paragraph"
       data-testid="paragraph"
