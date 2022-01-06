@@ -7,17 +7,20 @@ import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
 import Layout from "../../components/Layout/Layout";
 
 const Home = () => {
-
   return (
     // fetch the fontType info from the mock data here, then add to prop for Layout
-    <Layout fontType = {1}>
-      <div className = "home">
-      <h1 className="home__header">Home page</h1>
-      <EventHeaderDetails time="11.30am" date="Sun 21 Nov 2021" venue="South Bank" location="London" />
-      <YoutubeEmbed embedId="q6EoRBvdVPQ" />
-      <Paragraph text="this is some paragraph" />
-      <ViewScheduleButton />
-      {/* <Navbar/> */}
+    <Layout fontType={2}>
+      <div className="home">
+        <h1 className="home__header">Home page</h1>
+        <EventHeaderDetails
+          time="11.30am"
+          date="Sun 21 Nov 2021"
+          venue="South Bank"
+          location="London"
+        />
+        <YoutubeEmbed embedId="q6EoRBvdVPQ" />
+        <Paragraph text="this is some paragraph" />
+        <ViewScheduleButton />
       </div>
     </Layout>
   );

@@ -6,21 +6,20 @@ import "./Schedule.scss";
 const Schedule = () => {
   return (
     <>
-    <div className="schedule">
-      <ScheduleItem header="Welcome" />
-      <ScheduleItem
-        header="header"
-        subHeader="subheader"
-        description="lorem ipsum"
-      />
-      <ScheduleItem
-        header="header"
-        subHeader="subheader"
-        description="lorem ipsum"
-      />
-      
-    </div>
-    <Navbar/>
+      <div className="schedule">
+        <ScheduleItem header="Welcome" />
+        <ScheduleItem
+          header="header"
+          subHeader="subheader"
+          description="lorem ipsum"
+        />
+        <ScheduleItem
+          header="header"
+          subHeader="subheader"
+          description="lorem ipsum"
+        />
+      </div>
+      <Navbar />
     </>
   );
 };

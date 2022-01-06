@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders the Layout component with default page 1`] = `
+<div>
+  <div
+    class="modern"
+  >
+    <p>
+      Sample children
+    </p>
+  </div>
+</div>
+`;
