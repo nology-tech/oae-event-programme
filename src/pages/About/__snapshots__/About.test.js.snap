@@ -3,7 +3,7 @@
 exports[`Renders photo component in the About page 1`] = `
 <div>
   <div
-    class="layout"
+    class="layout modern"
   >
     <div>
       <h1>

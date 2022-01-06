@@ -1,11 +1,25 @@
+@use "./variables" as *;
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;500&family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
-// Modern Fonts
-$modern-content: "PT Sans", sans-serif;
-$modern-header: "Poppins", sans-serif;
-$sub-heading-font: "Oswald", sans-serif;
-// Classic Fonts
-$classic-header: "Playfair Display", serif;
-$classic-content: "Lato", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+  font-family: $general-content;
+}
+
+.modern {
+  h1,
+  h2,
+  h3 {
+    font-family: $modern-header;
+  }
+}
+
+.classic {
+  h1,
+  h2,
+  h3 {
+    font-family: $classic-header;
+  }
+}
