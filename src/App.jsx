@@ -15,6 +15,7 @@ const App = () => {
       <Route path="/:eventId/our-story" element={<About />} />
       <Route path="/:eventId/event-schedule" element={<Schedule />} />
       <Route path="/:eventId/*" element={<Home />} />
+      <Route path="*" element={<h1>Invalid Route</h1>} />
     </Routes>
   );
 };

@@ -10,16 +10,19 @@ import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle
 
 const Home = () => {
   const { eventId } = useParams();
-  const { series, subtitle, time, date, venue, location, content } =
-    getMockEventById(eventId);
+  const event = getMockEventById(eventId);
 
-  // const text = content.map((content) => content.heading);
+  if (!event) return <h1>Invalid Event</h1>;
 
-  // console.log(headingsArr);
+  const { series, subtitle, time, date, venue, location, content } = event;
+
   return (
     <div className="home">
-      <h1 className="home__header">heading</h1>
-      <EventHeaderTitle title={series} subtitle={subtitle} />
+      <EventHeaderTitle
+        className="home__header"
+        title={series}
+        subtitle={subtitle}
+      />
       <EventHeaderDetails
         time={time}
         date={date}
@@ -29,9 +32,9 @@ const Home = () => {
       <YoutubeEmbed embedId="q6EoRBvdVPQ" />
 
       {content.map((event, i) => (
-        <div key={"event" + i}>
-          <h2>{event.heading}</h2>
-          <Paragraph text={event.text} />
+        <div className="home__content" key={"event" + i}>
+          <h2 className="home__content-heading">{event.heading}</h2>
+          <Paragraph className="home__content-text" text={event.text} />
         </div>
       ))}
       <ViewScheduleButton />

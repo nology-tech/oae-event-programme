@@ -26,19 +26,21 @@ export const events = [
         text: "The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his “Darmstadt” Ouverture (the title of which roughly translates as “boasting”!) is a witty interplay between the wind and string teams.",
       },
     ],
-    schedule: [
+    schedules: [
       {
-        name: "Welcome",
+        name: "Sunt est irure occaecat qui duis enim adipisicing sint nisi ullamco nisi enim ullamco dolore.",
         title: null,
         author: null,
-        description: null,
+        description:
+          "Non ad labore aliqua adipisicing et laborum exercitation. Enim consectetur aliquip eu commodo. Eiusmod ipsum anim exercitation consectetur elit amet voluptate aliquip ullamco. Duis deserunt dolore et officia ullamco voluptate culpa eiusmod cupidatat ullamco sit anim incididunt nulla. Nisi et et commodo non dolor amet aliquip exercitation. Et fugiat consequat mollit cillum anim aliquip commodo laboris enim voluptate ullamco ipsum nostrud qui. Laboris duis cillum duis aliqua cupidatat nulla.",
         alternateDescription: null,
       },
       {
         name: "Cantata",
         title: "Ach wie fluchtig, ach wie nichtig BWV 26",
         author: "JS Bach",
-        description: "",
+        description:
+          "Ea ex labore est consequat adipisicing consectetur ea duis mollit duis exercitation. Eu est reprehenderit dolor aute adipisicing occaecat veniam. Fugiat id tempor dolor incididunt. Pariatur commodo irure amet cupidatat laborum sint.",
         alternateDescription: "", // This is used for any lyric translations. It will create a tab in the component that the end-user can switch between.
       },
     ],
