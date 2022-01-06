@@ -10,14 +10,8 @@ const About = () => {
   const { eventId } = useParams();
 
   return (
-<<<<<<< HEAD
-    <div>
-      <PageHeader title="our story" subtitle="30 Years of Breaking The Rules" content="aString" isVideo={true}/>
-
-=======
     <Layout eventId={eventId}>
-      <h1>About page</h1>
->>>>>>> 121cae44a7869ba7d1d28da4535824af62951851
+      <PageHeader title="our story" subtitle="30 Years of Breaking The Rules" content="aString" isVideo={true}/>
       <Photo
         imageSrc={OrchestraImg}
         alt=""
