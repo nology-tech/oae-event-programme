@@ -16,10 +16,10 @@ const Home = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, time, date, venue, location, content } = event;
+  const { series, subtitle, time, date, venue, location, content, theme } = event;
 
   return (
-    <Layout eventId={eventId} fontType={1}>
+    <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
         <EventHeaderTitle
           className="home__header"
