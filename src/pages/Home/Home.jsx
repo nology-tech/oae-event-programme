@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import Layout from "../../components/Layout/Layout";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
@@ -18,28 +19,30 @@ const Home = () => {
   const { series, subtitle, time, date, venue, location, content } = event;
 
   return (
-    <div className="home">
-      <EventHeaderTitle
-        className="home__header"
-        title={series}
-        subtitle={subtitle}
-      />
-      <EventHeaderDetails
-        time={time}
-        date={date}
-        venue={venue}
-        location={location}
-      />
-      <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
+    <Layout>
+      <div className="home">
+        <EventHeaderTitle
+          className="home__header"
+          title={series}
+          subtitle={subtitle}
+        />
+        <EventHeaderDetails
+          time={time}
+          date={date}
+          venue={venue}
+          location={location}
+        />
+        <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
 
-      {content.map((event, i) => (
-        <div className="home__content" key={"event" + i}>
-          <h2 className="home__content-heading">{event.heading}</h2>
-          <Paragraph className="home__content-text" text={event.text} />
-        </div>
-      ))}
-      <ViewScheduleButton />
-    </div>
+        {content.map((event, i) => (
+          <div className="home__content" key={"event" + i}>
+            <h2 className="home__content-heading">{event.heading}</h2>
+            <Paragraph className="home__content-text" text={event.text} />
+          </div>
+        ))}
+        <ViewScheduleButton />
+      </div>
+    </Layout>
   );
 };
 

@@ -3,111 +3,178 @@
 exports[`Test 1`] = `
 <div>
   <div
-    class="schedule"
+    class="layout"
   >
-    <div
-      class="schedule-item"
+    <div>
+      <div
+        class="schedule"
+      >
+        <div
+          class="schedule-item"
+        >
+          <div
+            class="schedule-item__top"
+          >
+            <span
+              class="schedule-item__headers"
+            >
+              <h3
+                class="schedule-item__header"
+              >
+                Welcome
+              </h3>
+              <p
+                class="schedule-item__subheader"
+              />
+            </span>
+            <span
+              class="schedule-item__button-container"
+            >
+              <img
+                alt=""
+                class="schedule-item__button"
+                role="button"
+                src=""
+              />
+            </span>
+          </div>
+          <hr
+            class="schedule-item__hr"
+          />
+        </div>
+        <div
+          class="schedule-item"
+        >
+          <div
+            class="schedule-item__top"
+          >
+            <span
+              class="schedule-item__headers"
+            >
+              <h3
+                class="schedule-item__header"
+              >
+                header
+              </h3>
+              <p
+                class="schedule-item__subheader"
+              >
+                subheader
+              </p>
+            </span>
+            <span
+              class="schedule-item__button-container"
+            >
+              <img
+                alt=""
+                class="schedule-item__button"
+                role="button"
+                src="chevron-down.png"
+              />
+            </span>
+          </div>
+          <hr
+            class="schedule-item__hr"
+          />
+        </div>
+        <div
+          class="schedule-item"
+        >
+          <div
+            class="schedule-item__top"
+          >
+            <span
+              class="schedule-item__headers"
+            >
+              <h3
+                class="schedule-item__header"
+              >
+                header
+              </h3>
+              <p
+                class="schedule-item__subheader"
+              >
+                subheader
+              </p>
+            </span>
+            <span
+              class="schedule-item__button-container"
+            >
+              <img
+                alt=""
+                class="schedule-item__button"
+                role="button"
+                src="chevron-down.png"
+              />
+            </span>
+          </div>
+          <hr
+            class="schedule-item__hr"
+          />
+        </div>
+      </div>
+    </div>
+    <nav
+      class="navbar"
     >
       <div
-        class="schedule-item__top"
+        class="navbar__content"
       >
-        <span
-          class="schedule-item__headers"
-        >
-          <h3
-            class="schedule-item__header"
-          >
-            Welcome
-          </h3>
-          <p
-            class="schedule-item__subheader"
-          />
-        </span>
-        <span
-          class="schedule-item__button-container"
+        <a
+          class="navbar__schedule-link"
+          href="/event-schedule"
         >
           <img
-            alt=""
-            class="schedule-item__button"
-            role="button"
-            src=""
+            alt="schedule icon"
+            class="navbar__icon"
+            src="schedule.svg"
           />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          SCHEDULE
         </span>
       </div>
-      <hr
-        class="schedule-item__hr"
-      />
-    </div>
-    <div
-      class="schedule-item"
-    >
       <div
-        class="schedule-item__top"
+        class="navbar__content"
       >
-        <span
-          class="schedule-item__headers"
-        >
-          <h3
-            class="schedule-item__header"
-          >
-            header
-          </h3>
-          <p
-            class="schedule-item__subheader"
-          >
-            subheader
-          </p>
-        </span>
-        <span
-          class="schedule-item__button-container"
+        <a
+          class="navbar__home-link"
+          href="/"
         >
           <img
-            alt=""
-            class="schedule-item__button"
-            role="button"
-            src="chevron-down.png"
+            alt="home icon"
+            class="navbar__icon"
+            src="home.svg"
           />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          HOME
         </span>
       </div>
-      <hr
-        class="schedule-item__hr"
-      />
-    </div>
-    <div
-      class="schedule-item"
-    >
       <div
-        class="schedule-item__top"
+        class="navbar__content"
       >
-        <span
-          class="schedule-item__headers"
-        >
-          <h3
-            class="schedule-item__header"
-          >
-            header
-          </h3>
-          <p
-            class="schedule-item__subheader"
-          >
-            subheader
-          </p>
-        </span>
-        <span
-          class="schedule-item__button-container"
+        <a
+          class="navbar__about-link"
+          href="/our-story"
         >
           <img
-            alt=""
-            class="schedule-item__button"
-            role="button"
-            src="chevron-down.png"
+            alt="about icon"
+            class="navbar__icon"
+            src="info.svg"
           />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          ABOUT
         </span>
       </div>
-      <hr
-        class="schedule-item__hr"
-      />
-    </div>
+    </nav>
   </div>
 </div>
 `;

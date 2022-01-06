@@ -3,98 +3,165 @@
 exports[`Test 1`] = `
 <div>
   <div
-    class="home"
+    class="layout"
   >
-    <div
-      class="header-home"
-    >
-      <h1
-        class="header-home__title"
+    <div>
+      <div
+        class="home"
       >
-        Bach, The Universe & Everything
-      </h1>
-      <span
-        class="header-home__subtitle"
-      >
-        Can You Hear The Shape of The Drum?
-      </span>
-    </div>
-    <div
-      class="event-header-details"
-    >
-      <p
-        class="event-header-details__time-date"
-      >
-        11.30
-        <span
-          class="event-header-details__divider"
+        <div
+          class="header-home"
         >
-          |
-        </span>
-        Sun 21 Nov 2021
-      </p>
-      <p
-        class="event-header-details__venue-location"
-      >
-        <span
-          class="event-header-details__venue"
+          <h1
+            class="header-home__title"
+          >
+            Bach, The Universe & Everything
+          </h1>
+          <span
+            class="header-home__subtitle"
+          >
+            Can You Hear The Shape of The Drum?
+          </span>
+        </div>
+        <div
+          class="event-header-details"
         >
-          London's King's Place
-        </span>
-        <span
-          class="event-header-details__comma"
+          <p
+            class="event-header-details__time-date"
+          >
+            11.30
+            <span
+              class="event-header-details__divider"
+            >
+              |
+            </span>
+            Sun 21 Nov 2021
+          </p>
+          <p
+            class="event-header-details__venue-location"
+          >
+            <span
+              class="event-header-details__venue"
+            >
+              London's King's Place
+            </span>
+            <span
+              class="event-header-details__comma"
+            >
+              ,
+            </span>
+             
+            London
+          </p>
+        </div>
+        <div
+          class="header-image-video-container"
         >
-          ,
+          <img
+            alt="Event image"
+            class="header-image"
+            src="image33.png"
+          />
+        </div>
+        <div
+          class="home__content"
+        >
+          <h2
+            class="home__content-heading"
+          >
+            If this is your first Bach, the Universe & Everything (BAE), welcome!
+          </h2>
+          <p
+            class="paragraph"
+            data-testid="paragraph"
+          >
+            We like to think of the series as a community, similar to the one Bach enjoyed in Leipzig where he produced cantatas at an extraordinary rate, providing innovative music for the weekly services at the church where he worked from 1723 until his death in 1750. At that time, the congregation was as open to science and new ideas as it was united by faith. It is in the spirit that we come together for a thought-provoking cantata and a talk from a leading scientist. Professor Jon Chapman from the University of Oxford invites us to ponder the fleeting moment when sound waves reach our ears before they disappear. Using some careful calculations, Jon suggests that we might even be able to hear the shape of a drum.
+          </p>
+        </div>
+        <div
+          class="home__content"
+        >
+          <h2
+            class="home__content-heading"
+          >
+            A note from our Principal Keyboard, Steven Devine, about today's programme
+          </h2>
+          <p
+            class="paragraph"
+            data-testid="paragraph"
+          >
+            The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his “Darmstadt” Ouverture (the title of which roughly translates as “boasting”!) is a witty interplay between the wind and string teams.
+          </p>
+        </div>
+        <a
+          class="view-schedule-button"
+          href="/event-schedule"
+        >
+          View Schedule
+        </a>
+      </div>
+    </div>
+    <nav
+      class="navbar"
+    >
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__schedule-link"
+          href="/event-schedule"
+        >
+          <img
+            alt="schedule icon"
+            class="navbar__icon"
+            src="schedule.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          SCHEDULE
         </span>
-         
-        London
-      </p>
-    </div>
-    <div
-      class="header-image-video-container"
-    >
-      <img
-        alt="Event image"
-        class="header-image"
-        src="image33.png"
-      />
-    </div>
-    <div
-      class="home__content"
-    >
-      <h2
-        class="home__content-heading"
+      </div>
+      <div
+        class="navbar__content"
       >
-        If this is your first Bach, the Universe & Everything (BAE), welcome!
-      </h2>
-      <p
-        class="paragraph"
-        data-testid="paragraph"
+        <a
+          class="navbar__home-link"
+          href="/"
+        >
+          <img
+            alt="home icon"
+            class="navbar__icon"
+            src="home.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          HOME
+        </span>
+      </div>
+      <div
+        class="navbar__content"
       >
-        We like to think of the series as a community, similar to the one Bach enjoyed in Leipzig where he produced cantatas at an extraordinary rate, providing innovative music for the weekly services at the church where he worked from 1723 until his death in 1750. At that time, the congregation was as open to science and new ideas as it was united by faith. It is in the spirit that we come together for a thought-provoking cantata and a talk from a leading scientist. Professor Jon Chapman from the University of Oxford invites us to ponder the fleeting moment when sound waves reach our ears before they disappear. Using some careful calculations, Jon suggests that we might even be able to hear the shape of a drum.
-      </p>
-    </div>
-    <div
-      class="home__content"
-    >
-      <h2
-        class="home__content-heading"
-      >
-        A note from our Principal Keyboard, Steven Devine, about today's programme
-      </h2>
-      <p
-        class="paragraph"
-        data-testid="paragraph"
-      >
-        The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his “Darmstadt” Ouverture (the title of which roughly translates as “boasting”!) is a witty interplay between the wind and string teams.
-      </p>
-    </div>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
-    >
-      View Schedule
-    </a>
+        <a
+          class="navbar__about-link"
+          href="/our-story"
+        >
+          <img
+            alt="about icon"
+            class="navbar__icon"
+            src="info.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          ABOUT
+        </span>
+      </div>
+    </nav>
   </div>
 </div>
 `;

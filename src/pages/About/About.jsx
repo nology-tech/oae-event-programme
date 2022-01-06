@@ -1,10 +1,11 @@
 import React from "react";
+import Layout from "../../components/Layout/Layout";
 import Photo from "../../components/Photo/Photo";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 
 const About = () => {
   return (
-    <div>
+    <Layout>
       <h1>About page</h1>
       <Photo
         imageSrc="https://place-puppy.com/300x300"
@@ -15,7 +16,7 @@ const About = () => {
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
       />
-    </div>
+    </Layout>
   );
 };
 
