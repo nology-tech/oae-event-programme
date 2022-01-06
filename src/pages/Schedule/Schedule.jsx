@@ -1,22 +1,25 @@
 import React from "react";
+import Layout from "../../components/Layout/Layout";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
 
 const Schedule = () => {
   return (
-    <div className="schedule">
-      <ScheduleItem header="Welcome" />
-      <ScheduleItem
-        header="header"
-        subHeader="subheader"
-        description="lorem ipsum"
-      />
-      <ScheduleItem
-        header="header"
-        subHeader="subheader"
-        description="lorem ipsum"
-      />
-    </div>
+    <Layout>
+      <div className="schedule">
+        <ScheduleItem header="Welcome" />
+        <ScheduleItem
+          header="header"
+          subHeader="subheader"
+          description="lorem ipsum"
+        />
+        <ScheduleItem
+          header="header"
+          subHeader="subheader"
+          description="lorem ipsum"
+        />
+      </div>
+    </Layout>
   );
 };
 
