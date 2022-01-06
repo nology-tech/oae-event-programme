@@ -4,7 +4,6 @@ import Layout from "../../components/Layout/Layout";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
-import YoutubeEmbed from "../../components/YoutubeEmbed/YoutubeEmbed";
 import { useParams } from "react-router-dom";
 import { getMockEventById } from "../../assets/data/data";
 import HeaderImageVideoContainer from "../../components/HeaderImageVideoContainer/HeaderImageVideoContainer";
@@ -20,7 +19,6 @@ const Home = () => {
   const { series, subtitle, time, date, venue, location, content } = event;
 
   return (
-    // fetch the fontType info from the mock data here, then add to prop for Layout
     <Layout eventId={eventId} fontType={1}>
       <div className="home">
         <EventHeaderTitle
@@ -34,7 +32,6 @@ const Home = () => {
           venue={venue}
           location={location}
         />
-        <YoutubeEmbed embedId="q6EoRBvdVPQ" />
         <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
 
         {content.map((event, i) => (
