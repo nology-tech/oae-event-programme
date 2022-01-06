@@ -1,11 +1,14 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
 import Photo from "../../components/Photo/Photo";
+import { useParams } from "react-router-dom";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 
 const About = () => {
+  const { eventId } = useParams();
+
   return (
-    <Layout>
+    <Layout eventId={eventId}>
       <h1>About page</h1>
       <Photo
         imageSrc="https://place-puppy.com/300x300"
