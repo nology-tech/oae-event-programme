@@ -47,7 +47,7 @@ exports[`Renders photo component in the About page 1`] = `
       >
         <a
           class="navbar__schedule-link"
-          href="/undefined/event-schedule"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
         >
           <img
             alt="schedule icon"
@@ -66,7 +66,7 @@ exports[`Renders photo component in the About page 1`] = `
       >
         <a
           class="navbar__home-link"
-          href="/undefined"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"
         >
           <img
             alt="home icon"
@@ -85,7 +85,7 @@ exports[`Renders photo component in the About page 1`] = `
       >
         <a
           class="navbar__about-link"
-          href="/undefined/our-story"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
         >
           <img
             alt="about icon"
