@@ -67,18 +67,6 @@ exports[`Test 1`] = `
             />
           </div>
         </div>
-        <p
-          class="paragraph"
-          data-testid="paragraph"
-        >
-          this is some paragraph
-        </p>
-        <a
-          class="view-schedule-button"
-          href="/event-schedule"
-        >
-          View Schedule
-        </a>
         <div
           class="home__content"
         >

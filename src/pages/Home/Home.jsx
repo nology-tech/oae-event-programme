@@ -29,9 +29,7 @@ const Home = () => {
           location={location}
           content={placeHolderImg}
           isVideo={false}
-        />
-        <Paragraph text="this is some paragraph" />
-        <ViewScheduleButton />
+        />        
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>
