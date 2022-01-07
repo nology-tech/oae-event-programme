@@ -4,7 +4,7 @@ import Photo from "../../components/Photo/Photo";
 import { useParams } from "react-router-dom";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 import PageHeader from "../../components/PageHeader/PageHeader";
-import OrchestraImg from "../../assets/images/image.png";
+import OrchestraImg from "../../assets/images/imageCropped.png";
 
 const About = () => {
   const { eventId } = useParams();
@@ -14,10 +14,10 @@ const About = () => {
       <PageHeader
         title="our story"
         subtitle="30 Years of Breaking The Rules"
-        content="aString"
+        content="rOjHhS5MtvA"
         isVideo={true}
       />
-      <Photo imageSrc={OrchestraImg} alt="" description="-" />
+      <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"

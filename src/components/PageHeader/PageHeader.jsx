@@ -8,11 +8,11 @@ const PageHeader = (props) => {
   const { title, subtitle, time, date, venue, location, content, isVideo } =
     props;
 
-  const headerClass =
-    (time, date, venue, location, content, isVideo) == null
-      ? "page-header-only"
-      : "page-header";
-
+  let headerClass = 'page-header'
+    if((time, date, venue, location, content, isVideo) == null){
+      headerClass +=  "--only";
+    }    
+    
   return (
     <div className={headerClass}>
       <EventHeaderTitle title={title} subtitle={subtitle} />
