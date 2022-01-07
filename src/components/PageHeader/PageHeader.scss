@@ -3,9 +3,7 @@
 .page-header {
   background-color: $modern-primary;
   padding-top: 5rem;
-
-  &--only {
-    @extend .page-header;
+  &--only {   
     padding-bottom: 2rem;
   }
 }

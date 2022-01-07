@@ -10,7 +10,7 @@ const PageHeader = (props) => {
 
   let headerClass = 'page-header'
     if((time, date, venue, location, content, isVideo) == null){
-      headerClass +=  "--only";
+      headerClass +=  "page-header--only";
     }    
     
   return (
