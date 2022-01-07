@@ -3,7 +3,7 @@
 exports[`Renders Layout component with default page 1`] = `
 <div>
   <div
-    class="layout"
+    class="layout modern"
   >
     <div>
       <p>

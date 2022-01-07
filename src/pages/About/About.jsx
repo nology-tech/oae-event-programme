@@ -10,7 +10,7 @@ const About = () => {
   const { eventId } = useParams();
 
   return (
-    <Layout eventId={eventId}>
+    <Layout eventId={eventId} fontType={1}>
       <PageHeader title="our story" subtitle="30 Years of Breaking The Rules" content="aString" isVideo={true}/>
       <Photo
         imageSrc={OrchestraImg}

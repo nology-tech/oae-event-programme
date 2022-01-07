@@ -7,7 +7,7 @@ export const events = [
   {
     id: "6bb8ffe8-6e5e-4abc-be7f-b05b749849cf",
     name: "Infant Musicality",
-    series: "Bach, The Universe & Everything",
+    series: "BACH, THE UNIVERSE & EVERYTHING",
     subtitle: "Can You Hear The Shape of The Drum?",
     date: "Sun 21 Nov 2021",
     time: "11.30",

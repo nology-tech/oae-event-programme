@@ -3,7 +3,7 @@
 exports[`Test 1`] = `
 <div>
   <div
-    class="layout"
+    class="layout modern"
   >
     <div>
       <div
@@ -12,16 +12,16 @@ exports[`Test 1`] = `
         <div
           class="header-home"
         >
-          <h1
-            class="header-home__title"
-          >
-            Bach, The Universe & Everything
-          </h1>
           <span
             class="header-home__subtitle"
           >
-            Can You Hear The Shape of The Drum?
+            BACH, THE UNIVERSE & EVERYTHING
           </span>
+          <h1
+            class="header-home__title"
+          >
+            Can You Hear The Shape of The Drum?
+          </h1>
         </div>
         <div
           class="event-header-details"
