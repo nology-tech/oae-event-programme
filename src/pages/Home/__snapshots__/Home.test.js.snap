@@ -10,59 +10,75 @@ exports[`Test 1`] = `
         class="home"
       >
         <div
-          class="header-home"
+          class="page-header"
         >
-          <span
-            class="header-home__subtitle"
-          >
-            BACH, THE UNIVERSE & EVERYTHING
-          </span>
-          <h1
-            class="header-home__title"
-          >
-            Can You Hear The Shape of The Drum?
-          </h1>
-        </div>
-        <div
-          class="event-header-details"
-        >
-          <p
-            class="event-header-details__time-date"
-          >
-            11.30
-            <span
-              class="event-header-details__divider"
-            >
-              |
-            </span>
-            Sun 21 Nov 2021
-          </p>
-          <p
-            class="event-header-details__venue-location"
+          <div
+            class="header-home"
           >
             <span
-              class="event-header-details__venue"
+              class="header-home__subtitle"
             >
-              London's King's Place
+              BACH, THE UNIVERSE & EVERYTHING
             </span>
-            <span
-              class="event-header-details__comma"
+            <h1
+              class="header-home__title"
             >
-              ,
-            </span>
-             
-            London
-          </p>
+              Can You Hear The Shape of The Drum?
+            </h1>
+          </div>
+          <div
+            class="event-header-details"
+          >
+            <p
+              class="event-header-details__time-date"
+            >
+              11.30
+              <span
+                class="event-header-details__divider"
+              >
+                |
+              </span>
+              Sun 21 Nov 2021
+            </p>
+            <p
+              class="event-header-details__venue-location"
+            >
+              <span
+                class="event-header-details__venue"
+              >
+                London's King's Place
+              </span>
+              <span
+                class="event-header-details__comma"
+              >
+                ,
+              </span>
+               
+              London
+            </p>
+          </div>
+          <div
+            class="header-image-video-container"
+          >
+            <img
+              alt="Event image"
+              class="header-image"
+              src="image33.png"
+            />
+          </div>
         </div>
-        <div
-          class="header-image-video-container"
+        <p
+          class="paragraph"
+          data-testid="paragraph"
         >
-          <img
-            alt="Event image"
-            class="header-image"
-            src="image33.png"
-          />
-        </div>
+          this is some paragraph
+        </p>
+        <a
+          class="view-schedule-button"
+          href="/event-schedule"
+        >
+          View Schedule
+        </a>
         <div
           class="home__content"
         >
