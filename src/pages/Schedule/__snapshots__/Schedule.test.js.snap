@@ -7,7 +7,7 @@ exports[`Test 1`] = `
   >
     <div>
       <div
-        class="page-header-only"
+        class="page-header--only"
       >
         <div
           class="header-home"
@@ -15,12 +15,12 @@ exports[`Test 1`] = `
           <span
             class="header-home__subtitle"
           >
-            can you hear the shape of the drums?
+            BACH, THE UNIVERSE & EVERYTHING
           </span>
           <h1
             class="header-home__title"
           >
-            Event Schedule.
+            Can You Hear The Shape of The Drum?
           </h1>
         </div>
       </div>
