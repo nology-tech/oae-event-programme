@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import OrchestraImg from "../../assets/images/imageCropped.png";
+import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
 
 const About = () => {
   const { eventId } = useParams();
@@ -18,6 +19,7 @@ const About = () => {
         isVideo={true}
       />
       <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
+      <CalloutMedia />
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
