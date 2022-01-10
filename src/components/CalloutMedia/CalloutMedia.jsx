@@ -1,10 +1,24 @@
 import "./CalloutMedia.scss";
-import React from 'react'
+import React from 'react';
+import ImageVideoContainer from "../ImageVideoContainer/ImageVideoContainer";
 
-const CalloutMedia = () => {
+const CalloutMedia = (props) => {
+  const {content, isVideo, children} = props;
+  
+  const getColor = (isVideo) =>{
+    if(isVideo){
+      return "color-orange";
+    } else{
+      return "color-black";
+    }
+  }
+  let chosenColor = getColor(isVideo);
+  console.log(chosenColor)
+
   return (
-    <div>
-      <h1>works</h1>
+    <div className={`callout-media ${chosenColor}`}>
+      <ImageVideoContainer content={content} isVideo={isVideo}/>
+      <div>{children}</div>
     </div>
   )
 }

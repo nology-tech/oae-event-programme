@@ -1,2 +1,19 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
+
+.callout-media{
+    height: 25.563rem;
+  .image-video-container{
+    background: none;
+  }
+
+}
+.color-orange{
+  background: linear-gradient(180deg
+  ,#ffff 25%, $color-orange 25%, $color-orange 25%,$color-orange 25%);
+}
+
+.color-black{
+  background: linear-gradient(180deg
+  ,#ffff 25%, $color-black 25%, $color-black 25%,$color-black 25%);
+}

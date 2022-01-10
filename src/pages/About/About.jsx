@@ -19,7 +19,9 @@ const About = () => {
         isVideo={true}
       />
       <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
-      <CalloutMedia />
+      <CalloutMedia content="rOjHhS5MtvA" isVideo={true}>
+        <p>hello it works</p>
+      </CalloutMedia>
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
