@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should only render the EventTitle component if no props are passed to the other two coponents 1`] = `
+<div>
+  <div
+    class="page-header page-header--only"
+  >
+    <div
+      class="header-home"
+    >
+      <span
+        class="header-home__subtitle"
+      >
+        BACH, THE UNIVERSE & EVERYTHING
+      </span>
+      <h1
+        class="header-home__title"
+      >
+        Can You Hear The Shape of The Drum?
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it should render the component 1`] = `
+<div>
+  <div
+    class="page-header"
+  >
+    <div
+      class="header-home"
+    >
+      <span
+        class="header-home__subtitle"
+      >
+        BACH, THE UNIVERSE & EVERYTHING
+      </span>
+      <h1
+        class="header-home__title"
+      >
+        Can You Hear The Shape of The Drum?
+      </h1>
+    </div>
+    <div
+      class="event-header-details"
+    >
+      <p
+        class="event-header-details__time-date"
+      >
+        11.30am
+        <span
+          class="event-header-details__divider"
+        >
+          |
+        </span>
+        Sun 21 Nov 2021
+      </p>
+      <p
+        class="event-header-details__venue-location"
+      >
+        <span
+          class="event-header-details__venue"
+        >
+          South Bank
+        </span>
+        <span
+          class="event-header-details__comma"
+        >
+          ,
+        </span>
+         
+        London
+      </p>
+    </div>
+  </div>
+</div>
+`;

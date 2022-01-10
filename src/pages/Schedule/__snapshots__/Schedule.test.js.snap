@@ -7,6 +7,24 @@ exports[`Test 1`] = `
   >
     <div>
       <div
+        class="page-header page-header--only"
+      >
+        <div
+          class="header-home"
+        >
+          <span
+            class="header-home__subtitle"
+          >
+            BACH, THE UNIVERSE & EVERYTHING
+          </span>
+          <h1
+            class="header-home__title"
+          >
+            Can You Hear The Shape of The Drum?
+          </h1>
+        </div>
+      </div>
+      <div
         class="schedule"
       >
         <div

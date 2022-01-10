@@ -1,0 +1,9 @@
+@use "../../assets/sass/variables" as *;
+
+.page-header {
+  background-color: $modern-primary;
+  padding-top: 5rem;
+  &--only {   
+    padding-bottom: 2rem;
+  }
+}

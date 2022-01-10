@@ -1,14 +1,12 @@
 import React from "react";
 import "./Home.scss";
-import Layout from "../../components/Layout/Layout";
-import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
+import PageHeader from "../../components/PageHeader/PageHeader";
 import Paragraph from "../../components/Paragraph/Paragraph";
-import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
+import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
+import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getMockEventById } from "../../assets/data/data";
-import HeaderImageVideoContainer from "../../components/HeaderImageVideoContainer/HeaderImageVideoContainer";
 import placeHolderImg from "../../assets/images/image33.png";
-import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle";
 
 const Home = () => {
   const { eventId } = useParams();
@@ -16,24 +14,22 @@ const Home = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, time, date, venue, location, content, theme } = event;
+  const { series, subtitle, time, date, venue, location, content, theme } =
+    event;
 
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
-        <EventHeaderTitle
-          className="home__header"
+        <PageHeader
           title={series}
           subtitle={subtitle}
-        />
-        <EventHeaderDetails
           time={time}
           date={date}
           venue={venue}
           location={location}
-        />
-        <HeaderImageVideoContainer content={placeHolderImg} isVideo={false} />
-
+          content={placeHolderImg}
+          isVideo={false}
+        />        
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>
