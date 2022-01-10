@@ -1,9 +1,10 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
+@use "../../assets/sass/themes" as *;
 
 .header-home {
   color: $color-white;
-  background-color: $modern-primary;
+  // background-color: $modern-primary;
   font-family: $modern-header;
   letter-spacing: -0.05em;
   padding-bottom: 0.625rem;

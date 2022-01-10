@@ -7,6 +7,7 @@ import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getMockEventById } from "../../assets/data/data";
 import placeHolderImg from "../../assets/images/image33.png";
+import getThemeChange from "../../utils/themeHelper";
 
 const Home = () => {
   const { eventId } = useParams();
@@ -14,8 +15,12 @@ const Home = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, time, date, venue, location, content, theme } =
+  const { series, subtitle, time, date, venue, location, content, theme} =
     event;
+
+    //Changes number into string 
+    let themeClass  = getThemeChange(theme.type);  
+
 
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
@@ -29,6 +34,8 @@ const Home = () => {
           location={location}
           content={placeHolderImg}
           isVideo={false}
+          themeType = {themeClass}
+          className = {`themeClass`}
         />        
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>

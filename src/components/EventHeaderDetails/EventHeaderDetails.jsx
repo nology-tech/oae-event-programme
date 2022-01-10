@@ -1,10 +1,10 @@
 import "./EventHeaderDetails.scss";
 
 const EventHeaderDetails = (props) => {
-  const { time, date, venue, location } = props;
+  const { time, date, venue, location, theme } = props;
 
   return (
-    <div className="event-header-details">
+    <div className={`event-header-details ${theme}`}>
       <p className="event-header-details__time-date">
         {time}
         {time && date && (

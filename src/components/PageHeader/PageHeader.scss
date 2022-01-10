@@ -1,7 +1,8 @@
 @use "../../assets/sass/variables" as *;
+@use "../../assets/sass/themes" as *;
 
 .page-header {
-  background-color: $modern-primary;
+  // background-color: $modern-primary;
   padding-top: 5rem;
   &--only {   
     padding-bottom: 2rem;
