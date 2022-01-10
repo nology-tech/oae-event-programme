@@ -15,7 +15,7 @@ const Schedule = () => {
   const { series, subtitle, schedules} =
     event;
 
-  console.log(schedules.description);
+  console.log(schedules[1]);
   return (
     <Layout eventId={eventId} fontType={1}>
       <PageHeader
