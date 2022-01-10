@@ -31,7 +31,7 @@ const About = () => {
 
       <Photo
         imageSrc={OrchestraImg}
-        alt=""
+        alt="Players of the Orchestra"
         description="The earliest known photo of the orchestra"
       />
 

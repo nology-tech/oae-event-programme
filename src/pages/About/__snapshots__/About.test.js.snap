@@ -70,7 +70,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="photo"
       >
         <img
-          alt=""
+          alt="Players of the Orchestra"
           class="photo__image"
           src="imageCropped.png"
         />
