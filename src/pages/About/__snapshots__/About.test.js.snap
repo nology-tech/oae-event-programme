@@ -6,21 +6,63 @@ exports[`Renders photo component in the About page 1`] = `
     class="layout modern"
   >
     <div>
-      <h1>
-        About page
-      </h1>
+      <div
+        class="page-header"
+      >
+        <div
+          class="header-home"
+        >
+          <span
+            class="header-home__subtitle"
+          >
+            our story
+          </span>
+          <h1
+            class="header-home__title"
+          >
+            30 Years of Breaking The Rules
+          </h1>
+        </div>
+        <div
+          class="event-header-details"
+        >
+          <p
+            class="event-header-details__time-date"
+          />
+          <p
+            class="event-header-details__venue-location"
+          >
+            <span
+              class="event-header-details__venue"
+            />
+             
+          </p>
+        </div>
+        <div
+          class="header-image-video-container"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+            class="youtube-embed"
+            frameborder="0"
+            src="https://www.youtube.com/embed/rOjHhS5MtvA"
+            title="Embedded youtube"
+          />
+        </div>
+      </div>
       <div
         class="photo"
       >
         <img
-          alt="puppy"
+          alt=""
           class="photo__image"
-          src="https://place-puppy.com/300x300"
+          src="imageCropped.png"
         />
         <span
           class="photo__description"
         >
-          A picture of a man's best friend
+          The earliest known photo of the orchestra
         </span>
       </div>
       <div

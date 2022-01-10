@@ -7,6 +7,24 @@ exports[`Test 1`] = `
   >
     <div>
       <div
+        class="page-header page-header--only"
+      >
+        <div
+          class="header-home"
+        >
+          <span
+            class="header-home__subtitle"
+          >
+            BACH, THE UNIVERSE & EVERYTHING
+          </span>
+          <h1
+            class="header-home__title"
+          >
+            Can You Hear The Shape of The Drum?
+          </h1>
+        </div>
+      </div>
+      <div
         class="schedule"
       >
         <div
@@ -54,13 +72,11 @@ exports[`Test 1`] = `
               <h3
                 class="schedule-item__header"
               >
-                header
+                Sunt est irure occaecat qui duis enim adipisicing sint nisi ullamco nisi enim ullamco dolore.
               </h3>
               <p
                 class="schedule-item__subheader"
-              >
-                subheader
-              </p>
+              />
             </span>
             <span
               class="schedule-item__button-container"
@@ -89,12 +105,12 @@ exports[`Test 1`] = `
               <h3
                 class="schedule-item__header"
               >
-                header
+                Cantata
               </h3>
               <p
                 class="schedule-item__subheader"
               >
-                subheader
+                Ach wie fluchtig, ach wie nichtig BWV 26
               </p>
             </span>
             <span
