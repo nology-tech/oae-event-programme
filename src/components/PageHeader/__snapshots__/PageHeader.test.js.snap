@@ -3,7 +3,7 @@
 exports[`it should only render the EventTitle component if no props are passed to the other two coponents 1`] = `
 <div>
   <div
-    class="page-headerpage-header--only"
+    class="page-header page-header--only"
   >
     <div
       class="header-home"

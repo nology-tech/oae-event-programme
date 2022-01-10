@@ -7,7 +7,7 @@ exports[`Test 1`] = `
   >
     <div>
       <div
-        class="page-headerpage-header--only"
+        class="page-header page-header--only"
       >
         <div
           class="header-home"
