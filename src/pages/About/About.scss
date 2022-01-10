@@ -1,0 +1,12 @@
+@use "../../assets/sass/variables.scss" as *;
+@use "../../assets/sass/typography.scss" as *;
+.about {
+  &__header {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  &__content {
+    padding: 0 41px;
+  }
+}
