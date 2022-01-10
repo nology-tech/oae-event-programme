@@ -5,18 +5,14 @@ import ImageVideoContainer from "../ImageVideoContainer/ImageVideoContainer";
 const CalloutMedia = (props) => {
   const {content, isVideo, children} = props;
   
-  const getColor = (isVideo) =>{
-    if(isVideo){
-      return "color-orange";
-    } else{
-      return "color-black";
-    }
-  }
-  let chosenColor = getColor(isVideo);
-  console.log(chosenColor)
+  const getColor =
+    isVideo ? "color-orange" : "color-black";
+  
+  //let chosenColor = getColor;
+  console.log(getColor)
 
   return (
-    <div className={`callout-media ${chosenColor}`}>
+    <div className={`callout-media ${getColor}`}>
       <ImageVideoContainer content={content} isVideo={isVideo}/>
       <div>{children}</div>
     </div>
