@@ -6,7 +6,9 @@
   background-color: $modern-primary;
   line-height: 1.5rem;
   font-family: $modern-content;
-  padding: 1.438rem;
+  padding-left: 1.438rem;
+  padding-right: 1.438rem;
+
   & > * {
     margin: 0;
   }

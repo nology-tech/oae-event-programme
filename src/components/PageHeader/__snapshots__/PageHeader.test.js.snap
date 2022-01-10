@@ -1,23 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders App component with default page 1`] = `
+exports[`it should only render the EventTitle component if no props are passed to the other two coponents 1`] = `
 <div>
   <div
-    class="home"
+    class="page-header page-header--only"
   >
     <div
       class="header-home"
     >
-      <h1
-        class="header-home__title"
-      >
-        BACH, THE UNIVERSE & EVERYTHING
-      </h1>
       <span
         class="header-home__subtitle"
       >
-        Can You Hear The Shape of The Drum? 
+        BACH, THE UNIVERSE & EVERYTHING
       </span>
+      <h1
+        class="header-home__title"
+      >
+        Can You Hear The Shape of The Drum?
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it should render the component 1`] = `
+<div>
+  <div
+    class="page-header"
+  >
+    <div
+      class="header-home"
+    >
+      <span
+        class="header-home__subtitle"
+      >
+        BACH, THE UNIVERSE & EVERYTHING
+      </span>
+      <h1
+        class="header-home__title"
+      >
+        Can You Hear The Shape of The Drum?
+      </h1>
     </div>
     <div
       class="event-header-details"
@@ -50,27 +73,6 @@ exports[`Renders App component with default page 1`] = `
         London
       </p>
     </div>
-    <div
-      class="header-image-video-container"
-    >
-      <img
-        alt="Event image"
-        class="header-image"
-        src="image33.png"
-      />
-    </div>
-    <p
-      class="paragraph"
-      data-testid="paragraph"
-    >
-      this is some paragraph
-    </p>
-    <a
-      class="view-schedule-button"
-      href="/event-schedule"
-    >
-      View Schedule
-    </a>
   </div>
 </div>
 `;

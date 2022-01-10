@@ -2,39 +2,146 @@
 
 exports[`Renders photo component in the About page 1`] = `
 <div>
-  <div>
-    <h1>
-      About page
-    </h1>
-    <div
-      class="photo"
-    >
-      <img
-        alt="puppy"
-        class="photo__image"
-        src="https://place-puppy.com/300x300"
-      />
-      <span
-        class="photo__description"
+  <div
+    class="layout modern"
+  >
+    <div>
+      <div
+        class="page-header"
       >
-        A picture of a man's best friend
-      </span>
+        <div
+          class="header-home"
+        >
+          <span
+            class="header-home__subtitle"
+          >
+            our story
+          </span>
+          <h1
+            class="header-home__title"
+          >
+            30 Years of Breaking The Rules
+          </h1>
+        </div>
+        <div
+          class="event-header-details"
+        >
+          <p
+            class="event-header-details__time-date"
+          />
+          <p
+            class="event-header-details__venue-location"
+          >
+            <span
+              class="event-header-details__venue"
+            />
+             
+          </p>
+        </div>
+        <div
+          class="header-image-video-container"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+            class="youtube-embed"
+            frameborder="0"
+            src="https://www.youtube.com/embed/rOjHhS5MtvA"
+            title="Embedded youtube"
+          />
+        </div>
+      </div>
+      <div
+        class="photo"
+      >
+        <img
+          alt=""
+          class="photo__image"
+          src="imageCropped.png"
+        />
+        <span
+          class="photo__description"
+        >
+          The earliest known photo of the orchestra
+        </span>
+      </div>
+      <div
+        class="orchestra-quote"
+      >
+        <q
+          class="orchestra-quote__content"
+        >
+          COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
+        </q>
+        <p
+          class="orchestra-quote__author"
+        >
+          -
+          Vladmir Jurowski
+        </p>
+      </div>
     </div>
-    <div
-      class="orchestra-quote"
+    <nav
+      class="navbar"
     >
-      <q
-        class="orchestra-quote__content"
+      <div
+        class="navbar__content"
       >
-        COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE.
-      </q>
-      <p
-        class="orchestra-quote__author"
+        <a
+          class="navbar__schedule-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
+        >
+          <img
+            alt="schedule icon"
+            class="navbar__icon"
+            src="schedule.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          SCHEDULE
+        </span>
+      </div>
+      <div
+        class="navbar__content"
       >
-        -
-        Vladmir Jurowski
-      </p>
-    </div>
+        <a
+          class="navbar__home-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"
+        >
+          <img
+            alt="home icon"
+            class="navbar__icon"
+            src="home.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          HOME
+        </span>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__about-link"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
+        >
+          <img
+            alt="about icon"
+            class="navbar__icon"
+            src="info.svg"
+          />
+        </a>
+        <span
+          class="navbar__title"
+        >
+          ABOUT
+        </span>
+      </div>
+    </nav>
   </div>
 </div>
 `;
