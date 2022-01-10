@@ -15,12 +15,11 @@ const Home = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, time, date, venue, location, content, theme} =
+  const { series, subtitle, time, date, venue, location, content, theme } =
     event;
 
-    //Changes number into string 
-    let themeClass  = getThemeChange(theme.type);  
-
+  //Changes number into string
+  let themeClass = getThemeChange(theme.type);
 
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
@@ -34,9 +33,9 @@ const Home = () => {
           location={location}
           content={placeHolderImg}
           isVideo={false}
-          themeType = {themeClass}
-          className = {`themeClass`}
-        />        
+          themeType={themeClass}
+          className={`themeClass`}
+        />
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>

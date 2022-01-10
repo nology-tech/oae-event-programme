@@ -10,7 +10,9 @@ const HeaderImageVideoContainer = (props) => {
   }
 
   return (
-    <div className={`header-image-video-container header-image-video-container--${theme}`}>
+    <div
+      className={`header-image-video-container header-image-video-container--${theme}`}
+    >
       {isVideo ? (
         <YoutubeEmbed embedId={content} />
       ) : (

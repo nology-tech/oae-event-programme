@@ -5,15 +5,15 @@
   padding: 1rem;
   display: flex;
   justify-content: center;
-&--primary{
-  background: linear-gradient(180deg, $modern-primary 50%, $color-white 50%);
-}
-&--secondary{
-  background: linear-gradient(180deg, $color-secondary 50%, $color-white 50%);
-}
-&--tertiary{
-  background: linear-gradient(180deg, $color-tertiary 50%, $color-white 50%);
-}
+  &--primary {
+    background: linear-gradient(180deg, $modern-primary 50%, $color-white 50%);
+  }
+  &--secondary {
+    background: linear-gradient(180deg, $color-secondary 50%, $color-white 50%);
+  }
+  &--tertiary {
+    background: linear-gradient(180deg, $color-tertiary 50%, $color-white 50%);
+  }
 }
 
 .header-image {
