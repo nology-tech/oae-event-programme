@@ -7,10 +7,10 @@ exports[`Test 1`] = `
   >
     <div>
       <div
-        class="page-header page-header--only"
+        class="page-header page-header--only undefined"
       >
         <div
-          class="header-home"
+          class="header-home undefined"
         >
           <span
             class="header-home__subtitle"

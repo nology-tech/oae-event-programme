@@ -10,10 +10,10 @@ exports[`Test 1`] = `
         class="home"
       >
         <div
-          class="page-header"
+          class="page-header primary"
         >
           <div
-            class="header-home"
+            class="header-home primary"
           >
             <span
               class="header-home__subtitle"
@@ -27,7 +27,7 @@ exports[`Test 1`] = `
             </h1>
           </div>
           <div
-            class="event-header-details"
+            class="event-header-details primary"
           >
             <p
               class="event-header-details__time-date"
@@ -58,7 +58,7 @@ exports[`Test 1`] = `
             </p>
           </div>
           <div
-            class="header-image-video-container"
+            class="header-image-video-container header-image-video-container--primary"
           >
             <img
               alt="Event image"

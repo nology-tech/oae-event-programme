@@ -7,10 +7,10 @@ exports[`Renders photo component in the About page 1`] = `
   >
     <div>
       <div
-        class="page-header"
+        class="page-header undefined"
       >
         <div
-          class="header-home"
+          class="header-home undefined"
         >
           <span
             class="header-home__subtitle"
@@ -24,7 +24,7 @@ exports[`Renders photo component in the About page 1`] = `
           </h1>
         </div>
         <div
-          class="event-header-details"
+          class="event-header-details undefined"
         >
           <p
             class="event-header-details__time-date"
@@ -39,7 +39,7 @@ exports[`Renders photo component in the About page 1`] = `
           </p>
         </div>
         <div
-          class="header-image-video-container"
+          class="header-image-video-container header-image-video-container--undefined"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

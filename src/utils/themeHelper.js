@@ -1,12 +1,21 @@
-const getThemeChange = (theme) => {
+export const getThemeType = (theme) => {
   if (typeof theme !== "number") {
     theme = parseInt(theme);
   }
-  if (theme === 1) {
-    return "primary";
-  } else if (theme === 2) {
+  if (theme === 2) {
     return "secondary";
+  } else if (theme === 3) {
+    return "tertiary";
   }
-  return "tertiary";
+  return "primary";
 };
-export default getThemeChange;
+
+export const getFontType = (fontType) => {
+  if (typeof fontType !== "number") {
+    fontType = parseInt(fontType);
+  }
+  if (fontType === 2) {
+    return "classic";
+  }
+  return "modern";
+};

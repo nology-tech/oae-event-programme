@@ -1,5 +1,5 @@
 import "./Layout.scss";
-import getFontType from "../../utils/stringHelper";
+import { getFontType } from "../../utils/themeHelper";
 import Navbar from "../Navbar/Navbar";
 
 const Layout = (props) => {

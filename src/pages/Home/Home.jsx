@@ -7,7 +7,7 @@ import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getMockEventById } from "../../assets/data/data";
 import placeHolderImg from "../../assets/images/image33.png";
-import getThemeChange from "../../utils/themeHelper";
+import { getThemeType } from "../../utils/themeHelper";
 
 const Home = () => {
   const { eventId } = useParams();
@@ -19,7 +19,7 @@ const Home = () => {
     event;
 
   //Changes number into string
-  let themeClass = getThemeChange(theme.type);
+  let themeClass = getThemeType(theme.type);
 
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
