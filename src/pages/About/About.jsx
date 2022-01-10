@@ -17,7 +17,11 @@ const About = () => {
         content="rOjHhS5MtvA"
         isVideo={true}
       />
-      <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
+      <Photo
+        imageSrc={OrchestraImg}
+        alt=""
+        description="The earliest known photo of the orchestra"
+      />
       <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
