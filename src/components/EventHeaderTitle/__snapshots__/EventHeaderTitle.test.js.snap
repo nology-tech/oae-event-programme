@@ -3,7 +3,7 @@
 exports[`Renders TitleSubhome component on homepage 1`] = `
 <div>
   <div
-    class="header-home"
+    class="header-home undefined"
   >
     <span
       class="header-home__subtitle"

@@ -3,10 +3,10 @@
 exports[`it should only render the EventTitle component if no props are passed to the other two coponents 1`] = `
 <div>
   <div
-    class="page-header page-header--only"
+    class="page-header page-header--only undefined"
   >
     <div
-      class="header-home"
+      class="header-home undefined"
     >
       <span
         class="header-home__subtitle"
@@ -26,10 +26,10 @@ exports[`it should only render the EventTitle component if no props are passed t
 exports[`it should render the component 1`] = `
 <div>
   <div
-    class="page-header"
+    class="page-header undefined"
   >
     <div
-      class="header-home"
+      class="header-home undefined"
     >
       <span
         class="header-home__subtitle"
@@ -43,7 +43,7 @@ exports[`it should render the component 1`] = `
       </h1>
     </div>
     <div
-      class="event-header-details"
+      class="event-header-details undefined"
     >
       <p
         class="event-header-details__time-date"

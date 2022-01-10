@@ -3,7 +3,7 @@
 exports[` EventHeaderDetails component 1`] = `
 <div>
   <div
-    class="event-header-details"
+    class="event-header-details undefined"
   >
     <p
       class="event-header-details__time-date"
