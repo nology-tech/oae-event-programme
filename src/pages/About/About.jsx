@@ -58,7 +58,7 @@ const About = () => {
         <h2 className="about__content-heading">Growing Up</h2>
         <Paragraph className="about__content-text" text="Pretty quickly, we became a prominent fixture on the UK classical music scene.
 
-        In 1993, we formalised our relationship with Southbank Centre and became an official Resident Orchestra, an association we’re proud to have had ever since.
+        In 1993, we formalised our relationship with Southbank Centre and became an official Resident Orchestra, an association we're proud to have had ever since.
 
         We returned annually to Glyndebourne, specialising in Baroque and Classical opera by composers including Handel and Mozart.
 
@@ -66,7 +66,7 @@ const About = () => {
 
         We worked with conductors Mark Elder, Iván Fischer and Vladimir Jurowski for the first time. This trio would go on to join Simon Rattle as our Principal Artists.
 
-        And in 1999, we appointed one of the Orchestra’s oboes, Cherry Forbes, to become our first permanent Education director.
+        And in 1999, we appointed one of the Orchestra's oboes, Cherry Forbes, to become our first permanent Education director.
 
         In the video below, our current Principal Timpani Adrian Bending talks to violin and founder member Catherine Mackinstosh about her career with the Orchestra, which spanned from 1986 to 2013." />
       </div>
@@ -77,13 +77,13 @@ const About = () => {
 
       <div className="about__content">
         <h2 className="about__content-heading">To The Present Day</h2>
-        <Paragraph className="about__content-text" text="We turned 30 in 2016. While that means we’ve grown up in many ways, we’re still young at heart and adventurous in spirit.
+        <Paragraph className="about__content-text" text="We turned 30 in 2016. While that means we've grown up in many ways, we're still young at heart and adventurous in spirit.
 
-        In 2006 we launched The Night Shift, a pioneering series of late night classical music gigs. Billed as ‘classical music, minus the rules’, these gigs are aimed at audiences under 35 who aren’t attending conventional concerts. They have evolved from large scale events at The Roundhouse and Southbank Centre’s Royal Festival Hall to intimate chamber gigs in pubs. Now, we’re taking what we’ve learnt from The Night Shift and are bringing it back to the concert hall.
+        In 2006 we launched The Night Shift, a pioneering series of late night classical music gigs. Billed as 'classical music, minus the rules', these gigs are aimed at audiences under 35 who aren't attending conventional concerts. They have evolved from large scale events at The Roundhouse and Southbank Centre's Royal Festival Hall to intimate chamber gigs in pubs. Now, we're taking what we've learnt from The Night Shift and are bringing it back to the concert hall.
 
-        In 2008, our offices moved to Kings Place, a brand new building in King’s Cross, London, where we also perform concerts.
+        In 2008, our offices moved to Kings Place, a brand new building in King's Cross, London, where we also perform concerts.
 
-        We celebrated our 30th birthday in 2016 with a special season of concerts, including Weber’s Der Freischütz with Sir Mark Elder and Mahler’s Second Symphony with Vladimir Jurowski.
+        We celebrated our 30th birthday in 2016 with a special season of concerts, including Weber's Der Freischütz with Sir Mark Elder and Mahle's Second Symphony with Vladimir Jurowski.
 
         And in 2017 we blasted off on a journey of exploration, when our Sunday morning music and science series, Bach, the Universe and Everything, was launched.
 
