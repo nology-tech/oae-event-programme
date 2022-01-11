@@ -8,32 +8,26 @@ import "./Navbar.scss";
 const Navbar = (props) => {
   const { eventId } = props;
 
+  const checkActive = ({ isActive }) =>
+    `navbar__nav-link navbar__nav-link--${isActive ? "" : "in"}active`;
+
   return (
     <nav className="navbar">
       <div className="navbar__content">
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "inactive")}
-          to={`/${eventId}/event-schedule`}
-        >
+        <NavLink className={checkActive} to={`/${eventId}/event-schedule`}>
           <ScheduleIcon />
           <span className="navbar__title">SCHEDULE</span>
         </NavLink>
       </div>
       <div className="navbar__content">
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "inactive")}
-          to={`/${eventId}/home`}
-        >
+        <NavLink className={checkActive} to={`/${eventId}/home`}>
           <HomeIcon />
           <span className="navbar__title">HOME</span>
         </NavLink>
       </div>
 
       <div className="navbar__content">
-        <NavLink
-          className={({ isActive }) => (isActive ? "active" : "inactive")}
-          to={`/${eventId}/our-story`}
-        >
+        <NavLink className={checkActive} to={`/${eventId}/our-story`}>
           <AboutIcon />
           <span className="navbar__title">ABOUT</span>
         </NavLink>

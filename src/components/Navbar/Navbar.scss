@@ -24,14 +24,16 @@
     font-weight: 700;
   }
 
-  .active {
-    fill: rgb(0, 0, 0);
-    color: black;
+  .navbar__nav-link {
     text-decoration: none;
-  }
-  .inactive {
-    fill: #cacbcd;
-    color: #cacbcd;
-    text-decoration: none;
+
+    &--active {
+      fill: rgb(0, 0, 0);
+      color: black;
+    }
+    &--inactive {
+      fill: #cacbcd;
+      color: #cacbcd;
+    }
   }
 }
