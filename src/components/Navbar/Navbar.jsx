@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import AboutIcon from "../NavbarIcon/AboutIcon";
 import ScheduleIcon from "../NavbarIcon/ScheduleIcon";
-import HomeIcon from "../NavbarIcon/Home";
+import HomeIcon from "../NavbarIcon/HomeIcon";
 import "./Navbar.scss";
 
 const Navbar = (props) => {
@@ -22,7 +22,7 @@ const Navbar = (props) => {
       </div>
       <div className="navbar__content">
         <NavLink
-          //     style={({ isActive }) => ({ fill: isActive ? "black" : "#CACBCD" })}
+          // style={({ isActive }) => ({ fill: isActive ? "black" : "#CACBCD" })}
           className={({ isActive }) => (isActive ? "active" : "inactive")}
           to={`/${eventId}/home`}
         >
