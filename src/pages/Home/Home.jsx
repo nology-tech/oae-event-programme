@@ -18,7 +18,7 @@ const Home = () => {
     event;
 
   return (
-    <Layout eventId={eventId} fontType={theme.fontType}>
+    <Layout eventId={eventId} fontType={theme.fontType} themeType={theme.type}>
       <div className="home">
         <PageHeader
           title={series}

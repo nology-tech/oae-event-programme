@@ -20,3 +20,7 @@ $modern-header: "Poppins", sans-serif;
 // Classic Fonts
 $classic-header: "Playfair Display", serif;
 $classic-content: "Lato", sans-serif;
+
+:root {
+    --theme-color-default: $modern-primary; 
+}

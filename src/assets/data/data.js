@@ -45,7 +45,7 @@ export const events = [
       },
     ],
     theme: {
-      type: 1,
+      type: "#fa825d",
       fontType: 1,
     },
   },
@@ -86,7 +86,7 @@ export const events = [
       },
     ],
     theme: {
-      type: 2,
+      type: "#8ba0e3",
       fontType: 2,
     },
   },

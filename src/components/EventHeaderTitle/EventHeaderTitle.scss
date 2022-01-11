@@ -3,7 +3,8 @@
 
 .header-home {
   color: $color-white;
-  background-color: $modern-primary;
+  // background-color: $modern-primary;
+  background-color: var(--theme-color-default);
   font-family: $modern-header;
   letter-spacing: -0.05em;
   padding-bottom: 0.625rem;
