@@ -14,15 +14,19 @@ const Home = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, time, date, venue, location, content, theme } =
+  const { series, name, time, date, venue, location, content, theme } =
     event;
 
   return (
-    <Layout eventId={eventId} fontType={theme.fontType} themeType={theme.type}>
+    <Layout eventId={eventId} 
+      fontType={theme.fontType}
+      themeType={theme.primaryColour}
+      textColor={theme.textColour}
+      highlightColor ={theme.highlightColour}>
       <div className="home">
         <PageHeader
           title={series}
-          subtitle={subtitle}
+          subtitle={name}
           time={time}
           date={date}
           venue={venue}

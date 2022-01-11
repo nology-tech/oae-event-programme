@@ -1,7 +1,7 @@
 // Global colors
 $color-white: #ffff;
 $modern-primary: #fa825d;
-$home-title: #ffffc7;
+$default-highlight: #ffffc7;
 // Button colors
 $btn-color: #3c3c3c;
 $modern-primary: #fa825d;
@@ -22,5 +22,7 @@ $classic-header: "Playfair Display", serif;
 $classic-content: "Lato", sans-serif;
 
 :root {
-    --theme-color-default: $modern-primary; 
+  --theme-color-default: $modern-primary;
+  --text-color-default: $color-white;
+  --highlight-color-default:$default-highlight;
 }

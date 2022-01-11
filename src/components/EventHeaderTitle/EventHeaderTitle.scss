@@ -2,8 +2,7 @@
 @use "../../assets/sass/typography" as *;
 
 .header-home {
-  color: $color-white;
-  // background-color: $modern-primary;
+  color: var(--text-color-default);
   background-color: var(--theme-color-default);
   font-family: $modern-header;
   letter-spacing: -0.05em;
@@ -16,14 +15,14 @@
     font-size: 1rem;
     font-family: $sub-heading-font;
     letter-spacing: 0.03rem;
-    color: $home-title;
+    color: var(--highlight-color-default);
     padding-top: 0.625rem;
     line-height: 111.2%;
     margin-bottom: 0.825rem;
     text-transform: uppercase;
   }
-
   &__title {
+    color: var(--text-color-default);
     line-height: 111.2%;
     text-transform: capitalize;
     font-size: 2.22rem;

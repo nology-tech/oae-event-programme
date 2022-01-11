@@ -7,7 +7,7 @@
   text-transform: uppercase;
   background-color: $btn-color;
   border-radius: 5px;
-  color: $color-white;
+  color: var(--text-color-default);
   font-weight: 700;
   font-family: $modern-header;
   font-size: 1rem;

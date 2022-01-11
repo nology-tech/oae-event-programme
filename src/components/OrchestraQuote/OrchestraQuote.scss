@@ -3,7 +3,7 @@
 
 .orchestra-quote {
   background-color: #0091cf;
-  color: $color-white;
+  color: var(--text-color-default);
   height: 8.37rem;
   display: flex;
   flex-direction: column;
