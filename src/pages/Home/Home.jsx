@@ -18,8 +18,7 @@ const Home = () => {
 
   if (!event) return <h1>Loading...</h1>;
 
-  const { name, series, time, date, venue, location, content, theme } =
-    event;
+  const { name, series, time, date, venue, location, content, theme } = event;
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
@@ -36,7 +35,7 @@ const Home = () => {
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>
-            <Paragraph className="home__content-text" text={event.content} />
+            <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
         <ViewScheduleButton />

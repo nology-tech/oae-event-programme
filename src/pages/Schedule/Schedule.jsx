@@ -1,4 +1,4 @@
-import React, { useEffect, useState }from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
@@ -10,28 +10,25 @@ const Schedule = () => {
   const { eventId } = useParams();
   const [event, setEvent] = useState();
 
-    useEffect(async () => {
+  useEffect(async () => {
     setEvent(await getEvent(eventId));
   }, [getEvent, eventId, setEvent]);
 
-
   if (!event) return <h1>Loading...</h1>;
 
-  const { series, subtitle, schedule } = event;
+  const { series, schedule } = event;
 
   return (
     <Layout eventId={eventId} fontType={1}>
-      <PageHeader title={series} subtitle={subtitle} />
+      <PageHeader title={series} subtitle="Event Schedule" />
       <div className="schedule">
         {schedule.map((schedule, i) => (
-          <>
           <ScheduleItem
             key={"schedule" + i}
             header={schedule.name}
             subHeader={schedule.title}
             description={schedule.description}
           />
-          </>
         ))}
       </div>
     </Layout>
