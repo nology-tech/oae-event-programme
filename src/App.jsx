@@ -1,13 +1,25 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useParams } from "react-router-dom";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Schedule from "./pages/Schedule/Schedule";
+import { useEffect, useState } from "react";
 
 import { getMockEventById } from "./assets/data/data";
 
-console.log(getMockEventById("6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"));
-
 const App = () => {
+  const { eventId } = useParams();
+  const url = `https://oae-mock-api.herokuapp.com/events/${eventId}`;
+
+  const [event, setEvent] = useState(null);
+
+  useEffect(() => {
+    fetch(url)
+      .then((res) => res.json())
+      .then((event) => {
+        setEvent(event);
+      });
+  }, [url]);
+
   return (
     <Routes>
       <Route index element={<h1>Invalid Route</h1>} />
