@@ -13,12 +13,12 @@ exports[`Renders photo component in the About page 1`] = `
           class="header-home"
         >
           <span
-            class="header-home__title"
+            class="header-home__subtitle"
           >
             our story
           </span>
           <h1
-            class="header-home__subtitle"
+            class="header-home__title"
           >
             30 Years of Breaking The Rules
           </h1>

@@ -6,12 +6,12 @@ exports[`Renders TitleSubhome component on homepage 1`] = `
     class="header-home"
   >
     <span
-      class="header-home__title"
+      class="header-home__subtitle"
     >
       If this is your first Bach
     </span>
     <h1
-      class="header-home__subtitle"
+      class="header-home__title"
     >
       We'd like to think of
     </h1>
