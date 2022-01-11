@@ -23,7 +23,6 @@ const Schedule = () => {
     <Layout eventId={eventId} fontType={1}>
       <PageHeader title={series} subtitle={subtitle} />
       <div className="schedule">
-        {/* <ScheduleItem header="Welcome" /> */}
         {schedule.map((schedule, i) => (
           <>
           <ScheduleItem
