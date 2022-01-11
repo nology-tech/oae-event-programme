@@ -13,14 +13,14 @@ exports[`Test 1`] = `
           class="header-home"
         >
           <span
-            class="header-home__title"
+            class="header-home__subtitle"
           >
             BACH, THE UNIVERSE & EVERYTHING
           </span>
           <h1
-            class="header-home__subtitle"
+            class="header-home__title"
           >
-            Can You Hear The Shape of The Drum?
+            Event Schedule.
           </h1>
         </div>
       </div>

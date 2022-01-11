@@ -12,8 +12,8 @@ const About = () => {
   return (
     <Layout eventId={eventId} fontType={1}>
       <PageHeader
-        title="our story"
-        subtitle="30 Years of Breaking The Rules"
+        title="30 Years of Breaking The Rules"
+        subtitle="our story"
         content="rOjHhS5MtvA"
         isVideo={true}
       />
