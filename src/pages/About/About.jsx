@@ -6,6 +6,7 @@ import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import OrchestraImg from "../../assets/images/imageCropped.png";
 import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
+import Paragraph from "../../components/Paragraph/Paragraph";
 
 const About = () => {
   const { eventId } = useParams();
@@ -19,10 +20,14 @@ const About = () => {
         isVideo={true}
       />
       <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
-      <CalloutMedia content="rOjHhS5MtvA" isVideo={true}>
-        <p>hello it works</p>
+      <CalloutMedia content= "rOjHhS5MtvA" isVideo={true}>
+      <OrchestraQuote quote="WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION." 
+      author="Cecelia Bruggemeyer, double bass"/>  
       </CalloutMedia>
-      <OrchestraQuote
+      <CalloutMedia content= {OrchestraImg} isVideo={false}>
+      <Paragraph text="its working"/>
+      </CalloutMedia>
+        <OrchestraQuote
         quote="COMPLIANCE IS NOT HEALTHY. WHAT I WANT IS A DIALOGUE."
         author="Vladmir Jurowski"
       />
