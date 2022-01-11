@@ -12,7 +12,7 @@ test("The links are contained in the page", () => {
 });
 
 test("When landing on the homepage ScheduleIcon classname should be inactive", () => {
-  customRender(<Navbar eventId="123/home" />);
+  customRender(<Navbar eventId="123" />);
   const links = screen.getAllByRole("link");
   const eventSchedule = links[0];
   expect(eventSchedule).toBeInTheDocument();

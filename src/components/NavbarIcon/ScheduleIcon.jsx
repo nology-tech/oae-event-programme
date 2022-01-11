@@ -2,7 +2,7 @@ import React from "react";
 
 const ScheduleIcon = () => {
   return (
-    <div className="schedule-item">
+    <>
       <svg
         width="32px"
         height="32px"
@@ -17,7 +17,7 @@ const ScheduleIcon = () => {
           d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
         />
       </svg>
-    </div>
+    </>
   );
 };
 
