@@ -12,7 +12,6 @@ const Navbar = (props) => {
     <nav className="navbar">
       <div className="navbar__content">
         <NavLink
-          // style={({ isActive }) => ({ fill: isActive ? "black" : "#CACBCD" })}
           className={({ isActive }) => (isActive ? "active" : "inactive")}
           to={`/${eventId}/event-schedule`}
         >
@@ -22,7 +21,6 @@ const Navbar = (props) => {
       </div>
       <div className="navbar__content">
         <NavLink
-          // style={({ isActive }) => ({ fill: isActive ? "black" : "#CACBCD" })}
           className={({ isActive }) => (isActive ? "active" : "inactive")}
           to={`/${eventId}/home`}
         >
@@ -35,9 +33,7 @@ const Navbar = (props) => {
         <NavLink
           className={({ isActive }) => (isActive ? "active" : "inactive")}
           to={`/${eventId}/our-story`}
-          //   style={({ isActive }) => ({ fill: isActive ? "black" : "#CACBCD" })}
         >
-          {/* <img className="navbar__icon" src={AboutIcon} alt="about icon" /> */}
           <AboutIcon />
           <span className="navbar__title">ABOUT</span>
         </NavLink>
