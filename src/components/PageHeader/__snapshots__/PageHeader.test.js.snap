@@ -9,12 +9,12 @@ exports[`it should only render the EventTitle component if no props are passed t
       class="header-home"
     >
       <span
-        class="header-home__subtitle"
+        class="header-home__title"
       >
         BACH, THE UNIVERSE & EVERYTHING
       </span>
       <h1
-        class="header-home__title"
+        class="header-home__subtitle"
       >
         Can You Hear The Shape of The Drum?
       </h1>
@@ -32,12 +32,12 @@ exports[`it should render the component 1`] = `
       class="header-home"
     >
       <span
-        class="header-home__subtitle"
+        class="header-home__title"
       >
         BACH, THE UNIVERSE & EVERYTHING
       </span>
       <h1
-        class="header-home__title"
+        class="header-home__subtitle"
       >
         Can You Hear The Shape of The Drum?
       </h1>

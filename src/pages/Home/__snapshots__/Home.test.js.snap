@@ -16,12 +16,12 @@ exports[`Test 1`] = `
             class="header-home"
           >
             <span
-              class="header-home__subtitle"
+              class="header-home__title"
             >
               BACH, THE UNIVERSE & EVERYTHING
             </span>
             <h1
-              class="header-home__title"
+              class="header-home__subtitle"
             >
               Can You Hear The Shape of The Drum?
             </h1>
@@ -99,7 +99,7 @@ exports[`Test 1`] = `
         </div>
         <a
           class="view-schedule-button"
-          href="/event-schedule"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
         >
           View Schedule
         </a>
