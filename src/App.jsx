@@ -3,7 +3,6 @@ import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Schedule from "./pages/Schedule/Schedule";
 
-
 const App = () => {
   return (
     <Routes>
