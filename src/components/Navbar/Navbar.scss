@@ -21,6 +21,9 @@
 
   .navbar__nav-link {
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &--active {
       fill: #393939;
