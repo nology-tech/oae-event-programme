@@ -61,7 +61,6 @@ exports[`Home page should render 1`] = `
             class="header-image-video-container"
           >
             <img
-              alt="Event image"
               class="header-image"
               src="images/placeholder.png"
             />

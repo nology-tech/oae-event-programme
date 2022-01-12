@@ -17,7 +17,7 @@ const Home = () => {
 
   if (!event) return <h1>Loading...</h1>;
 
-  const { name, series, time, date, venue, location, content, theme, imageSrc } = event;
+  const { name, series, time, date, venue, location, content, theme, imageSrc, imageAlt } = event;
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
@@ -29,6 +29,7 @@ const Home = () => {
           venue={venue}
           location={location}
           content={imageSrc}
+          altcontent={imageAlt}
           isVideo={false}
         />
         {content.map((event, i) => (

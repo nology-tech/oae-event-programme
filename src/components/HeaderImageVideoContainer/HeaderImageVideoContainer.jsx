@@ -2,7 +2,7 @@ import YoutubeEmbed from "../YoutubeEmbed/YoutubeEmbed";
 import "./HeaderImageVideoContainer.scss";
 
 const HeaderImageVideoContainer = (props) => {
-  const { content, isVideo } = props;
+  const { content, altContent, isVideo } = props;
 
   if (!content) {
     console.error("No props provided to header image/video container.");
@@ -14,7 +14,7 @@ const HeaderImageVideoContainer = (props) => {
       {isVideo ? (
         <YoutubeEmbed embedId={content} />
       ) : (
-        <img src={content} className="header-image" alt="Event image" />
+        <img src={content} className="header-image" alt={altContent} />
       )}
     </div>
   );

@@ -5,11 +5,11 @@ import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderD
 import HeaderImageVideoContainer from "../../components/HeaderImageVideoContainer/HeaderImageVideoContainer";
 
 const PageHeader = (props) => {
-  const { title, subtitle, time, date, venue, location, content, isVideo } =
+  const { title, subtitle, time, date, venue, location, content, altContent, isVideo } =
     props;
 
   let headerClass = "page-header";
-  if ((time, date, venue, location, content, isVideo) == null) {
+  if ((time, date, venue, location, content, altContent, isVideo) == null) {
     headerClass += " page-header--only";
   }
 
@@ -24,7 +24,7 @@ const PageHeader = (props) => {
             venue={venue}
             location={location}
           />
-          <HeaderImageVideoContainer content={content} isVideo={isVideo} />
+          <HeaderImageVideoContainer content={content} altContent={altContent} isVideo={isVideo} />
         </Fragment>
       ) : null}
     </div>
