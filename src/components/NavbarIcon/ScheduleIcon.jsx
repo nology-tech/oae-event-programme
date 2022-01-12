@@ -3,8 +3,8 @@ import React from "react";
 const ScheduleIcon = () => {
   return (
     <svg
-      width="32px"
-      height="32px"
+      width="36px"
+      height="36px"
       viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
     >
