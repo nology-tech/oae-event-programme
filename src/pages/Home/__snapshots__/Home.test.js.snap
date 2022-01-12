@@ -99,7 +99,7 @@ exports[`Home page should render 1`] = `
         </div>
         <a
           class="view-schedule-button"
-          href="/event-schedule"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
         >
           View Schedule
         </a>
