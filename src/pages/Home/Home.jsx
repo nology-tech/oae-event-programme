@@ -21,8 +21,8 @@ const Home = () => {
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
         <PageHeader
-          title={series}
-          subtitle={subtitle}
+          title={subtitle}
+          subtitle={series}
           time={time}
           date={date}
           venue={venue}
@@ -36,7 +36,7 @@ const Home = () => {
             <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
-        <ViewScheduleButton />
+        <ViewScheduleButton eventId = {eventId}/>
       </div>
     </Layout>
   );
