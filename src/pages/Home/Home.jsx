@@ -21,22 +21,22 @@ const Home = () => {
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
         <PageHeader
-          title={series}
-          subtitle={subtitle}
+          title={subtitle}
+          subtitle={series}
           time={time}
           date={date}
           venue={venue}
           location={location}
           content={placeHolderImg}
           isVideo={false}
-        />        
+        />
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>
             <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
-        <ViewScheduleButton />
+        <ViewScheduleButton eventId = {eventId}/>
       </div>
     </Layout>
   );

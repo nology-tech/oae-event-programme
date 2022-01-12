@@ -42,8 +42,6 @@ const ScheduleItem = (props) => {
       </div>
       {showText && (
         <div className="schedule-item__content">
-          <h3 className="schedule-item__content-header">{description}</h3>
-          <p className="schedule-item__content-subheader">{description}</p>
           <p className="schedule-item__content-description">{description}</p>
         </div>
       )}

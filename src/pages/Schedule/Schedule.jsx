@@ -12,27 +12,21 @@ const Schedule = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle} =
-    event;
+  const { series, schedules } = event;
 
   return (
     <Layout eventId={eventId} fontType={1}>
-      <PageHeader
-        title={series}
-        subtitle={subtitle}
-      />
+      <PageHeader title="Event Schedule." subtitle={series} />
       <div className="schedule">
         <ScheduleItem header="Welcome" />
-        <ScheduleItem
-          header="header"
-          subHeader="subheader"
-          description="lorem ipsum"
-        />
-        <ScheduleItem
-          header="header"
-          subHeader="subheader"
-          description="lorem ipsum"
-        />
+        {schedules.map((schedule, i) => (
+          <ScheduleItem
+            key={"schedule" + i}
+            header={schedule.name}
+            subHeader={schedule.title}
+            description={schedule.description}
+          />
+        ))}
       </div>
     </Layout>
   );

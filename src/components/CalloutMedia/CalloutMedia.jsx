@@ -5,16 +5,9 @@ import ImageVideoContainer from "../ImageVideoContainer/ImageVideoContainer";
 
 const CalloutMedia = (props) => {
   const {content, isVideo, children} = props;
-  
-  // const getColor =
-  //   isVideo ? "color-orange" : "color-black";
 
     const getBoxShape = 
     isVideo ? "square" : "box-tail"
-
-
-  //let chosenColor = getColor;
-  // console.log(getColor)
 
   return (
 
