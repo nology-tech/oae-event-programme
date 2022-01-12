@@ -1,6 +1,7 @@
 import { customRender } from "../../utils/testUtils";
 import Home from "./Home";
 import { getMockEventById } from "../../assets/data/data";
+import React from "react";
 
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
