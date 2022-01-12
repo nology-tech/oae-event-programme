@@ -3,7 +3,7 @@
 exports[`should render the button 1`] = `
 <a
   class="view-schedule-button"
-  href="/eventId/event-schedule"
+  href="/1234/event-schedule"
 >
   View Schedule
 </a>
