@@ -2,8 +2,202 @@
 
 exports[`Test 1`] = `
 <div>
+<<<<<<< HEAD
   <h1>
     Loading...
   </h1>
+=======
+  <div
+    class="layout modern"
+  >
+    <div>
+      <div
+        class="home"
+      >
+        <div
+          class="page-header"
+        >
+          <div
+            class="header-home"
+          >
+            <span
+              class="header-home__subtitle"
+            >
+              BACH, THE UNIVERSE & EVERYTHING
+            </span>
+            <h1
+              class="header-home__title"
+            >
+              Can You Hear The Shape of The Drum?
+            </h1>
+          </div>
+          <div
+            class="event-header-details"
+          >
+            <p
+              class="event-header-details__time-date"
+            >
+              11.30
+              <span
+                class="event-header-details__divider"
+              >
+                |
+              </span>
+              Sun 21 Nov 2021
+            </p>
+            <p
+              class="event-header-details__venue-location"
+            >
+              <span
+                class="event-header-details__venue"
+              >
+                London's King's Place
+              </span>
+              <span
+                class="event-header-details__comma"
+              >
+                ,
+              </span>
+               
+              London
+            </p>
+          </div>
+          <div
+            class="header-image-video-container"
+          >
+            <img
+              alt="Event image"
+              class="header-image"
+              src="image33.png"
+            />
+          </div>
+        </div>
+        <div
+          class="home__content"
+        >
+          <h2
+            class="home__content-heading"
+          >
+            If this is your first Bach, the Universe & Everything (BAE), welcome!
+          </h2>
+          <p
+            class="paragraph"
+            data-testid="paragraph"
+          >
+            We like to think of the series as a community, similar to the one Bach enjoyed in Leipzig where he produced cantatas at an extraordinary rate, providing innovative music for the weekly services at the church where he worked from 1723 until his death in 1750. At that time, the congregation was as open to science and new ideas as it was united by faith. It is in the spirit that we come together for a thought-provoking cantata and a talk from a leading scientist. Professor Jon Chapman from the University of Oxford invites us to ponder the fleeting moment when sound waves reach our ears before they disappear. Using some careful calculations, Jon suggests that we might even be able to hear the shape of a drum.
+          </p>
+        </div>
+        <div
+          class="home__content"
+        >
+          <h2
+            class="home__content-heading"
+          >
+            A note from our Principal Keyboard, Steven Devine, about today's programme
+          </h2>
+          <p
+            class="paragraph"
+            data-testid="paragraph"
+          >
+            The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his “Darmstadt” Ouverture (the title of which roughly translates as “boasting”!) is a witty interplay between the wind and string teams.
+          </p>
+        </div>
+        <a
+          class="view-schedule-button"
+          href="/event-schedule"
+        >
+          View Schedule
+        </a>
+      </div>
+    </div>
+    <nav
+      class="navbar"
+    >
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__nav-link navbar__nav-link--inactive"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
+        >
+          <svg
+            height="36px"
+            viewBox="0 0 16 16"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+            />
+            <path
+              d="M12 3v10h-1V3h1z"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"
+            />
+            <path
+              d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            SCHEDULE
+          </span>
+        </a>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__nav-link navbar__nav-link--inactive"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/home"
+        >
+          <svg
+            height="36px"
+            viewBox="0 0 32 32"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 28 L 14 28 L 14 18 L 18 18 L 18 28 L 27 28 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 Z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 16 L 12 16 L 12 26 L 7 26 L 7 14.4375 Z"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            HOME
+          </span>
+        </a>
+      </div>
+      <div
+        class="navbar__content"
+      >
+        <a
+          class="navbar__nav-link navbar__nav-link--inactive"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
+        >
+          <svg
+            height="36px"
+            viewBox="0 0 50 50"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            ABOUT
+          </span>
+        </a>
+      </div>
+    </nav>
+  </div>
+>>>>>>> e19804dfc7bf9f494e172fb04424684563965308
 </div>
 `;

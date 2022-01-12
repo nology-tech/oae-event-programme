@@ -21,6 +21,7 @@ const Schedule = () => {
   return (
     <Layout eventId={eventId} fontType={1}>
       <PageHeader title={series} subtitle="Event Schedule" />
+
       <div className="schedule">
         {schedule.map((schedule, i) => (
           <ScheduleItem
