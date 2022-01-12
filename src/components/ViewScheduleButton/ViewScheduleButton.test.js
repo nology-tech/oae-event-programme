@@ -3,7 +3,7 @@ import ViewScheduleButton from "./ViewScheduleButton";
 import { customRender } from "../../utils/testUtils";
 
 it("should render the button", () => {
-  customRender(<ViewScheduleButton />);
+  customRender(<ViewScheduleButton eventId='eventId'/>);
   const button = screen.getByRole("link");
 
   expect(button).toMatchSnapshot();
