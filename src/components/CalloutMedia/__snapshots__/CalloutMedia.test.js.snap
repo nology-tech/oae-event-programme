@@ -9,7 +9,6 @@ exports[`Renders Callout Media component wih default page 1`] = `
       class="image-video-container"
     >
       <img
-        alt="Event image"
         class="header-image"
         src="123"
       />

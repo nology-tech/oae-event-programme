@@ -198,7 +198,6 @@ exports[`Renders photo component in the About page 1`] = `
           class="image-video-container"
         >
           <img
-            alt="Event image"
             class="header-image"
             src="imageCropped.png"
           />
