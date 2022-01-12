@@ -1,7 +1,6 @@
 import { customRender } from "../../utils/testUtils";
 import Home from "./Home";
 import { getMockEventById } from "../../assets/data/data";
-import React from "react";
 
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
@@ -12,12 +11,12 @@ jest.mock("react-router-dom", () => ({
 
 const mockEvent = getMockEventById("6bb8ffe8-6e5e-4abc-be7f-b05b749849cf");
 
-jest.mock("React", () => ({
-  ...jest.requireActual("React"),
+jest.mock("react", () => ({
+  ...jest.requireActual("react"),
   useState: () => [mockEvent, jest.fn()],
 }));
 
-test("Test", () => {
+test("Home page should render", () => {
   const { container } = customRender(<Home />);
   expect(container).toMatchSnapshot();
 });
