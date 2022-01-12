@@ -38,7 +38,7 @@ const Home = () => {
             <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
-        <ViewScheduleButton eventId = {eventId}/>
+        <ViewScheduleButton eventId={eventId} />
       </div>
     </Layout>
   );

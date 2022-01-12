@@ -1,15 +1,6 @@
-// import {
-//   getMockEventById
-// } from "../../assets/data/data";
-import {
-  customRender
-} from "../../utils/testUtils";
+import { customRender } from "../../utils/testUtils";
 import Home from "./Home";
-// import * as axios from 'axios';
-import {
-  getMockEventById
-} from "../../assets/data/data";
-import React from "react";
+import { getMockEventById } from "../../assets/data/data";
 
 jest.mock("react-router-dom", () => ({
   ...jest.requireActual("react-router-dom"),
@@ -18,16 +9,14 @@ jest.mock("react-router-dom", () => ({
   }),
 }));
 
-// jest.mock("axios");
-// axios.get.mockImplementation(() => Promise.resolve({
-//   data: (getMockEventById("6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"))
-// }))
+const mockEvent = getMockEventById("6bb8ffe8-6e5e-4abc-be7f-b05b749849cf");
 
-jest.spyOn(React, 'useState').mockImplementationOnce(() => React.useState())
+jest.mock("React", () => ({
+  ...jest.requireActual("React"),
+  useState: () => [mockEvent, jest.fn()],
+}));
 
 test("Test", () => {
-  const {
-    container
-  } = customRender( < Home / > );
+  const { container } = customRender(<Home />);
   expect(container).toMatchSnapshot();
 });

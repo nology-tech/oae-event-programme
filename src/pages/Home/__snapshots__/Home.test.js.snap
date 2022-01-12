@@ -2,11 +2,6 @@
 
 exports[`Test 1`] = `
 <div>
-<<<<<<< HEAD
-  <h1>
-    Loading...
-  </h1>
-=======
   <div
     class="layout modern"
   >
@@ -28,7 +23,7 @@ exports[`Test 1`] = `
             <h1
               class="header-home__title"
             >
-              Can You Hear The Shape of The Drum?
+              Infant Musicality
             </h1>
           </div>
           <div
@@ -198,6 +193,5 @@ exports[`Test 1`] = `
       </div>
     </nav>
   </div>
->>>>>>> e19804dfc7bf9f494e172fb04424684563965308
 </div>
 `;

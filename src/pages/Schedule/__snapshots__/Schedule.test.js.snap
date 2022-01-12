@@ -2,11 +2,6 @@
 
 exports[`Test 1`] = `
 <div>
-<<<<<<< HEAD
-  <h1>
-    Loading...
-  </h1>
-=======
   <div
     class="layout modern"
   >
@@ -20,51 +15,18 @@ exports[`Test 1`] = `
           <span
             class="header-home__subtitle"
           >
-            BACH, THE UNIVERSE & EVERYTHING
+            Event Schedule
           </span>
           <h1
             class="header-home__title"
           >
-            Event Schedule.
+            BACH, THE UNIVERSE & EVERYTHING
           </h1>
         </div>
       </div>
       <div
         class="schedule"
       >
-        <div
-          class="schedule-item"
-        >
-          <div
-            class="schedule-item__top"
-          >
-            <span
-              class="schedule-item__headers"
-            >
-              <h3
-                class="schedule-item__header"
-              >
-                Welcome
-              </h3>
-              <p
-                class="schedule-item__subheader"
-              />
-            </span>
-            <span
-              class="schedule-item__button-container"
-            >
-              <img
-                alt=""
-                class="schedule-item__button"
-                role="button"
-                src=""
-              />
-            </span>
-          </div>
-          <hr
-            class="schedule-item__hr"
-          />
-        </div>
         <div
           class="schedule-item"
         >
@@ -90,9 +52,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src="chevron-down.png"
+                src="[object Object]"
               />
             </span>
+          </div>
+          <div
+            class="schedule-item__content"
+          >
+            <p
+              class="schedule-item__content-description"
+            >
+              Non ad labore aliqua adipisicing et laborum exercitation. Enim consectetur aliquip eu commodo. Eiusmod ipsum anim exercitation consectetur elit amet voluptate aliquip ullamco. Duis deserunt dolore et officia ullamco voluptate culpa eiusmod cupidatat ullamco sit anim incididunt nulla. Nisi et et commodo non dolor amet aliquip exercitation. Et fugiat consequat mollit cillum anim aliquip commodo laboris enim voluptate ullamco ipsum nostrud qui. Laboris duis cillum duis aliqua cupidatat nulla.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"
@@ -125,9 +96,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src="chevron-down.png"
+                src="[object Object]"
               />
             </span>
+          </div>
+          <div
+            class="schedule-item__content"
+          >
+            <p
+              class="schedule-item__content-description"
+            >
+              Ea ex labore est consequat adipisicing consectetur ea duis mollit duis exercitation. Eu est reprehenderit dolor aute adipisicing occaecat veniam. Fugiat id tempor dolor incididunt. Pariatur commodo irure amet cupidatat laborum sint.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"
@@ -223,6 +203,5 @@ exports[`Test 1`] = `
       </div>
     </nav>
   </div>
->>>>>>> e19804dfc7bf9f494e172fb04424684563965308
 </div>
 `;
