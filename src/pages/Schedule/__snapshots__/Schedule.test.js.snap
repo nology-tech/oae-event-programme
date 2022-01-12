@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test 1`] = `
+exports[`Schedule page should render 1`] = `
 <div>
   <div
     class="layout modern"
@@ -15,12 +15,12 @@ exports[`Test 1`] = `
           <span
             class="header-home__subtitle"
           >
-            BACH, THE UNIVERSE & EVERYTHING
+            Event Schedule
           </span>
           <h1
             class="header-home__title"
           >
-            Event Schedule.
+            Bach, The Universe & Everything
           </h1>
         </div>
       </div>
@@ -52,42 +52,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src=""
+                src="[object Object]"
               />
             </span>
           </div>
-          <hr
-            class="schedule-item__hr"
-          />
-        </div>
-        <div
-          class="schedule-item"
-        >
           <div
-            class="schedule-item__top"
+            class="schedule-item__content"
           >
-            <span
-              class="schedule-item__headers"
+            <p
+              class="schedule-item__content-description"
             >
-              <h3
-                class="schedule-item__header"
-              >
-                Sunt est irure occaecat qui duis enim adipisicing sint nisi ullamco nisi enim ullamco dolore.
-              </h3>
-              <p
-                class="schedule-item__subheader"
-              />
-            </span>
-            <span
-              class="schedule-item__button-container"
-            >
-              <img
-                alt=""
-                class="schedule-item__button"
-                role="button"
-                src="chevron-down.png"
-              />
-            </span>
+              Non ad labore aliqua adipisicing et laborum exercitation. Enim consectetur aliquip eu commodo. Eiusmod ipsum anim exercitation consectetur elit amet voluptate aliquip ullamco. Duis deserunt dolore et officia ullamco voluptate culpa eiusmod cupidatat ullamco sit anim incididunt nulla. Nisi et et commodo non dolor amet aliquip exercitation. Et fugiat consequat mollit cillum anim aliquip commodo laboris enim voluptate ullamco ipsum nostrud qui. Laboris duis cillum duis aliqua cupidatat nulla.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"
@@ -120,9 +96,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src="chevron-down.png"
+                src="[object Object]"
               />
             </span>
+          </div>
+          <div
+            class="schedule-item__content"
+          >
+            <p
+              class="schedule-item__content-description"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"

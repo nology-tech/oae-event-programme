@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test 1`] = `
+exports[`Home page should render 1`] = `
 <div>
   <div
     class="layout modern"
@@ -18,12 +18,12 @@ exports[`Test 1`] = `
             <span
               class="header-home__subtitle"
             >
-              BACH, THE UNIVERSE & EVERYTHING
+              Bach, The Universe & Everything
             </span>
             <h1
               class="header-home__title"
             >
-              Can You Hear The Shape of The Drum?
+              Infant Musicality
             </h1>
           </div>
           <div
@@ -38,7 +38,7 @@ exports[`Test 1`] = `
               >
                 |
               </span>
-              Sun 21 Nov 2021
+              12-12-21
             </p>
             <p
               class="event-header-details__venue-location"
@@ -46,7 +46,7 @@ exports[`Test 1`] = `
               <span
                 class="event-header-details__venue"
               >
-                London's King's Place
+                King's Place
               </span>
               <span
                 class="event-header-details__comma"

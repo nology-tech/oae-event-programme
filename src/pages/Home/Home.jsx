@@ -1,32 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Home.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
-import { getMockEventById } from "../../assets/data/data";
+import { getEvent } from "../../assets/data/api";
 import placeHolderImg from "../../assets/images/image33.png";
 
 const Home = () => {
   const { eventId } = useParams();
-  const event = getMockEventById(eventId);
+  const [event, setEvent] = useState();
 
-  if (!event) return <h1>Invalid Event</h1>;
+  useEffect(async () => {
+    setEvent(await getEvent(eventId));
+  }, [getEvent, eventId, setEvent]);
 
-  const { series, name, time, date, venue, location, content, theme } =
-    event;
+  if (!event) return <h1>Loading...</h1>;
 
+  const { name, series, time, date, venue, location, content, theme } = event;
   return (
-    <Layout eventId={eventId} 
+    <Layout
+      eventId={eventId}
       fontType={theme.fontType}
       themeType={theme.primaryColour}
       textColor={theme.textColour}
-      highlightColor ={theme.highlightColour}>
+      highlightColor={theme.highlightColour}
+    >
       <div className="home">
         <PageHeader
-          title={series}
-          subtitle={name}
+          title={name}
+          subtitle={series}
           time={time}
           date={date}
           venue={venue}
@@ -40,7 +44,7 @@ const Home = () => {
             <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
-        <ViewScheduleButton eventId = {eventId}/>
+        <ViewScheduleButton eventId={eventId} />
       </div>
     </Layout>
   );
