@@ -20,7 +20,7 @@ exports[`Schedule page should render 1`] = `
           <h1
             class="header-home__title"
           >
-            BACH, THE UNIVERSE & EVERYTHING
+            Bach, The Universe & Everything
           </h1>
         </div>
       </div>
@@ -39,7 +39,7 @@ exports[`Schedule page should render 1`] = `
               <h3
                 class="schedule-item__header"
               >
-                Sunt est irure occaecat qui duis enim adipisicing sint nisi ullamco nisi enim ullamco dolore.
+                Welcome
               </h3>
               <p
                 class="schedule-item__subheader"
@@ -106,7 +106,7 @@ exports[`Schedule page should render 1`] = `
             <p
               class="schedule-item__content-description"
             >
-              Ea ex labore est consequat adipisicing consectetur ea duis mollit duis exercitation. Eu est reprehenderit dolor aute adipisicing occaecat veniam. Fugiat id tempor dolor incididunt. Pariatur commodo irure amet cupidatat laborum sint.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit.
             </p>
           </div>
           <hr
