@@ -1,18 +1,20 @@
 @use "../../assets/sass/variables" as *;
 @use "../../assets/sass/typography" as *;
 
-.callout-media{
-    background: linear-gradient(180deg
-     ,#ffff 25%, $color-orange 25%, $color-orange 25%,$color-orange 25%);
-  .image-video-container{
+.callout-media {
+  background: linear-gradient(
+    180deg,
+    #ffff 25%,
+    $color-orange 25%,
+    $color-orange 25%,
+    $color-orange 25%
+  );
+  .image-video-container {
     background: none;
   }
+  .orchestra-quote {
+    background: $color-orange;
+    padding-top: 2.813rem;
+    padding-bottom: 5rem;
+  }
 }
-
-// .orchestra-quote {
-//   background: $color-orange;
-//   padding-top: 2.813rem;
-//   padding-bottom: 5rem;
-  
-// }
- 

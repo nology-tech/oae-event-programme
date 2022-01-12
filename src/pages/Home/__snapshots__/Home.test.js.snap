@@ -58,7 +58,7 @@ exports[`Test 1`] = `
             </p>
           </div>
           <div
-            class="header-image-video-container"
+            class="image-video-container"
           >
             <img
               alt="Event image"
