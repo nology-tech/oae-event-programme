@@ -6,7 +6,6 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
-//import placeHolderImg from "../../assets/images/image33.png";
 
 const Home = () => {
   const { eventId } = useParams();
