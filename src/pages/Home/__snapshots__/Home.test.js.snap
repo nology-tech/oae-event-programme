@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test 1`] = `
+exports[`Home page should render 1`] = `
 <div>
   <div
     class="layout modern"
@@ -23,7 +23,7 @@ exports[`Test 1`] = `
             <h1
               class="header-home__title"
             >
-              Can You Hear The Shape of The Drum?
+              Infant Musicality
             </h1>
           </div>
           <div
