@@ -63,7 +63,7 @@ exports[`Home page should render 1`] = `
             <img
               alt="Event image"
               class="header-image"
-              src="image33.png"
+              src="images/placeholder.png"
             />
           </div>
         </div>
