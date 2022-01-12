@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test 1`] = `
+exports[`Schedule page should render 1`] = `
 <div>
   <div
     class="layout modern"
@@ -15,51 +15,18 @@ exports[`Test 1`] = `
           <span
             class="header-home__subtitle"
           >
-            BACH, THE UNIVERSE & EVERYTHING
+            Event Schedule
           </span>
           <h1
             class="header-home__title"
           >
-            Can You Hear The Shape of The Drum?
+            BACH, THE UNIVERSE & EVERYTHING
           </h1>
         </div>
       </div>
       <div
         class="schedule"
       >
-        <div
-          class="schedule-item"
-        >
-          <div
-            class="schedule-item__top"
-          >
-            <span
-              class="schedule-item__headers"
-            >
-              <h3
-                class="schedule-item__header"
-              >
-                Welcome
-              </h3>
-              <p
-                class="schedule-item__subheader"
-              />
-            </span>
-            <span
-              class="schedule-item__button-container"
-            >
-              <img
-                alt=""
-                class="schedule-item__button"
-                role="button"
-                src=""
-              />
-            </span>
-          </div>
-          <hr
-            class="schedule-item__hr"
-          />
-        </div>
         <div
           class="schedule-item"
         >
@@ -85,9 +52,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src="chevron-down.png"
+                src="[object Object]"
               />
             </span>
+          </div>
+          <div
+            class="schedule-item__content"
+          >
+            <p
+              class="schedule-item__content-description"
+            >
+              Non ad labore aliqua adipisicing et laborum exercitation. Enim consectetur aliquip eu commodo. Eiusmod ipsum anim exercitation consectetur elit amet voluptate aliquip ullamco. Duis deserunt dolore et officia ullamco voluptate culpa eiusmod cupidatat ullamco sit anim incididunt nulla. Nisi et et commodo non dolor amet aliquip exercitation. Et fugiat consequat mollit cillum anim aliquip commodo laboris enim voluptate ullamco ipsum nostrud qui. Laboris duis cillum duis aliqua cupidatat nulla.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"
@@ -120,9 +96,18 @@ exports[`Test 1`] = `
                 alt=""
                 class="schedule-item__button"
                 role="button"
-                src="chevron-down.png"
+                src="[object Object]"
               />
             </span>
+          </div>
+          <div
+            class="schedule-item__content"
+          >
+            <p
+              class="schedule-item__content-description"
+            >
+              Ea ex labore est consequat adipisicing consectetur ea duis mollit duis exercitation. Eu est reprehenderit dolor aute adipisicing occaecat veniam. Fugiat id tempor dolor incididunt. Pariatur commodo irure amet cupidatat laborum sint.
+            </p>
           </div>
           <hr
             class="schedule-item__hr"
@@ -137,58 +122,84 @@ exports[`Test 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__schedule-link"
+          class="navbar__nav-link navbar__nav-link--inactive"
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
         >
-          <img
-            alt="schedule icon"
-            class="navbar__icon"
-            src="schedule.svg"
-          />
+          <svg
+            height="36px"
+            viewBox="0 0 16 16"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+            />
+            <path
+              d="M12 3v10h-1V3h1z"
+              fill-rule="evenodd"
+            />
+            <path
+              d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"
+            />
+            <path
+              d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            SCHEDULE
+          </span>
         </a>
-        <span
-          class="navbar__title"
-        >
-          SCHEDULE
-        </span>
       </div>
       <div
         class="navbar__content"
       >
         <a
-          class="navbar__home-link"
-          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf"
+          class="navbar__nav-link navbar__nav-link--inactive"
+          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/home"
         >
-          <img
-            alt="home icon"
-            class="navbar__icon"
-            src="home.svg"
-          />
+          <svg
+            height="36px"
+            viewBox="0 0 32 32"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 16 2.59375 L 15.28125 3.28125 L 2.28125 16.28125 L 3.71875 17.71875 L 5 16.4375 L 5 28 L 14 28 L 14 18 L 18 18 L 18 28 L 27 28 L 27 16.4375 L 28.28125 17.71875 L 29.71875 16.28125 L 16.71875 3.28125 Z M 16 5.4375 L 25 14.4375 L 25 26 L 20 26 L 20 16 L 12 16 L 12 26 L 7 26 L 7 14.4375 Z"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            HOME
+          </span>
         </a>
-        <span
-          class="navbar__title"
-        >
-          HOME
-        </span>
       </div>
       <div
         class="navbar__content"
       >
         <a
-          class="navbar__about-link"
+          class="navbar__nav-link navbar__nav-link--inactive"
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
         >
-          <img
-            alt="about icon"
-            class="navbar__icon"
-            src="info.svg"
-          />
+          <svg
+            height="36px"
+            viewBox="0 0 50 50"
+            width="36px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z"
+            />
+          </svg>
+          <span
+            class="navbar__title"
+          >
+            ABOUT
+          </span>
         </a>
-        <span
-          class="navbar__title"
-        >
-          ABOUT
-        </span>
       </div>
     </nav>
   </div>
