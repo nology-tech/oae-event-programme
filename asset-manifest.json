@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/oae-event-programme/static/css/main.8f4d87e4.chunk.css",
-    "main.js": "/oae-event-programme/static/js/main.65088ded.chunk.js",
-    "main.js.map": "/oae-event-programme/static/js/main.65088ded.chunk.js.map",
-    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.8af718f4.js",
-    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.8af718f4.js.map",
-    "static/js/2.1a4e0921.chunk.js": "/oae-event-programme/static/js/2.1a4e0921.chunk.js",
-    "static/js/2.1a4e0921.chunk.js.map": "/oae-event-programme/static/js/2.1a4e0921.chunk.js.map",
-    "static/js/3.34269351.chunk.js": "/oae-event-programme/static/js/3.34269351.chunk.js",
-    "static/js/3.34269351.chunk.js.map": "/oae-event-programme/static/js/3.34269351.chunk.js.map",
+    "main.css": "/oae-event-programme/static/css/main.0d3e6f9f.chunk.css",
+    "main.js": "/oae-event-programme/static/js/main.01291dcf.chunk.js",
+    "main.js.map": "/oae-event-programme/static/js/main.01291dcf.chunk.js.map",
+    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.71d24c9d.js",
+    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.71d24c9d.js.map",
+    "static/js/2.3f995dec.chunk.js": "/oae-event-programme/static/js/2.3f995dec.chunk.js",
+    "static/js/2.3f995dec.chunk.js.map": "/oae-event-programme/static/js/2.3f995dec.chunk.js.map",
+    "static/js/3.81d721d6.chunk.js": "/oae-event-programme/static/js/3.81d721d6.chunk.js",
+    "static/js/3.81d721d6.chunk.js.map": "/oae-event-programme/static/js/3.81d721d6.chunk.js.map",
     "index.html": "/oae-event-programme/index.html",
-    "static/css/main.8f4d87e4.chunk.css.map": "/oae-event-programme/static/css/main.8f4d87e4.chunk.css.map",
-    "static/js/2.1a4e0921.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.1a4e0921.chunk.js.LICENSE.txt",
+    "static/css/main.0d3e6f9f.chunk.css.map": "/oae-event-programme/static/css/main.0d3e6f9f.chunk.css.map",
+    "static/js/2.3f995dec.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.3f995dec.chunk.js.LICENSE.txt",
     "static/media/image33.dbb48491.png": "/oae-event-programme/static/media/image33.dbb48491.png",
     "static/media/imageCropped.b1d8990f.png": "/oae-event-programme/static/media/imageCropped.b1d8990f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8af718f4.js",
-    "static/js/2.1a4e0921.chunk.js",
-    "static/css/main.8f4d87e4.chunk.css",
-    "static/js/main.65088ded.chunk.js"
+    "static/js/runtime-main.71d24c9d.js",
+    "static/js/2.3f995dec.chunk.js",
+    "static/css/main.0d3e6f9f.chunk.css",
+    "static/js/main.01291dcf.chunk.js"
   ]
 }
