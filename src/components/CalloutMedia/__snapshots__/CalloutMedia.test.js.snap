@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Callout Media component wih default page 1`] = `
+<div>
+  <div
+    class="callout-media"
+  >
+    <div
+      class="image-video-container"
+    >
+      <img
+        alt="Event image"
+        class="header-image"
+        src="123"
+      />
+    </div>
+    <div>
+      <p>
+        sample children
+      </p>
+    </div>
+  </div>
+</div>
+`;

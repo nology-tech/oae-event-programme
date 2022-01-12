@@ -5,7 +5,7 @@ exports[`it should not render anything without props 1`] = `<div />`;
 exports[`it should render the YoutubeEmbed component if isVideo is true 1`] = `
 <div>
   <div
-    class="header-image-video-container"
+    class="image-video-container"
   >
     <iframe
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -22,7 +22,7 @@ exports[`it should render the YoutubeEmbed component if isVideo is true 1`] = `
 exports[`it should render the component 1`] = `
 <div>
   <div
-    class="header-image-video-container"
+    class="image-video-container"
   >
     <img
       class="header-image"

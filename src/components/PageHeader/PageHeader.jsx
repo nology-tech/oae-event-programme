@@ -2,7 +2,7 @@ import "./PageHeader.scss";
 import React, { Fragment } from "react";
 import EventHeaderTitle from "../../components/EventHeaderTitle/EventHeaderTitle";
 import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderDetails";
-import HeaderImageVideoContainer from "../../components/HeaderImageVideoContainer/HeaderImageVideoContainer";
+import ImageVideoContainer from "../ImageVideoContainer/ImageVideoContainer";
 
 const PageHeader = (props) => {
   const { title, subtitle, time, date, venue, location, content, altContent, isVideo } =
@@ -24,7 +24,7 @@ const PageHeader = (props) => {
             venue={venue}
             location={location}
           />
-          <HeaderImageVideoContainer content={content} altContent={altContent} isVideo={isVideo} />
+          <ImageVideoContainer content={content} altContent={altContent} isVideo={isVideo} />
         </Fragment>
       ) : null}
     </div>
