@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oae-event-programme/static/css/main.2e71ebc2.chunk.css",
+    "main.css": "/oae-event-programme/static/css/main.94afb207.chunk.css",
     "main.js": "/oae-event-programme/static/js/main.08f78fd6.chunk.js",
     "main.js.map": "/oae-event-programme/static/js/main.08f78fd6.chunk.js.map",
     "runtime-main.js": "/oae-event-programme/static/js/runtime-main.71d24c9d.js",
@@ -10,7 +10,7 @@
     "static/js/3.81d721d6.chunk.js": "/oae-event-programme/static/js/3.81d721d6.chunk.js",
     "static/js/3.81d721d6.chunk.js.map": "/oae-event-programme/static/js/3.81d721d6.chunk.js.map",
     "index.html": "/oae-event-programme/index.html",
-    "static/css/main.2e71ebc2.chunk.css.map": "/oae-event-programme/static/css/main.2e71ebc2.chunk.css.map",
+    "static/css/main.94afb207.chunk.css.map": "/oae-event-programme/static/css/main.94afb207.chunk.css.map",
     "static/js/2.3f995dec.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.3f995dec.chunk.js.LICENSE.txt",
     "static/media/image33.dbb48491.png": "/oae-event-programme/static/media/image33.dbb48491.png",
     "static/media/imageCropped.b1d8990f.png": "/oae-event-programme/static/media/imageCropped.b1d8990f.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.71d24c9d.js",
     "static/js/2.3f995dec.chunk.js",
-    "static/css/main.2e71ebc2.chunk.css",
+    "static/css/main.94afb207.chunk.css",
     "static/js/main.08f78fd6.chunk.js"
   ]
 }
