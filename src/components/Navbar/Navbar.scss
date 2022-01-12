@@ -7,20 +7,31 @@
   display: flex;
   position: fixed;
   bottom: 0;
-  align-items: flex-end;
   width: 100%;
-  justify-content: space-evenly;
   &__content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 3.25rem;
+    flex: 1;
+    text-align: center;
   }
 
   &__title {
     font-size: 0.7rem;
     font-family: "Jost", sans-serif;
     font-weight: 700;
+  }
+
+  .navbar__nav-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--active {
+      fill: #393939;
+      color: #393939;
+    }
+    &--inactive {
+      fill: #cacbcd;
+      color: #cacbcd;
+    }
   }
 }
