@@ -6,7 +6,7 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
-import placeHolderImg from "../../assets/images/image33.png";
+//import placeHolderImg from "../../assets/images/image33.png";
 
 const Home = () => {
   const { eventId } = useParams();
@@ -18,7 +18,7 @@ const Home = () => {
 
   if (!event) return <h1>Loading...</h1>;
 
-  const { name, series, time, date, venue, location, content, theme } = event;
+  const { name, series, time, date, venue, location, content, theme, imageSrc } = event;
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
@@ -29,7 +29,7 @@ const Home = () => {
           date={date}
           venue={venue}
           location={location}
-          content={placeHolderImg}
+          content={imageSrc}
           isVideo={false}
         />
         {content.map((event, i) => (
