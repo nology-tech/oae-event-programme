@@ -12,11 +12,11 @@ const Schedule = () => {
 
   if (!event) return <h1>Invalid Event</h1>;
 
-  const { series, subtitle, schedules } = event;
+  const { series, schedules } = event;
 
   return (
     <Layout eventId={eventId} fontType={1}>
-      <PageHeader title={series} subtitle={subtitle} />
+      <PageHeader title="Event Schedule." subtitle={series} />
       <div className="schedule">
         <ScheduleItem header="Welcome" />
         {schedules.map((schedule, i) => (
