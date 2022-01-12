@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home page should render 1`] = `
+exports[`Test 1`] = `
 <div>
   <div
     class="layout modern"
@@ -23,7 +23,7 @@ exports[`Home page should render 1`] = `
             <h1
               class="header-home__title"
             >
-              Infant Musicality
+              Can You Hear The Shape of The Drum?
             </h1>
           </div>
           <div
@@ -58,7 +58,7 @@ exports[`Home page should render 1`] = `
             </p>
           </div>
           <div
-            class="header-image-video-container"
+            class="image-video-container"
           >
             <img
               alt="Event image"
@@ -99,7 +99,7 @@ exports[`Home page should render 1`] = `
         </div>
         <a
           class="view-schedule-button"
-          href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
+          href="/event-schedule"
         >
           View Schedule
         </a>

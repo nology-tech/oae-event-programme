@@ -20,9 +20,7 @@ const About = () => {
         content="rOjHhS5MtvA"
         isVideo={true}
       />
-      <Photo imageSrc={OrchestraImg} alt="" description="The earliest known photo of the orchestra" />
-      
-      
+
       <div className="about__content">
         <h2 className="about__content-heading">
           Ripping Up the Rulebook & Starting From Scratch
@@ -49,9 +47,11 @@ const About = () => {
         <Paragraph text="Why do we do this? It's not just about history. As double bass Cecelia Bruggemeyer explains in the video below, it's also about making old music new." />
       </div>
       {/* What are period instruments - video component */}
-      <CalloutMedia content= "rOjHhS5MtvA" isVideo={true}>
-      <OrchestraQuote quote="WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION." 
-      author="Cecelia Bruggemeyer, double bass"/>  
+      <CalloutMedia content="rOjHhS5MtvA" isVideo={true}>
+        <OrchestraQuote
+          quote="WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION."
+          author="Cecelia Bruggemeyer, double bass"
+        />
       </CalloutMedia>
 
       <div className="about__content">
@@ -67,8 +67,8 @@ const About = () => {
         <Paragraph text="In the video below, our Leader Margaret Faultless introduces archive BBC footage of us playing Bach's Concerto for Two Violins. " />
       </div>
       {/* Doing things differently section - callout component */}
-      <CalloutMedia content= {OrchestraImg} isVideo={false}>
-      <Paragraph text="its working"/>
+      <CalloutMedia content={OrchestraImg} isVideo={false}>
+        <Paragraph text="its working" />
       </CalloutMedia>
 
       <div className="about__content">

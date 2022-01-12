@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should not render anything without props 1`] = `<div />`;
+
+exports[`it should render the YoutubeEmbed component if isVideo is true 1`] = `
+<div>
+  <div
+    class="image-video-container"
+  >
+    <iframe
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen=""
+      class="youtube-embed"
+      frameborder="0"
+      src="https://www.youtube.com/embed/image33.png"
+      title="Embedded youtube"
+    />
+  </div>
+</div>
+`;
+
+exports[`it should render the component 1`] = `
+<div>
+  <div
+    class="image-video-container"
+  >
+    <img
+      alt="Event image"
+      class="header-image"
+      src="image33.png"
+    />
+  </div>
+</div>
+`;

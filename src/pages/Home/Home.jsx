@@ -1,29 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Home.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import ViewScheduleButton from "../../components/ViewScheduleButton/ViewScheduleButton";
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
-import { getEvent } from "../../assets/data/api";
+import { getMockEventById } from "../../assets/data/data";
 import placeHolderImg from "../../assets/images/image33.png";
 
 const Home = () => {
   const { eventId } = useParams();
-  const [event, setEvent] = useState();
+  const event = getMockEventById(eventId);
 
-  useEffect(async () => {
-    setEvent(await getEvent(eventId));
-  }, [getEvent, eventId, setEvent]);
+  if (!event) return <h1>Invalid Event</h1>;
 
-  if (!event) return <h1>Loading...</h1>;
+  const { series, subtitle, time, date, venue, location, content, theme } =
+    event;
 
-  const { name, series, time, date, venue, location, content, theme } = event;
   return (
     <Layout eventId={eventId} fontType={theme.fontType}>
       <div className="home">
         <PageHeader
-          title={name}
+          title={subtitle}
           subtitle={series}
           time={time}
           date={date}

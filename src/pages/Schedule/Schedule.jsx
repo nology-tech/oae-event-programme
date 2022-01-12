@@ -1,29 +1,25 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
-import { getEvent } from "../../assets/data/api";
+import { getMockEventById } from "../../assets/data/data";
 
 const Schedule = () => {
   const { eventId } = useParams();
-  const [event, setEvent] = useState();
+  const event = getMockEventById(eventId);
 
-  useEffect(async () => {
-    setEvent(await getEvent(eventId));
-  }, [getEvent, eventId, setEvent]);
+  if (!event) return <h1>Invalid Event</h1>;
 
-  if (!event) return <h1>Loading...</h1>;
-
-  const { series, schedule } = event;
+  const { series, schedules } = event;
 
   return (
     <Layout eventId={eventId} fontType={1}>
-      <PageHeader title={series} subtitle="Event Schedule" />
-
+      <PageHeader title="Event Schedule." subtitle={series} />
       <div className="schedule">
-        {schedule.map((schedule, i) => (
+        <ScheduleItem header="Welcome" />
+        {schedules.map((schedule, i) => (
           <ScheduleItem
             key={"schedule" + i}
             header={schedule.name}

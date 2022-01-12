@@ -2,10 +2,9 @@ import React from "react";
 import "./ViewScheduleButton.scss";
 import { Link } from "react-router-dom";
 
-const ViewScheduleButton = (props) => {
-  const { eventId } = props;
+const ViewScheduleButton = () => {
   return (
-    <Link to={`/${eventId}/event-schedule`} className="view-schedule-button">
+    <Link to={"/event-schedule"} className="view-schedule-button">
       View Schedule
     </Link>
   );
