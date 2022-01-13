@@ -9,6 +9,7 @@ import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import "./About.scss";
 import { getEvent } from "../../assets/data/api";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const About = () => {
   const { eventId } = useParams();
@@ -19,7 +20,7 @@ const About = () => {
     setEvent(await getEvent(eventId));
   }, [getEvent, eventId, setEvent]);
 
-  if (!event) return <h1>Loading...</h1>;
+  if (!event) return <LoadingSpinner />;
 
   const { theme } = event;
 
