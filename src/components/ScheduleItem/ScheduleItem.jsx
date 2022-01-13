@@ -9,7 +9,7 @@ const ScheduleItem = (props) => {
   const [Img, setImg] = useState(chevronDown);
 
   useEffect(() => {
-    if (description === undefined) {
+    if (description === null) {
       setImg("");
     }
   }, [description]);
