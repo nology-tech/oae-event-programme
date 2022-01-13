@@ -61,8 +61,9 @@ exports[`Home page should render 1`] = `
             class="image-video-container"
           >
             <img
+              alt="Event Poster"
               class="header-image"
-              src="images/placeholder.png"
+              src="https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg"
             />
           </div>
         </div>
