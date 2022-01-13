@@ -5,15 +5,15 @@
   background: linear-gradient(
     180deg,
     #ffff 25%,
-    $modern-primary 25%,
-    $modern-primary 25%,
-    $modern-primary 25%
+    var(--theme-color-primary) 25%,
+    var(--theme-color-primary) 25%,
+    var(--theme-color-primary) 25%
   );
   .image-video-container {
     background: none;
   }
   .orchestra-quote {
-    background: $modern-primary;
+    background: var(--theme-color-primary);
     padding-top: 2.813rem;
     padding-bottom: 5rem;
   }

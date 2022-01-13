@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout/Layout";
 import Photo from "../../components/Photo/Photo";
 import { useParams } from "react-router-dom";
@@ -9,12 +9,29 @@ import ProtestImg from "../../assets/images/ProtestImg.PNG";
 import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import "./About.scss";
+import { getEvent } from "../../assets/data/api";
 
 const About = () => {
   const { eventId } = useParams();
 
+  const [event, setEvent] = useState();
+
+  useEffect(async () => {
+    setEvent(await getEvent(eventId));
+  }, [getEvent, eventId, setEvent]);
+
+  if (!event) return <h1>Loading...</h1>;
+
+  const { theme } = event;
+
   return (
-    <Layout eventId={eventId} fontType={1}>
+    <Layout
+      eventId={eventId}
+      fontType={theme.fontType}
+      themeType={theme.primaryColour}
+      textColor={theme.textColour}
+      highlightColor={theme.highlightColour}
+    >
       <PageHeader
         title="30 Years of Breaking The Rules"
         subtitle="our story"

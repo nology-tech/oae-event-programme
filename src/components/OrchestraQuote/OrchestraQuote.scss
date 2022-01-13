@@ -2,8 +2,8 @@
 @use "../../assets/sass/variables" as *;
 
 .orchestra-quote {
-  background-color: $modern-primary;
-  color: $color-white;
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-text);
   height: 8.37rem;
   display: flex;
   flex-direction: column;

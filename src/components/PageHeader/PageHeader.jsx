@@ -5,11 +5,11 @@ import EventHeaderDetails from "../../components/EventHeaderDetails/EventHeaderD
 import ImageVideoContainer from "../ImageVideoContainer/ImageVideoContainer";
 
 const PageHeader = (props) => {
-  const { title, subtitle, time, date, venue, location, content, isVideo } =
+  const { title, subtitle, time, date, venue, location, content, altContent, isVideo } =
     props;
 
   let headerClass = "page-header";
-  if ((time, date, venue, location, content, isVideo) == null) {
+  if ((time, date, venue, location, content, altContent, isVideo) == null) {
     headerClass += " page-header--only";
   }
 
