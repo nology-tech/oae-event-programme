@@ -18,7 +18,7 @@ exports[`Home page should render 1`] = `
             <span
               class="header-home__subtitle"
             >
-              BACH, THE UNIVERSE & EVERYTHING
+              Bach, The Universe & Everything
             </span>
             <h1
               class="header-home__title"
@@ -38,7 +38,7 @@ exports[`Home page should render 1`] = `
               >
                 |
               </span>
-              Sun 21 Nov 2021
+              12-12-21
             </p>
             <p
               class="event-header-details__venue-location"
@@ -46,7 +46,7 @@ exports[`Home page should render 1`] = `
               <span
                 class="event-header-details__venue"
               >
-                London's King's Place
+                King's Place
               </span>
               <span
                 class="event-header-details__comma"
@@ -58,7 +58,7 @@ exports[`Home page should render 1`] = `
             </p>
           </div>
           <div
-            class="header-image-video-container"
+            class="image-video-container"
           >
             <img
               alt="Event image"
@@ -94,7 +94,7 @@ exports[`Home page should render 1`] = `
             class="paragraph"
             data-testid="paragraph"
           >
-            The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his “Darmstadt” Ouverture (the title of which roughly translates as “boasting”!) is a witty interplay between the wind and string teams.
+            The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his 'Darmstadt' Ouverture (the title of which roughly translates as 'boasting'!) is a witty interplay between the wind and string teams.
           </p>
         </div>
         <a

@@ -39,7 +39,7 @@ exports[`Renders photo component in the About page 1`] = `
           </p>
         </div>
         <div
-          class="header-image-video-container"
+          class="image-video-container"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -120,6 +120,39 @@ exports[`Renders photo component in the About page 1`] = `
         </p>
       </div>
       <div
+        class="callout-media"
+      >
+        <div
+          class="image-video-container"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+            class="youtube-embed"
+            frameborder="0"
+            src="https://www.youtube.com/embed/rOjHhS5MtvA"
+            title="Embedded youtube"
+          />
+        </div>
+        <div>
+          <div
+            class="orchestra-quote"
+          >
+            <q
+              class="orchestra-quote__content"
+            >
+              WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION.
+            </q>
+            <p
+              class="orchestra-quote__author"
+            >
+              -
+              Cecelia Bruggemeyer, double bass
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
         class="about__content"
       >
         <h2
@@ -157,6 +190,27 @@ exports[`Renders photo component in the About page 1`] = `
         >
           In the video below, our Leader Margaret Faultless introduces archive BBC footage of us playing Bach's Concerto for Two Violins. 
         </p>
+      </div>
+      <div
+        class="callout-media"
+      >
+        <div
+          class="image-video-container"
+        >
+          <img
+            alt="Event image"
+            class="header-image"
+            src="imageCropped.png"
+          />
+        </div>
+        <div>
+          <p
+            class="paragraph"
+            data-testid="paragraph"
+          >
+            its working
+          </p>
+        </div>
       </div>
       <div
         class="about__content"
