@@ -19,3 +19,7 @@ Any test that would use the 'render' function from RTL, use the 'customRender' f
 ## Code Quality 🎨
 
 This project uses prettier and ESlint to increase code readibility and consistancy.
+
+## Styles
+
+Using CSS variables which are being updated in layout.jsx. The defaults for these variabels are in layout.scss. this means theme colours can updated dynamically.
