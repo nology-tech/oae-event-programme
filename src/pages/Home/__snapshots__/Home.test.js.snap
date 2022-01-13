@@ -62,7 +62,7 @@ exports[`Home page should render 1`] = `
           >
             <img
               alt="Event Poster"
-              class="header-image"
+              class="header-image header-image--border-radius"
               src="https://oae.co.uk/wp-content/uploads/2021/07/MicrosoftTeams-image-5-1250x825.jpg"
             />
           </div>
