@@ -16,10 +16,16 @@ const Schedule = () => {
 
   if (!event) return <h1>Loading...</h1>;
 
-  const { series, schedule } = event;
+  const { series, schedule, theme } = event;
 
   return (
-    <Layout eventId={eventId} fontType={1}>
+    <Layout
+      eventId={eventId}
+      fontType={theme.fontType}
+      themeType={theme.primaryColour}
+      textColor={theme.textColour}
+      highlightColor={theme.highlightColour}
+    >
       <PageHeader title={series} subtitle="Event Schedule" />
 
       <div className="schedule">

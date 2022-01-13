@@ -2,8 +2,8 @@
 @use "../../assets/sass/typography.scss" as *;
 
 .event-header-details {
-  color: $color-white;
-  background-color: $modern-primary;
+  color: var(--theme-color-text);
+  background-color: var(--theme-color-primary);
   line-height: 1.5rem;
   font-family: $modern-content;
   padding-left: 1.438rem;

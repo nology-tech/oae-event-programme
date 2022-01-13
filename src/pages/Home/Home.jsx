@@ -19,7 +19,13 @@ const Home = () => {
 
   const { name, series, time, date, venue, location, content, theme, imageSrc, imageAlt } = event;
   return (
-    <Layout eventId={eventId} fontType={theme.fontType}>
+    <Layout
+      eventId={eventId}
+      fontType={theme.fontType}
+      themeType={theme.primaryColour}
+      textColor={theme.textColour}
+      highlightColor={theme.highlightColour}
+    >
       <div className="home">
         <PageHeader
           title={name}
