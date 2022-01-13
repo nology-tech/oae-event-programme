@@ -36,6 +36,7 @@ const PageHeader = (props) => {
           <ImageVideoContainer
             className="page-header--image"
             content={content}
+            altContent={altContent}
             isVideo={isVideo}
           />
         </Fragment>
