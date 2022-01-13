@@ -4,14 +4,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   &__heading {
     text-align: center;
   }
+
   .spinner {
     width: 70px;
     text-align: center;
   }
-  .spinner > div {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a
+    .spinner
+    > div {
     width: 18px;
     height: 18px;
     background-color: #333;
@@ -20,32 +26,48 @@
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
-  .spinner .bounce1 {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a
+    .spinner
+    .bounce1 {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
   }
-  .spinner .bounce2 {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a
+    .spinner
+    .bounce2 {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
   }
-  @-webkit-keyframes sk-bouncedelay {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a
+    @-webkit-keyframes
+    sk-bouncedelay {
     0%,
     80%,
     100% {
       -webkit-transform: scale(0);
     }
-    40% {
+    <<<<<<< HEAD =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a 40% {
       -webkit-transform: scale(1);
     }
   }
-  @keyframes sk-bouncedelay {
+  <<<<<<<
+    HEAD
+    =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a
+    @keyframes
+    sk-bouncedelay {
     0%,
     80%,
     100% {
       -webkit-transform: scale(0);
       transform: scale(0);
     }
-    40% {
+    <<<<<<< HEAD =======>>>>>>>784645a55d534995950aa08ed0eef80277f0760a 40% {
       -webkit-transform: scale(1);
       transform: scale(1);
     }
