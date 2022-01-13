@@ -1,5 +1,11 @@
 @use "../../assets/sass/typography" as *;
 @use "../../assets/sass/variables" as *;
+:root {
+  --theme-color-primary: #ffffff;
+  --theme-color-text: #000000;
+  --theme-color-highlight: #000000;
+}
+
 .layout {
   // margin-bottom compensates for the height of the fixed navbar
   margin-bottom: 6rem;

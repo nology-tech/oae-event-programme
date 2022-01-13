@@ -10,9 +10,10 @@ const Layout = (props) => {
 
   useEffect(() => {
     let { style } = document.documentElement;
-    themeType && style.setProperty("--theme-color-default", themeType);
-    textColor && style.setProperty("--text-color-default", textColor);
-    highlightColor && style.setProperty("--highlight-color-default", highlightColor);
+    themeType && style.setProperty("--theme-color-primary", themeType);
+    textColor && style.setProperty("--theme-color-text", textColor);
+    highlightColor &&
+      style.setProperty("--theme-color-highlight", highlightColor);
   }, [themeType, textColor, highlightColor]);
   return (
     <div className={`layout ${theme}`}>
