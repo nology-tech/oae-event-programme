@@ -82,7 +82,7 @@ exports[`Home page should render 1`] = `
             If this is your first Bach, the Universe & Everything (BAE), welcome!
           </h2>
           <p
-            class="paragraph"
+            class="paragraph "
             data-testid="paragraph"
           >
             We like to think of the series as a community, similar to the one Bach enjoyed in Leipzig where he produced cantatas at an extraordinary rate, providing innovative music for the weekly services at the church where he worked from 1723 until his death in 1750. At that time, the congregation was as open to science and new ideas as it was united by faith. It is in the spirit that we come together for a thought-provoking cantata and a talk from a leading scientist. Professor Jon Chapman from the University of Oxford invites us to ponder the fleeting moment when sound waves reach our ears before they disappear. Using some careful calculations, Jon suggests that we might even be able to hear the shape of a drum.
@@ -97,7 +97,7 @@ exports[`Home page should render 1`] = `
             A note from our Principal Keyboard, Steven Devine, about today's programme
           </h2>
           <p
-            class="paragraph"
+            class="paragraph "
             data-testid="paragraph"
           >
             The Cantata being performed today is BWV 26 - Ach wie flüchtig, ach wie nichtig. The chorale of this name forms the linchpin of the outer movements and it is the only time Bach used this chorale in his cantatas. The melody of the chorale, written by Michael Franck in 1652, is used by others and the organ prelude today is a movement for manuals only (that is, no organ pedals!) from a set of variations on this tune by Georg Bohm (1661 - 1733), an organist whom J S Bach hugely admired and who may even have been his teacher.The irresistable combination of three oboes brought a wealth of different repertoire to mind, but I have been enjoying digging into lesser-known works by George-Philipp Telemann this season and this movement from his 'Darmstadt' Ouverture (the title of which roughly translates as 'boasting'!) is a witty interplay between the wind and string teams.
