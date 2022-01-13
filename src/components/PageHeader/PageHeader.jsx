@@ -24,7 +24,7 @@ const PageHeader = (props) => {
             venue={venue}
             location={location}
           />
-          <ImageVideoContainer content={content} isVideo={isVideo} />
+          <ImageVideoContainer className="page-header--image" content={content} isVideo={isVideo} />
         </Fragment>
       ) : null}
     </div>

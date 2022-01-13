@@ -7,7 +7,7 @@ const CalloutMedia = (props) => {
 
   return (
     <div className="callout-media">
-      <ImageVideoContainer content={content} isVideo={isVideo} />
+      <ImageVideoContainer className="callout-media__image" content={content} isVideo={isVideo} />
       <div>{children}</div>
     </div>
   );
