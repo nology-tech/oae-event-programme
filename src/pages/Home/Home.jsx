@@ -38,13 +38,13 @@ const Home = () => {
           altContent={imageAlt}
           isVideo={false}
         />
+         <ViewScheduleButton eventId={eventId} />
         {content.map((event, i) => (
           <div className="home__content" key={"event" + i}>
             <h2 className="home__content-heading">{event.heading}</h2>
             <Paragraph className="home__content-text" text={event.text} />
           </div>
         ))}
-        <ViewScheduleButton eventId={eventId} />
       </div>
     </Layout>
   );
