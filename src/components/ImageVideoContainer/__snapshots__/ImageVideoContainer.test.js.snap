@@ -25,7 +25,6 @@ exports[`it should render the component 1`] = `
     class="image-video-container"
   >
     <img
-      alt="Event image"
       class="header-image"
       src="image33.png"
     />
