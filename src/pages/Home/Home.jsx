@@ -29,7 +29,7 @@ const Home = () => {
           venue={venue}
           location={location}
           content={imageSrc}
-          altcontent={imageAlt}
+          altContent={imageAlt}
           isVideo={false}
         />
         {content.map((event, i) => (
