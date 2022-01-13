@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import OrchestraImg from "../../assets/images/imageCropped.png";
+import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import "./About.scss";
 import { getEvent } from "../../assets/data/api";
@@ -36,6 +37,7 @@ const About = () => {
         content="rOjHhS5MtvA"
         isVideo={true}
       />
+
       <div className="about__content">
         <h2 className="about__content-heading">
           Ripping Up the Rulebook & Starting From Scratch
@@ -62,6 +64,13 @@ const About = () => {
         <Paragraph text="Why do we do this? It's not just about history. As double bass Cecelia Bruggemeyer explains in the video below, it's also about making old music new." />
       </div>
       {/* What are period instruments - video component */}
+      <CalloutMedia content="rOjHhS5MtvA" isVideo={true}>
+        <OrchestraQuote
+          quote="WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION."
+          author="Cecelia Bruggemeyer, double bass"
+        />
+      </CalloutMedia>
+
       <div className="about__content">
         <h2 className="about__content-heading">The Early Years</h2>
         <Paragraph text="Our Orchestra was founded in 1986. Then, a group of idealistic period instrument players was determined to free itself from the shackles of working under an all-powerful music director and take charge of their own destiny." />
@@ -75,6 +84,10 @@ const About = () => {
         <Paragraph text="In the video below, our Leader Margaret Faultless introduces archive BBC footage of us playing Bach's Concerto for Two Violins. " />
       </div>
       {/* Doing things differently section - callout component */}
+      <CalloutMedia content={OrchestraImg} isVideo={false}>
+        <Paragraph text="its working" />
+      </CalloutMedia>
+
       <div className="about__content">
         <h2 className="about__content-heading">Growing Up</h2>
         <Paragraph text="Pretty quickly, we became a prominent fixture on the UK classical music scene." />

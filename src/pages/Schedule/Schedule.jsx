@@ -41,5 +41,4 @@ const Schedule = () => {
     </Layout>
   );
 };
-
 export default Schedule;

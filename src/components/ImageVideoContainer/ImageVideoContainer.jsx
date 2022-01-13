@@ -1,7 +1,7 @@
 import YoutubeEmbed from "../YoutubeEmbed/YoutubeEmbed";
-import "./HeaderImageVideoContainer.scss";
+import "./ImageVideoContainer.scss";
 
-const HeaderImageVideoContainer = (props) => {
+const ImageVideoContainer = (props) => {
   const { content, isVideo } = props;
 
   if (!content) {
@@ -10,7 +10,7 @@ const HeaderImageVideoContainer = (props) => {
   }
 
   return (
-    <div className="header-image-video-container">
+    <div className="image-video-container">
       {isVideo ? (
         <YoutubeEmbed embedId={content} />
       ) : (
@@ -20,4 +20,4 @@ const HeaderImageVideoContainer = (props) => {
   );
 };
 
-export default HeaderImageVideoContainer;
+export default ImageVideoContainer;

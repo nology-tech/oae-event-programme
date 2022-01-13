@@ -1,22 +1,22 @@
 import { customRender } from "../../utils/testUtils";
 import placeHolderImage from "../../assets/images/image33.png";
-import HeaderImageVideoContainer from "./HeaderImageVideoContainer";
+import ImageVideoContainer from "./ImageVideoContainer";
 
 test("it should render the component", () => {
   const { container } = customRender(
-    <HeaderImageVideoContainer content={placeHolderImage} isVideo={false} />
+    <ImageVideoContainer content={placeHolderImage} isVideo={false} />
   );
   expect(container).toMatchSnapshot();
 });
 
 test("it should render the YoutubeEmbed component if isVideo is true", () => {
   const { container } = customRender(
-    <HeaderImageVideoContainer content={placeHolderImage} isVideo={true} />
+    <ImageVideoContainer content={placeHolderImage} isVideo={true} />
   );
   expect(container).toMatchSnapshot();
 });
 
 test("it should not render anything without props", () => {
-  const { container } = customRender(<HeaderImageVideoContainer />);
+  const { container } = customRender(<ImageVideoContainer />);
   expect(container).toMatchSnapshot();
 });
