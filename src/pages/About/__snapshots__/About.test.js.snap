@@ -199,15 +199,20 @@ exports[`Renders photo component in the About page 1`] = `
         >
           <img
             class="header-image"
-            src="imageCropped.png"
+            src="ProtestImg.PNG"
           />
         </div>
         <div>
+          <h2
+            class="about__callout"
+          >
+            Doing Things Differently
+          </h2>
           <p
-            class="paragraph"
+            class="paragraph paragraph__callout"
             data-testid="paragraph"
           >
-            its working
+            We're not run by an all-powerful music director or conductor. Instead, our players call the shots, choosing what we play and how we play it. Our concerts are different, too. You'll hear us talk about our music from the stage, making you feel part of the performance.
           </p>
         </div>
       </div>
