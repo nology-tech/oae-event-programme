@@ -9,10 +9,10 @@ const Layout = (props) => {
   let theme = getFontType(fontType);
 
   useEffect(() => {
-    // let { style } = document.documentElement;
-    // themeType && style.setProperty("--theme-color-default", themeType);
-    // textColor && style.setProperty("--text-color-default", textColor);
-    // highlightColor && style.setProperty("--highlight-color-default", highlightColor);
+    let { style } = document.documentElement;
+    themeType && style.setProperty("--theme-color-default", themeType);
+    textColor && style.setProperty("--text-color-default", textColor);
+    highlightColor && style.setProperty("--highlight-color-default", highlightColor);
   }, [themeType, textColor, highlightColor]);
   return (
     <div className={`layout ${theme}`}>
@@ -23,12 +23,3 @@ const Layout = (props) => {
 };
 
 export default Layout;
-
-/*
-const Layout = ({
-  themePrimaryColor,
-  themeTextColor,
-  themeHighlightColor,
-  children,
-}) => 
-   */
