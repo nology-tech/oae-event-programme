@@ -64,7 +64,7 @@ const About = () => {
         <Paragraph text="Why do we do this? It's not just about history. As double bass Cecelia Bruggemeyer explains in the video below, it's also about making old music new." />
       </div>
       {/* What are period instruments - video component */}
-      <CalloutMedia content="rOjHhS5MtvA" isVideo={true}>
+      <CalloutMedia content="eLpAaIqJPck" isVideo={true}>
         <OrchestraQuote
           quote="WE'RE NOT TRYING TO RECREATE THE PAST. WE'RE TRYING TO CREATE SOMETHING THAT'S EXCITING NOW, USING HISTORIC INFORMATION."
           author="Cecelia Bruggemeyer, double bass"
