@@ -9,13 +9,13 @@ exports[`should render the loading spinner 1`] = `
       class="loading__spinner"
     >
       <div
-        class="loading__bounce1"
+        class="loading__bounce"
       />
       <div
-        class="Loading__loading__bounce2"
+        class="loading__bounce"
       />
       <div
-        class="loading__bounce3"
+        class="loading__bounce"
       />
     </div>
     <h1
