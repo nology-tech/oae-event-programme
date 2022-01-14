@@ -86,8 +86,11 @@ const About = () => {
       </div>
       {/* Doing things differently section - callout component */}
       <CalloutMedia content={ProtestImg} isVideo={false}>
-      <h2 className="about__callout">Doing Things Differently</h2>
-        <Paragraph text="We're not run by an all-powerful music director or conductor. Instead, our players call the shots, choosing what we play and how we play it. Our concerts are different, too. You'll hear us talk about our music from the stage, making you feel part of the performance." isCallOut={true} />
+        <h2 className="about__callout">Doing Things Differently</h2>
+        <Paragraph
+          text="We're not run by an all-powerful music director or conductor. Instead, our players call the shots, choosing what we play and how we play it. Our concerts are different, too. You'll hear us talk about our music from the stage, making you feel part of the performance."
+          isCallOut={true}
+        />
       </CalloutMedia>
 
       <div className="about__content">
