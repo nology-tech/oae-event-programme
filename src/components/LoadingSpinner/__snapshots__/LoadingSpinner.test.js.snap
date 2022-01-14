@@ -1,27 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render the loading spinner 1`] = `
-<div
-  class="loading"
-  data-testid="loading"
->
+<div>
   <div
-    class="spinner"
+    class="loading"
   >
     <div
-      class="bounce1"
-    />
-    <div
-      class="bounce2"
-    />
-    <div
-      class="bounce3"
-    />
+      class="loading__spinner"
+    >
+      <div
+        class="loading__bounce1"
+      />
+      <div
+        class="Loading__loading__bounce2"
+      />
+      <div
+        class="loading__bounce3"
+      />
+    </div>
+    <h1
+      class="loading__heading"
+    >
+      Loading
+    </h1>
   </div>
-  <h1
-    class="loading__heading"
-  >
-    Loading
-  </h1>
 </div>
 `;

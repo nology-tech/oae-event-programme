@@ -8,27 +8,32 @@
   &__heading {
     text-align: center;
   }
-  .spinner {
-    width: 70px;
+
+  &__spinner {
+    width: 4.375rem;
     text-align: center;
   }
-  .spinner > div {
-    width: 18px;
-    height: 18px;
+
+  &__spinner > div {
+    width: 1.125rem;
+    height: 1.125rem;
     background-color: #333;
     border-radius: 100%;
     display: inline-block;
     -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
-  .spinner .bounce1 {
+
+  &__bounce1 {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
   }
-  .spinner .bounce2 {
+
+  &__bounce2 {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
   }
+
   @-webkit-keyframes sk-bouncedelay {
     0%,
     80%,
@@ -39,6 +44,7 @@
       -webkit-transform: scale(1);
     }
   }
+
   @keyframes sk-bouncedelay {
     0%,
     80%,
