@@ -14,7 +14,7 @@
     text-align: center;
   }
 
-  &__spinner > div {
+  &__bounce {
     width: 1.125rem;
     height: 1.125rem;
     background-color: #333;
@@ -24,12 +24,12 @@
     animation: sk-bouncedelay 1.4s infinite ease-in-out both;
   }
 
-  &__bounce1 {
+  &__bounce:nth-child(1) {
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
   }
 
-  &__bounce2 {
+  &__bounce:nth-child(2) {
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
   }

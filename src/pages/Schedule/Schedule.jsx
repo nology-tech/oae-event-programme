@@ -27,6 +27,7 @@ const Schedule = () => {
       textColor={theme.textColour}
       highlightColor={theme.highlightColour}
     >
+      <LoadingSpinner />
       <PageHeader title={series} subtitle="Event Schedule" />
 
       <div className="schedule">
