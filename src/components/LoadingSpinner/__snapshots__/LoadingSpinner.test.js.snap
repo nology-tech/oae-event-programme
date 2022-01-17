@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the loading spinner 1`] = `
+<div>
+  <div
+    class="loading"
+  >
+    <div
+      class="loading__spinner"
+    >
+      <div
+        class="loading__bounce"
+      />
+      <div
+        class="loading__bounce"
+      />
+      <div
+        class="loading__bounce"
+      />
+    </div>
+    <h1
+      class="loading__heading"
+    >
+      Loading
+    </h1>
+  </div>
+</div>
+`;

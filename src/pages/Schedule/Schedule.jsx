@@ -5,6 +5,7 @@ import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";
 import "./Schedule.scss";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import { getEvent } from "../../assets/data/api";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Schedule = () => {
   const { eventId } = useParams();
@@ -14,7 +15,7 @@ const Schedule = () => {
     setEvent(await getEvent(eventId));
   }, [getEvent, eventId, setEvent]);
 
-  if (!event) return <h1>Loading...</h1>;
+  if (!event) return <LoadingSpinner />;
 
   const { series, schedule, theme } = event;
 
