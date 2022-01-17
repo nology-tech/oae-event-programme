@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import OrchestraQuote from "../../components/OrchestraQuote/OrchestraQuote";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import OrchestraImg from "../../assets/images/imageCropped.png";
+import ProtestImg from "../../assets/images/ProtestImg.PNG";
 import CalloutMedia from "../../components/CalloutMedia/CalloutMedia";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import "./About.scss";
@@ -84,8 +85,12 @@ const About = () => {
         <Paragraph text="In the video below, our Leader Margaret Faultless introduces archive BBC footage of us playing Bach's Concerto for Two Violins. " />
       </div>
       {/* Doing things differently section - callout component */}
-      <CalloutMedia content={OrchestraImg} isVideo={false}>
-        <Paragraph text="its working" />
+      <CalloutMedia content={ProtestImg} isVideo={false}>
+        <h2 className="about__callout">Doing Things Differently</h2>
+        <Paragraph
+          text="We're not run by an all-powerful music director or conductor. Instead, our players call the shots, choosing what we play and how we play it. Our concerts are different, too. You'll hear us talk about our music from the stage, making you feel part of the performance."
+          isCallOut={true}
+        />
       </CalloutMedia>
 
       <div className="about__content">

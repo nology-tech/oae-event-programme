@@ -2,7 +2,7 @@
 
 exports[`should render the article 1`] = `
 <p
-  class="paragraph"
+  class="paragraph "
   data-testid="paragraph"
 />
 `;

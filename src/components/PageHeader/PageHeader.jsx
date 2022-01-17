@@ -34,6 +34,7 @@ const PageHeader = (props) => {
             location={location}
           />
           <ImageVideoContainer
+            imageHasBorderRadius
             content={content}
             altContent={altContent}
             isVideo={isVideo}

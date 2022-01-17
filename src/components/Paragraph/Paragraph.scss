@@ -5,4 +5,8 @@
   font-family: $modern-content;
   font-size: 1.125rem;
   line-height: 27px;
+  &__callout {
+    color: $background-color;
+    padding: 0 1.3rem 3rem 1.3rem;
+  }
 }
