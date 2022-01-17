@@ -6,6 +6,7 @@ import ViewScheduleButton from "../../components/ViewScheduleButton/ViewSchedule
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const Home = () => {
   const { eventId } = useParams();
@@ -15,7 +16,7 @@ const Home = () => {
     setEvent(await getEvent(eventId));
   }, [getEvent, eventId, setEvent]);
 
-  if (!event) return <h1>Loading...</h1>;
+  if (!event) return <LoadingSpinner />;
 
   const {
     name,
