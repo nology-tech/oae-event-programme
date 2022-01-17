@@ -20,23 +20,12 @@ const Schedule = () => {
   const { series, schedule, theme } = event;
 
   return (
-    <Layout
-      eventId={eventId}
-      fontType={theme.fontType}
-      themeType={theme.primaryColour}
-      textColor={theme.textColour}
-      highlightColor={theme.highlightColour}
-    >
+    <Layout eventId={eventId} fontType={theme.fontType} themeType={theme.primaryColour} textColor={theme.textColour} highlightColor={theme.highlightColour}>
       <PageHeader title={series} subtitle="Event Schedule" />
 
       <div className="schedule">
         {schedule.map((schedule, i) => (
-          <ScheduleItem
-            key={"schedule" + i}
-            header={schedule.name}
-            subHeader={schedule.title}
-            description={schedule.description}
-          />
+          <ScheduleItem key={"schedule" + i} header={schedule.name} subHeader={schedule.title} description={schedule.description} descriptionAlt={schedule.alternateDescription} />
         ))}
       </div>
     </Layout>

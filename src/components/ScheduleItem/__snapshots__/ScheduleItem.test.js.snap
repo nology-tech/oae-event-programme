@@ -39,3 +39,43 @@ exports[`Renders App component with default page 1`] = `
   </div>
 </div>
 `;
+
+exports[`should render the translation buttons if there is an alternate description 1`] = `
+<div>
+  <div
+    class="schedule-item"
+  >
+    <div
+      class="schedule-item__top"
+    >
+      <span
+        class="schedule-item__headers"
+      >
+        <h3
+          class="schedule-item__header"
+        >
+          header
+        </h3>
+        <p
+          class="schedule-item__subheader"
+        >
+          subheader
+        </p>
+      </span>
+      <span
+        class="schedule-item__button-container"
+      >
+        <img
+          alt=""
+          class="schedule-item__button"
+          role="button"
+          src="chevron-down.png"
+        />
+      </span>
+    </div>
+    <hr
+      class="schedule-item__hr"
+    />
+  </div>
+</div>
+`;
