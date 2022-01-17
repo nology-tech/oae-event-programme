@@ -1,5 +1,14 @@
+@use "../../assets/sass/variables" as *;
+
 .about {
   &__content {
     padding: 0 2.5rem;
+  }
+  &__callout {
+    color: $background-color;
+    font-family: $modern-header;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1.3rem 0 0;
   }
 }
