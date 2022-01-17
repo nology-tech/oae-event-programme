@@ -6,7 +6,7 @@
   font-size: 1.125rem;
   line-height: 27px;
   &__callout {
-    color: $background-color;
+    color: var(--theme-color-text);
     padding: 0 1.3rem 3rem 1.3rem;
   }
 }
