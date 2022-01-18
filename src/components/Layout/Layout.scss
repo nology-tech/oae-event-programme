@@ -4,11 +4,15 @@
   --theme-color-primary: #ffffff;
   --theme-color-text: #000000;
   --theme-color-highlight: #000000;
+
+  --background-color: hsl(0, 0%, 13%);
+  --text-color: hsl(240, 25%, 98%);
 }
 
 .layout {
   // margin-bottom compensates for the height of the fixed navbar
   padding-bottom: 6rem;
-  background-color: $background-color;
+  background-color: var(--background-color);
   min-height: 100vh;
+  color: var(--text-color);
 }
