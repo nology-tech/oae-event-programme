@@ -2,7 +2,7 @@
 @use "../../assets/sass/typography.scss" as *;
 
 .view-schedule-button {
-  height: 66px;
+  height: 4.125rem;
   width: 80%;
   text-transform: uppercase;
   background-color: var(--theme-color-primary);
@@ -17,5 +17,5 @@
   align-items: center;
   text-decoration: none;
 
-  margin: 38px auto;
+  margin: 2.375rem auto;
 }

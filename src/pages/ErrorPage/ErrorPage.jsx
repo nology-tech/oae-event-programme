@@ -6,12 +6,13 @@ const ErrorPage = () => {
   return (
     <div className="error-page">
       <h1 className="error-page__heading">
-        Oops. Looks like this page doesnt exist.
+        Oops. Looks like this page doesnt exist. <br />
+        <span className="error-page__heading--span">404</span>
       </h1>
       <img className="error-page__icon" src={sadNote} alt="sad musical note" />
-      <h2 className="error-page__subheading">ERROR 404</h2>
+
       <a className="error-page__button" href="//oae.co.uk/">
-        Back to OAE Website
+        Back to OAE website
       </a>
     </div>
   );

@@ -20,8 +20,7 @@ const App = () => {
 
       {/* <Route path="/:eventId/*" element={<Navigate replace to="./home" />} /> */}
 
-      <Route path="/*" element={<ErrorPage />} /> 
-
+      <Route path="/*" element={<ErrorPage />} />
     </Routes>
   );
 };
