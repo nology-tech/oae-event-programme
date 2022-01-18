@@ -25,12 +25,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    fill: var(--text-color);
-    color: var(--text-color);
+    fill: var(--navbar-active-color);
+    color: var(--navbar-active-color);
+    
 
     &--active {
-      fill: var(--navbar-active-color);
-      color: var(--navbar-active-color);
+      fill: var(--text-color);
+    color: var(--text-color);
     }
   }
 }

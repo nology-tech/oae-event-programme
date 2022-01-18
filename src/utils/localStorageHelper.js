@@ -1,16 +1,9 @@
 export const getDarkTheme = () => {
-  //   if (darkTheme == true) {
-  //     localStorage.setItem("--background-color", darkTheme);
-  //   } else {
-  //     localStorage.setItem("theme", "light");
-  //   }
-  console.log(localStorage.getItem("darkMode"));
-
-  // convert isDarkMode to a Boolean
-  // return that boolean
-
-  return true;
+  const isDarkMode = localStorage.getItem("darkMode");
+  return isDarkMode === "true";
 };
+
+// const getDarkThemeBarry = () => localStorage.getItem("darkMode") === "true";
 
 export const setDarkTheme = (isDarkMode) => {
   localStorage.setItem("darkMode", isDarkMode.toString());

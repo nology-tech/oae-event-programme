@@ -10,6 +10,7 @@ const Layout = (props) => {
   let theme = getFontType(fontType);
 
   const darkTheme = getDarkTheme();
+  //setDarkTheme();
 
   useEffect(() => {
     let { style } = document.documentElement;
@@ -22,7 +23,7 @@ const Layout = (props) => {
     style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
     style.setProperty(
       "--navbar-active-color",
-      darkTheme ? "#fafafc" : "#333333"
+      darkTheme ? "#CACBCD" : "#CACBCD"
     );
   }, [themeType, textColor, highlightColor]);
 
@@ -33,7 +34,6 @@ const Layout = (props) => {
 
   return (
     <div className={`layout ${theme}`}>
-      <button></button>
       <div>{children}</div>
       <Navbar eventId={eventId} />
     </div>
