@@ -16,9 +16,11 @@ const App = () => {
 
       <Route path="/:eventId/home" element={<Home />} />
 
+      <Route path="/:eventId" element={<Home />} />
+
       {/* <Route path="/:eventId/*" element={<Navigate replace to="./home" />} /> */}
 
-      <Route path="*" element={<ErrorPage />} /> 
+      <Route path="/*" element={<ErrorPage />} /> 
 
     </Routes>
   );

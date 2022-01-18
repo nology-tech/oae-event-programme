@@ -1,24 +1,28 @@
 .error-page {
-  height: 100vh;
-  background-color: rgb(103, 96, 212);
+  height: 100%;
+  background-color: #FAFAFC;
   text-align: center;
-  overflow: scroll;
-  padding: 2rem;
+  overflow: hidden;
+  padding: 1rem;
 
   &__heading {
-    color: white;
+    color: #5F6068;
+  }
+
+  &__icon {
+    margin: 1rem 0;
   }
 
   &__subheading {
-    color: white;
+    color: #5F6068;
   }
 
   &__button {
-    height: 66px;
+    height: 4.125rem;
     max-width: 20rem;
     text-transform: uppercase;
     background-color: #f97850;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     color: white;
     font-weight: 700;
 
@@ -29,6 +33,6 @@
     align-items: center;
     text-decoration: none;
 
-    margin: 38px auto;
+    margin: 1.5rem auto;
   }
 }
