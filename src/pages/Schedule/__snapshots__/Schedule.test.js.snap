@@ -30,9 +30,10 @@ exports[`Schedule page should render 1`] = `
         <div
           class="schedule-item"
         >
-          <div
-            class="schedule-item__top"
+          <button
+            class="schedule-item__top-button"
           >
+             
             <span
               class="schedule-item__headers"
             >
@@ -55,7 +56,7 @@ exports[`Schedule page should render 1`] = `
                 src="[object Object]"
               />
             </span>
-          </div>
+          </button>
           <div
             class="schedule-item__content"
           >
@@ -72,9 +73,10 @@ exports[`Schedule page should render 1`] = `
         <div
           class="schedule-item"
         >
-          <div
-            class="schedule-item__top"
+          <button
+            class="schedule-item__top-button"
           >
+             
             <span
               class="schedule-item__headers"
             >
@@ -99,7 +101,7 @@ exports[`Schedule page should render 1`] = `
                 src="[object Object]"
               />
             </span>
-          </div>
+          </button>
           <div
             class="schedule-item__content"
           >

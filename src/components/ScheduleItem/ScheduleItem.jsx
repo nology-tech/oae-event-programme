@@ -28,8 +28,8 @@ const ScheduleItem = (props) => {
         <h3 className="schedule-item__header">{header}</h3>
         <p className="schedule-item__subheader">{subHeader}</p>
       </span>
-      <span className="schedule-item__button-container">
-        <img role="button" className="schedule-item__button" src={Img} alt="" />
+      <span className="schedule-item__icon-container">
+        <img className="schedule-item__icon" src={Img} alt="" />
       </span>
     </>
   );
