@@ -36,6 +36,7 @@ const Schedule = () => {
             header={schedule.name}
             subHeader={schedule.title}
             description={schedule.description}
+            alternateDescription={schedule.alternateDescription}
           />
         ))}
       </div>
