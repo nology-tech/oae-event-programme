@@ -58,12 +58,24 @@ exports[`Schedule page should render 1`] = `
             </span>
           </button>
           <div
-            class="schedule-item__content"
+            class="description"
           >
-            <p
-              class="schedule-item__content-description"
+            <div
+              class="description__container"
             >
-              Non ad labore aliqua adipisicing et laborum exercitation. Enim consectetur aliquip eu commodo. Eiusmod ipsum anim exercitation consectetur elit amet voluptate aliquip ullamco. Duis deserunt dolore et officia ullamco voluptate culpa eiusmod cupidatat ullamco sit anim incididunt nulla. Nisi et et commodo non dolor amet aliquip exercitation. Et fugiat consequat mollit cillum anim aliquip commodo laboris enim voluptate ullamco ipsum nostrud qui. Laboris duis cillum duis aliqua cupidatat nulla.
+              <button
+                class="description__button "
+              >
+                Original
+              </button>
+              <button
+                class="description__button description__button--active"
+              >
+                Alternate
+              </button>
+            </div>
+            <p>
+              Not to do any iterative fatigue and fatigue. For the main objectives of the EU. This type of exercise enhanced the mind's desire to enjoy the objectives of any school. They abandon the school district offices in pain and pleasure through no fault of that kind If not, the pain will not be comfortable and the objectives of the exercise are important. And he shuns the consequences of the softening of his soul, for the pleasure of his labors, for the pleasure of any one of us. Laboris duis cillum duis something longing for none.
             </p>
           </div>
           <hr
@@ -103,12 +115,24 @@ exports[`Schedule page should render 1`] = `
             </span>
           </button>
           <div
-            class="schedule-item__content"
+            class="description"
           >
-            <p
-              class="schedule-item__content-description"
+            <div
+              class="description__container"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit.
+              <button
+                class="description__button "
+              >
+                Original
+              </button>
+              <button
+                class="description__button description__button--active"
+              >
+                Alternate
+              </button>
+            </div>
+            <p>
+              The pain itself is the love of the pain, the main ecological problems, but I give this kind of time to fall down, so that some great pain and pain. That's the gate of the venenatis tomorrow, but the cat needs to choose.
             </p>
           </div>
           <hr
