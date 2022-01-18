@@ -43,9 +43,6 @@ const ScheduleItem = (props) => {
       </div>
       {showText && (
         <Description text={description} altText={alternateDescription} />
-        // <div className="schedule-item__content">
-        //   <p className="schedule-item__content-description">{description}</p>
-        // </div>
       )}
       <hr className="schedule-item__hr"></hr>
     </div>

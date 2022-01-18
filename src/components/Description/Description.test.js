@@ -1,4 +1,4 @@
-import { screen } from "@testing-library/react";
+import { screen, fireEvent } from "@testing-library/react";
 import { customRender } from "../../utils/testUtils";
 import Description from "./Description";
 
@@ -24,4 +24,18 @@ test("If there is an alternate description buttons should render", () => {
   );
   const button = screen.getByText("Alternate").closest("button");
   expect(button).toBeInTheDocument();
+});
+
+test("When alternate button is pressed alternate description renders", () => {
+  customRender(
+    <Description
+      text="If this is your first Bach"
+      altText="alternate description"
+    />
+  );
+  const button = screen.getByText("Alternate");
+  fireEvent.click(button);
+  const altText = screen.getByText("alternate description");
+
+  expect(altText).toBeInTheDocument();
 });
