@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./ErrorPage.scss";
 
 const ErrorPage = () => {
@@ -9,9 +8,9 @@ const ErrorPage = () => {
         Oops. Looks like this page doesnt exist.
       </h1>
       <h2 className="error-page__subheading">Error 404</h2>
-      <Link className="error-page__button" to={"//oae.co.uk/"}>
-        Back to Website
-      </Link>
+      <a className="error-page__button" href="//oae.co.uk/">
+        Back to OAE Website
+      </a>
     </div>
   );
 };
