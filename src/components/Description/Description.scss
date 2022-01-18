@@ -1,0 +1,23 @@
+@import "../../assets/sass/variables";
+
+.description {
+  &__container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  &__button {
+    border: none;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: $color-grey;
+    &--active {
+      background-color: var(--theme-color-primary);
+      color: var(--theme-color-text);
+      border: none;
+      padding: 0.6rem 1rem;
+      font-weight: 600;
+    }
+  }
+}
