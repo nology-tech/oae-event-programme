@@ -47,12 +47,11 @@ exports[`Schedule page should render 1`] = `
               />
             </span>
             <span
-              class="schedule-item__button-container"
+              class="schedule-item__icon-container"
             >
               <img
                 alt=""
-                class="schedule-item__button"
-                role="button"
+                class="schedule-item__icon"
                 src="[object Object]"
               />
             </span>
@@ -104,12 +103,11 @@ exports[`Schedule page should render 1`] = `
               </p>
             </span>
             <span
-              class="schedule-item__button-container"
+              class="schedule-item__icon-container"
             >
               <img
                 alt=""
-                class="schedule-item__button"
-                role="button"
+                class="schedule-item__icon"
                 src="[object Object]"
               />
             </span>
