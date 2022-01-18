@@ -22,24 +22,28 @@ const ScheduleItem = (props) => {
       setImg(chevronUp);
     }
   };
+  const jsxContent = (
+    <>
+      <span className="schedule-item__headers">
+        <h3 className="schedule-item__header">{header}</h3>
+        <p className="schedule-item__subheader">{subHeader}</p>
+      </span>
+      <span className="schedule-item__button-container">
+        <img role="button" className="schedule-item__button" src={Img} alt="" />
+      </span>
+    </>
+  );
 
   return (
     <div className="schedule-item">
-      <div className="schedule-item__top">
-        <span className="schedule-item__headers">
-          <h3 className="schedule-item__header">{header}</h3>
-          <p className="schedule-item__subheader">{subHeader}</p>
-        </span>
-        <span className="schedule-item__button-container">
-          <img
-            role="button"
-            className="schedule-item__button"
-            src={Img}
-            alt=""
-            onClick={handleClick}
-          ></img>
-        </span>
-      </div>
+      {description ? (
+        <button className="schedule-item__top-button" onClick={handleClick}>
+          {" "}
+          {jsxContent}
+        </button>
+      ) : (
+        <div className="schedule-item__top-div">{jsxContent}</div>
+      )}
       {showText && (
         <div className="schedule-item__content">
           <p className="schedule-item__content-description">{description}</p>

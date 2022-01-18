@@ -9,7 +9,7 @@
   font-family: $modern-content;
   width: 100%;
 
-  &__top {
+  &__top-div {
     font-family: $modern-header;
     display: flex;
     align-items: center;
@@ -17,6 +17,21 @@
     align-items: baseline;
     width: 100%;
     padding: 0.5rem;
+  }
+  &__top-button {
+    border: none;
+    padding: 0;
+    overflow: visible;
+    background: transparent;
+    font-family: $modern-header;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
   }
   &__subheader {
     color: rgb(156, 156, 156);
