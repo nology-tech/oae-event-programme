@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import "./ScheduleItem.scss";
 import chevronDown from "../../assets/images/chevron-down.png";
 import chevronUp from "../../assets/images/chevron-up.png";
+import Description from "../Description/Description";
 
 const ScheduleItem = (props) => {
-  const { header, subHeader, description } = props;
+  const { header, subHeader, description, alternateDescription } = props;
   const [showText, setShowText] = useState(false);
   const [Img, setImg] = useState(chevronDown);
 
@@ -41,9 +42,10 @@ const ScheduleItem = (props) => {
         </span>
       </div>
       {showText && (
-        <div className="schedule-item__content">
-          <p className="schedule-item__content-description">{description}</p>
-        </div>
+        <Description text={description} altText={alternateDescription} />
+        // <div className="schedule-item__content">
+        //   <p className="schedule-item__content-description">{description}</p>
+        // </div>
       )}
       <hr className="schedule-item__hr"></hr>
     </div>
