@@ -4,7 +4,7 @@
   background: linear-gradient(
     180deg,
     var(--theme-color-primary) 50%,
-    var(--background-color) 50%
+    $background-color 50%
   );
   padding: 1rem;
   display: flex;
