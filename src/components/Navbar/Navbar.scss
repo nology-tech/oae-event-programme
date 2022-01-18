@@ -29,9 +29,8 @@
     color: var(--text-color);
 
     &--active {
-    }
-
-    &--inactive {
+      fill: var(--navbar-active-color);
+      color: var(--navbar-active-color);
     }
   }
 }
