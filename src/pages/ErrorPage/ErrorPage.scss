@@ -1,0 +1,41 @@
+.error-page {
+  height: calc(100vh - 2rem);
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-content: center;
+  padding: 1rem;
+
+  &__heading {
+    color: #5f6068;
+
+    &--span {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__icon {
+    padding: 2rem;
+  }
+
+  &__subheading {
+    color: #5f6068;
+  }
+
+  &__button {
+    background-color: #f97850;
+    border-radius: 0.313rem;
+    color: white;
+    font-weight: 700;
+
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 1rem 2rem;
+  }
+}

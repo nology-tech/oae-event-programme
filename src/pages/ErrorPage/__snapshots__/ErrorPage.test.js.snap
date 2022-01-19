@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the error page 1`] = `
+<div>
+  <div
+    class="error-page"
+  >
+    <h1
+      class="error-page__heading"
+    >
+      Oops. Looks like this page doesnt exist 
+      <br />
+      <span
+        class="error-page__heading--span"
+      >
+        404
+      </span>
+    </h1>
+    <img
+      alt="sad musical note"
+      class="error-page__icon"
+      src="sad-note.svg"
+    />
+    <a
+      class="error-page__button"
+      href="//oae.co.uk/"
+    >
+      Back to OAE website
+    </a>
+  </div>
+</div>
+`;
