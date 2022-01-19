@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/oae-event-programme/static/css/main.b3332293.chunk.css",
-    "main.js": "/oae-event-programme/static/js/main.0a3527b9.chunk.js",
-    "main.js.map": "/oae-event-programme/static/js/main.0a3527b9.chunk.js.map",
-    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.725ba116.js",
-    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.725ba116.js.map",
+    "main.css": "/oae-event-programme/static/css/main.cf2e3feb.chunk.css",
+    "main.js": "/oae-event-programme/static/js/main.2b4e3f2a.chunk.js",
+    "main.js.map": "/oae-event-programme/static/js/main.2b4e3f2a.chunk.js.map",
+    "runtime-main.js": "/oae-event-programme/static/js/runtime-main.2a073ce3.js",
+    "runtime-main.js.map": "/oae-event-programme/static/js/runtime-main.2a073ce3.js.map",
     "static/js/2.daabeb35.chunk.js": "/oae-event-programme/static/js/2.daabeb35.chunk.js",
     "static/js/2.daabeb35.chunk.js.map": "/oae-event-programme/static/js/2.daabeb35.chunk.js.map",
-    "static/js/3.afb4425a.chunk.js": "/oae-event-programme/static/js/3.afb4425a.chunk.js",
-    "static/js/3.afb4425a.chunk.js.map": "/oae-event-programme/static/js/3.afb4425a.chunk.js.map",
+    "static/js/3.89587141.chunk.js": "/oae-event-programme/static/js/3.89587141.chunk.js",
+    "static/js/3.89587141.chunk.js.map": "/oae-event-programme/static/js/3.89587141.chunk.js.map",
     "index.html": "/oae-event-programme/index.html",
-    "static/css/main.b3332293.chunk.css.map": "/oae-event-programme/static/css/main.b3332293.chunk.css.map",
+    "static/css/main.cf2e3feb.chunk.css.map": "/oae-event-programme/static/css/main.cf2e3feb.chunk.css.map",
     "static/js/2.daabeb35.chunk.js.LICENSE.txt": "/oae-event-programme/static/js/2.daabeb35.chunk.js.LICENSE.txt",
     "static/media/ProtestImg.3de7bbd8.PNG": "/oae-event-programme/static/media/ProtestImg.3de7bbd8.PNG",
-    "static/media/imageCropped.b1d8990f.png": "/oae-event-programme/static/media/imageCropped.b1d8990f.png"
+    "static/media/imageCropped.b1d8990f.png": "/oae-event-programme/static/media/imageCropped.b1d8990f.png",
+    "static/media/sad-note.f579cef9.svg": "/oae-event-programme/static/media/sad-note.f579cef9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.725ba116.js",
+    "static/js/runtime-main.2a073ce3.js",
     "static/js/2.daabeb35.chunk.js",
-    "static/css/main.b3332293.chunk.css",
-    "static/js/main.0a3527b9.chunk.js"
+    "static/css/main.cf2e3feb.chunk.css",
+    "static/js/main.2b4e3f2a.chunk.js"
   ]
 }
