@@ -100,7 +100,7 @@ exports[`Renders Layout component with default page 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__nav-link navbar__nav-link--inactive"
+          class="navbar__nav-link "
           href="/123/settings"
         >
           <svg

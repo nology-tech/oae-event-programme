@@ -227,7 +227,7 @@ exports[`Schedule page should render 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__nav-link navbar__nav-link--inactive"
+          class="navbar__nav-link "
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/settings"
         >
           <svg
