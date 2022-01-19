@@ -17,6 +17,8 @@ const App = () => {
 
       <Route path="/:eventId" element={<Home />} />
 
+      {/* <Route path="/:eventId/settings" element={<Settings />} /> */}
+
       <Route path="/*" element={<ErrorPage />} />
     </Routes>
   );
