@@ -18,7 +18,8 @@ const About = () => {
   const [event, setEvent] = useState();
 
   useEffect(async () => {
-    setEvent(await getEvent(eventId));
+    const result = await getEvent(eventId);
+    setEvent(result);
   }, [getEvent, eventId, setEvent]);
 
   if (!event) return <LoadingSpinner />;
