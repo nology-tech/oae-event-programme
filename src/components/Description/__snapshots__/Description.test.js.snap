@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders description component 1`] = `
+<div>
+  <div
+    class="description"
+  >
+    <p>
+      If this is your first Bach
+    </p>
+  </div>
+</div>
+`;
