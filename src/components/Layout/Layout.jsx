@@ -10,7 +10,6 @@ const Layout = (props) => {
   let theme = getFontType(fontType);
 
   const darkTheme = getDarkTheme();
-  //setDarkTheme();
 
   useEffect(() => {
     let { style } = document.documentElement;

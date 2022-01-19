@@ -4,17 +4,19 @@ import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 import { getDarkTheme, setDarkTheme } from "../../utils/localStorageHelper";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const Setting = () => {
   const { eventId } = useParams();
-
   const [event, setEvent] = useState();
 
   useEffect(async () => {
-    setEvent(await getEvent(eventId));
+    setEvent((await getEvent(eventId)) ?? null);
   }, [getEvent, eventId, setEvent]);
 
-  if (!event) return <LoadingSpinner />;
+  if (event === undefined) return <LoadingSpinner />;
+
+  if (event === null) return <ErrorPage />;
 
   const { theme } = event;
 
@@ -22,13 +24,6 @@ const Setting = () => {
     let checked = e.target.checked;
     setDarkTheme(checked);
     window.location.reload();
-
-    // if(e.target.checked === true){
-    //   setDarkTheme(checked);
-    // }
-    // console.log("dank mode enabled")
-    // when its checked -> true, dank mode on
-    // when its unchecked -> false, dank mode off
   };
 
   const isDarkMode = getDarkTheme();
