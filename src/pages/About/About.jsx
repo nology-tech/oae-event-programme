@@ -11,18 +11,19 @@ import Paragraph from "../../components/Paragraph/Paragraph";
 import "./About.scss";
 import { getEvent } from "../../assets/data/api";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 const About = () => {
   const { eventId } = useParams();
-
   const [event, setEvent] = useState();
 
   useEffect(async () => {
-    const result = await getEvent(eventId);
-    setEvent(result);
+    setEvent((await getEvent(eventId)) ?? null);
   }, [getEvent, eventId, setEvent]);
 
-  if (!event) return <LoadingSpinner />;
+  if (event === undefined) return <LoadingSpinner />;
+
+  if (event === null) return <ErrorPage />;
 
   const { theme } = event;
 
