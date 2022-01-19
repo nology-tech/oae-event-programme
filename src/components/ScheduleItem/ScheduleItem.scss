@@ -29,19 +29,12 @@
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
-    color: inherit;
     font: inherit;
     line-height: normal;
   }
   &__subheader {
     color: rgb(156, 156, 156);
-  }
-  &__content {
-    word-wrap: break-word;
-    width: 100%;
-  }
-  &__image-conatiner {
-    display: flex;
+    // color to be changed to a variable of #5F6068
   }
   &__hr {
     width: 100%;

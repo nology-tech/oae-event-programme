@@ -23,7 +23,7 @@ const ScheduleItem = (props) => {
       setImg(chevronUp);
     }
   };
-  const jsxContent = (
+  const scheduleItemContent = (
     <>
       <span className="schedule-item__headers">
         <h3 className="schedule-item__header">{header}</h3>
@@ -39,11 +39,10 @@ const ScheduleItem = (props) => {
     <div className="schedule-item">
       {description ? (
         <button className="schedule-item__top-button" onClick={handleClick}>
-          {" "}
-          {jsxContent}
+          {scheduleItemContent}
         </button>
       ) : (
-        <div className="schedule-item__top-div">{jsxContent}</div>
+        <div className="schedule-item__top-div">{scheduleItemContent}</div>
       )}
       {showText && (
         <Description text={description} altText={alternateDescription} />

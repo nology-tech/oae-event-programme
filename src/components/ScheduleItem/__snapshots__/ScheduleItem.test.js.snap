@@ -8,7 +8,6 @@ exports[`Renders App component with default page 1`] = `
     <button
       class="schedule-item__top-button"
     >
-       
       <span
         class="schedule-item__headers"
       >

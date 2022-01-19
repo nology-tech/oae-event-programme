@@ -33,7 +33,6 @@ exports[`Schedule page should render 1`] = `
           <button
             class="schedule-item__top-button"
           >
-             
             <span
               class="schedule-item__headers"
             >
@@ -87,7 +86,6 @@ exports[`Schedule page should render 1`] = `
           <button
             class="schedule-item__top-button"
           >
-             
             <span
               class="schedule-item__headers"
             >
