@@ -5,9 +5,10 @@ exports[`Renders App component with default page 1`] = `
   <div
     class="schedule-item"
   >
-    <div
-      class="schedule-item__top"
+    <button
+      class="schedule-item__top-button"
     >
+       
       <span
         class="schedule-item__headers"
       >
@@ -23,16 +24,15 @@ exports[`Renders App component with default page 1`] = `
         </p>
       </span>
       <span
-        class="schedule-item__button-container"
+        class="schedule-item__icon-container"
       >
         <img
           alt=""
-          class="schedule-item__button"
-          role="button"
+          class="schedule-item__icon"
           src="chevron-down.png"
         />
       </span>
-    </div>
+    </button>
     <hr
       class="schedule-item__hr"
     />
