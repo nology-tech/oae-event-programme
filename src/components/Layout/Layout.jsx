@@ -20,10 +20,6 @@ const Layout = (props) => {
 
     style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");
     style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
-    style.setProperty(
-      "--navbar-active-color",
-      darkTheme ? "#CACBCD" : "#CACBCD"
-    );
   }, [themeType, textColor, highlightColor]);
 
   return (
