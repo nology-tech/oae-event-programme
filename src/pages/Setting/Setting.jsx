@@ -18,10 +18,10 @@ const Setting = () => {
 
   const { theme } = event;
 
-  const handleChange = (e) =>{
+  const handleChange = (e) => {
     let checked = e.target.checked;
-    setDarkTheme(checked)
-    window.location.reload()
+    setDarkTheme(checked);
+    window.location.reload();
 
     // if(e.target.checked === true){
     //   setDarkTheme(checked);
@@ -29,10 +29,9 @@ const Setting = () => {
     // console.log("dank mode enabled")
     // when its checked -> true, dank mode on
     // when its unchecked -> false, dank mode off
-  }
+  };
 
   const isDarkMode = getDarkTheme();
-
 
   return (
     <Layout
@@ -42,7 +41,12 @@ const Setting = () => {
       textColor={theme.textColour}
       highlightColor={theme.highlightColour}
     >
-      <input type="checkbox" id="dark-mode" onChange={handleChange} checked={isDarkMode}/>
+      <input
+        type="checkbox"
+        id="dark-mode"
+        onChange={handleChange}
+        checked={isDarkMode}
+      />
       <label htmlFor="dark-mode">Dark Mode</label>
     </Layout>
   );

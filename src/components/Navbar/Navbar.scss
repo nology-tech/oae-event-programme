@@ -27,11 +27,10 @@
     align-items: center;
     fill: var(--navbar-active-color);
     color: var(--navbar-active-color);
-    
 
     &--active {
       fill: var(--text-color);
-    color: var(--text-color);
+      color: var(--text-color);
     }
   }
 }

@@ -3,7 +3,6 @@ export const getDarkTheme = () => {
   return isDarkMode === "true";
 };
 
-
 export const setDarkTheme = (isDarkMode) => {
   localStorage.setItem("darkMode", isDarkMode.toString());
 };
