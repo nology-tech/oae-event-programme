@@ -27,11 +27,6 @@ const Layout = (props) => {
     );
   }, [themeType, textColor, highlightColor]);
 
-  // const handleClick = () => {
-  //   if (darkTheme == true) {
-  //   }
-  // };
-
   return (
     <div className={`layout ${theme}`}>
       <div>{children}</div>
