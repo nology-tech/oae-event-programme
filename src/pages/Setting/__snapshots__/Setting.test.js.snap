@@ -1,14 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders Layout component with default page 1`] = `
+exports[`renders setting component 1`] = `
 <div>
   <div
     class="layout modern"
   >
     <div>
-      <p>
-        sample children
-      </p>
+      <input
+        id="dark-mode"
+        type="checkbox"
+      />
+      <label
+        for="dark-mode"
+      >
+        Dark Mode
+      </label>
     </div>
     <nav
       class="navbar"
@@ -18,7 +24,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__nav-link "
-          href="/123/event-schedule"
+          href="/undefined/event-schedule"
         >
           <svg
             height="36px"
@@ -53,7 +59,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__nav-link "
-          href="/123/home"
+          href="/undefined/home"
         >
           <svg
             height="36px"
@@ -77,7 +83,7 @@ exports[`Renders Layout component with default page 1`] = `
       >
         <a
           class="navbar__nav-link "
-          href="/123/our-story"
+          href="/undefined/our-story"
         >
           <svg
             height="36px"
