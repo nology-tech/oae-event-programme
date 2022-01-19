@@ -1,6 +1,7 @@
 @import "../../assets/sass/variables";
 
 .description {
+  align-self: flex-start;
   &__container {
     display: flex;
     justify-content: center;
