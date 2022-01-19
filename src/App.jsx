@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./pages/About/About";
 import Home from "./pages/Home/Home";
 import Schedule from "./pages/Schedule/Schedule";
-import Setting from "./pages/Setting/Setting";
+import Settings from "./pages/Settings/Settings";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
 
       <Route path="/:eventId/home" element={<Home />} />
 
-      <Route path="/:eventId/setting" element={<Setting />} />
+      <Route path="/:eventId/settings" element={<Settings />} />
 
       <Route path="/:eventId" element={<Home />} />
 

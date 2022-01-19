@@ -6,7 +6,7 @@ import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 import { getDarkTheme, setDarkTheme } from "../../utils/localStorageHelper";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
-const Setting = () => {
+const Settings = () => {
   const { eventId } = useParams();
   const [event, setEvent] = useState();
 
@@ -47,4 +47,4 @@ const Setting = () => {
   );
 };
 
-export default Setting;
+export default Settings;
