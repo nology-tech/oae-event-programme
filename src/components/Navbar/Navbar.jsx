@@ -10,7 +10,7 @@ const Navbar = (props) => {
   const { eventId } = props;
 
   const checkActive = ({ isActive }) =>
-    `navbar__nav-link navbar__nav-link--${isActive ? "" : "in"}active`;
+    `navbar__nav-link ${isActive ? "navbar__nav-link--active" : ""}`;
 
   return (
     <nav className="navbar">

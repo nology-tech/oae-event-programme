@@ -341,7 +341,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__nav-link navbar__nav-link--inactive"
+          class="navbar__nav-link "
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/event-schedule"
         >
           <svg
@@ -376,7 +376,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__nav-link navbar__nav-link--inactive"
+          class="navbar__nav-link "
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/home"
         >
           <svg
@@ -400,7 +400,7 @@ exports[`Renders photo component in the About page 1`] = `
         class="navbar__content"
       >
         <a
-          class="navbar__nav-link navbar__nav-link--inactive"
+          class="navbar__nav-link "
           href="/6bb8ffe8-6e5e-4abc-be7f-b05b749849cf/our-story"
         >
           <svg
