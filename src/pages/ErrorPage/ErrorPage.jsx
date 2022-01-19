@@ -9,7 +9,7 @@ const ErrorPage = () => {
         Oops. Looks like this page doesnt exist <br />
         <span className="error-page__heading--span">404</span>
       </h1>
-      <img className="error-page__icon" src={sadNote} alt="suad musical note" />
+      <img className="error-page__icon" src={sadNote} alt="sad musical note" />
 
       <a className="error-page__button" href="//oae.co.uk/">
         Back to OAE website
