@@ -53,42 +53,57 @@ exports[`renders settings component 1`] = `
           >
             Font Size
           </legend>
-          <input
-            checked=""
-            class="setting-font-size__input"
-            name="font-size"
-            type="radio"
-          />
-          <label
-            class="setting-font-size__label"
-            for="small-font"
+          <div
+            class="setting-font-size__container"
           >
-            Small
-          </label>
-          <input
-            class="setting-font-size__input"
-            name="font-size"
-            type="radio"
-          />
-          <label
-            class="setting-font-size__label"
-            for="medium-font"
+            <input
+              checked=""
+              class="setting-font-size__input"
+              name="font-size"
+              type="radio"
+            />
+            <label
+              class="setting-font-size__label"
+              for="small-font"
+            >
+              Small
+            </label>
+          </div>
+          <div
+            class="setting-font-size__container"
           >
-            Medium
-          </label>
-          <input
-            class="setting-font-size__input"
-            name="font-size"
-            type="radio"
-          />
-          <label
-            class="setting-font-size__label"
-            for="large-font"
+            <input
+              class="setting-font-size__input"
+              name="font-size"
+              type="radio"
+            />
+            <label
+              class="setting-font-size__label"
+              for="medium-font"
+            >
+              Medium
+            </label>
+          </div>
+          <div
+            class="setting-font-size__container"
           >
-            Large
-          </label>
+            <input
+              class="setting-font-size__input"
+              name="font-size"
+              type="radio"
+            />
+            <label
+              class="setting-font-size__label"
+              for="large-font"
+            >
+              Large
+            </label>
+          </div>
         </fieldset>
       </div>
+      <hr
+        class="setting-font-size__hr"
+      />
     </div>
     <nav
       class="navbar"
