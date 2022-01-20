@@ -29,6 +29,7 @@ const Schedule = () => {
       themeType={theme.primaryColour}
       textColor={theme.textColour}
       highlightColor={theme.highlightColour}
+      fillColor={theme.fillColor}
     >
       <PageHeader title={series} subtitle="Event Schedule" />
 
