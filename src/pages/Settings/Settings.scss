@@ -1,17 +1,20 @@
 .setting-font-size {
-  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
   border: none;
-  margin-right: 4rem;
-  position: relative;
-  left: 1.6rem;
-  border-bottom: 1px solid #e4e5f0;
+  // border-bottom: 1px solid #e4e5f0;
+  justify-content: center;
+  margin: 1.75rem 2.5rem 0.5rem;
+  padding: 0;
   &__header {
     font-weight: 700;
   }
-  &__input {
-    margin-left: 1rem;
+  &__container {
+    padding: 0.75rem 0.5rem;
   }
-  &__label {
-    margin-right: 1rem;
-  }
+    &__hr {
+      // width: 100%;
+      border: 1px solid var(--hr-color);
+      margin: 0 2.5rem;
+    }
 }
