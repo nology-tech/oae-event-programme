@@ -1,5 +1,4 @@
-@import "../../assets/sass/typography";
-@import "../../assets/sass/variables";
+@use "../../assets/sass/variables" as *;
 
 .schedule-item {
   display: flex;
@@ -37,7 +36,6 @@
   }
   &__subheader {
     color: var(--sub-header-color);
-    // color to be changed to a variable of #5F6068 (CURRENTLY BLOCKED BY DARK MODE)
   }
   &__hr {
     width: 100%;

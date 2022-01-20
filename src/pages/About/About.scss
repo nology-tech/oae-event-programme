@@ -1,5 +1,4 @@
-@import "../../assets/sass/typography";
-@import "../../assets/sass/variables";
+@use "../../assets/sass/variables" as *;
 
 .about {
   &__content {
