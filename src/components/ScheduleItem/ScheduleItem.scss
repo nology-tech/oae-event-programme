@@ -43,10 +43,6 @@
     margin: 0 0.5rem 0 0.5rem;
   }
 
-  &__icon {
-    filter: var(--text-color);
-  }
-
   &__chevron {
     fill: var(--fill-color);
     width: 1.25rem;
@@ -58,7 +54,7 @@
       transform: rotate(270deg);
     }
 
-    &--hidden{
+    &--hidden {
       display: none;
     }
   }

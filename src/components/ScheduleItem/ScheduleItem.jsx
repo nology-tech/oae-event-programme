@@ -13,7 +13,7 @@ const ScheduleItem = (props) => {
 
   const chevronClassname = `schedule-item__chevron${
     showText ? " schedule-item__chevron--rotated" : ""
-  }${description ? "":"schedule-item__chevron--hidden"}`;
+  }${description ? "" : " schedule-item__chevron--hidden"}`;
 
   const scheduleItemContent = (
     <>

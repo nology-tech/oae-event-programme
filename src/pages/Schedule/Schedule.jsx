@@ -25,11 +25,6 @@ const Schedule = () => {
   return (
     <Layout
       eventId={eventId}
-      fontType={theme.fontType}
-      themeType={theme.primaryColour}
-      textColor={theme.textColour}
-      highlightColor={theme.highlightColour}
-      fillColor={theme.fillColor}
       theme={theme.templateTheme.toLowerCase()}
       themeColorPrimary={theme.primaryColor}
       themeColorText={theme.textColour}
