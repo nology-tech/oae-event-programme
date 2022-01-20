@@ -16,6 +16,6 @@ test("default font type for Layout is modern", () => {
 });
 
 test("font type will change to classic", () => {
-  const { container } = customRender(<Layout fontType={2} />);
+  const { container } = customRender(<Layout theme="classic" />);
   expect(container.firstChild.classList.contains("classic")).toBe(true);
 });

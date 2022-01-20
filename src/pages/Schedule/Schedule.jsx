@@ -20,7 +20,7 @@ const Schedule = () => {
 
   if (event === null) return <ErrorPage />;
 
-  const { series, schedule, theme } = event;
+  const { name, schedule, theme } = event;
 
   return (
     <Layout
@@ -30,8 +30,12 @@ const Schedule = () => {
       textColor={theme.textColour}
       highlightColor={theme.highlightColour}
       fillColor={theme.fillColor}
+      theme={theme.templateTheme.toLowerCase()}
+      themeColorPrimary={theme.primaryColor}
+      themeColorText={theme.textColour}
+      themeColorHighlight={theme.subtitleColor}
     >
-      <PageHeader title={series} subtitle="Event Schedule" />
+      <PageHeader title={name} subtitle="Event Schedule" />
 
       <div className="schedule">
         {schedule.map((schedule, i) => (
