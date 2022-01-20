@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders settingsItemToggle component 1`] = `
+<div>
+  <div
+    class="settings-item-toggle"
+  >
+    <span
+      class="settings-item-toggle__label"
+    />
+    <label
+      class="settings-item-toggle__switch"
+    >
+      <input
+        class="settings-item-toggle__checkbox"
+        type="checkbox"
+      />
+      <span
+        class="settings-item-toggle__slider"
+      />
+    </label>
+  </div>
+</div>
+`;
