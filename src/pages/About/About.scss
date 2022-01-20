@@ -3,6 +3,9 @@
 .about {
   &__content {
     padding: 0 2.5rem;
+    &-heading {
+      color: var(--header-color);
+    }
   }
   &__callout {
     color: var(--theme-color-text);
