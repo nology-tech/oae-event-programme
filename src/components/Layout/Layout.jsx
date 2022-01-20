@@ -1,26 +1,34 @@
-import "./Layout.scss";
 import { useEffect } from "react";
-import getFontType from "../../utils/stringHelper";
 import { getDarkTheme } from "../../utils/localStorageHelper";
 import Navbar from "../Navbar/Navbar";
+import "./Layout.scss";
 
 const Layout = (props) => {
-  const { fontType, children, eventId, themeType, textColor, highlightColor } =
-    props;
-  let theme = getFontType(fontType);
+  const {
+    theme = "modern",
+    children,
+    eventId,
+    themeColorPrimary,
+    themeColorText,
+    themeColorHighlight,
+  } = props;
 
   const darkTheme = getDarkTheme();
 
   useEffect(() => {
     let { style } = document.documentElement;
-    themeType && style.setProperty("--theme-color-primary", themeType);
-    textColor && style.setProperty("--theme-color-text", textColor);
-    highlightColor &&
-      style.setProperty("--theme-color-highlight", highlightColor);
 
+    // set theme colours
+    themeColorPrimary &&
+      style.setProperty("--theme-color-primary", themeColorPrimary);
+    themeColorText && style.setProperty("--theme-color-text", themeColorText);
+    themeColorHighlight &&
+      style.setProperty("--theme-color-highlight", themeColorHighlight);
+
+    //set dark/ light mode colours
     style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");
     style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
-  }, [themeType, textColor, highlightColor]);
+  }, [themeColorPrimary, themeColorText, themeColorHighlight]);
 
   return (
     <div className={`layout ${theme}`}>
