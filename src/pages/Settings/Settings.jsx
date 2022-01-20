@@ -51,14 +51,20 @@ const Settings = () => {
         <PageHeader title="Settings" className="settings-content__header" />
         <SettingsItemToggle settingsLabel="Dark Mode" onChange={handleChange} checked={isDarkMode} />
 
-        <fieldset>
-          <legend>Font Size</legend>
-          <input type="radio" onClick={() => handleClick("100%")} click={fontSize} defaultChecked={isInputChecked("100%")} name="font-size" />
-          <label htmlFor="small-font">small</label>
-          <input type="radio" onClick={() => handleClick("125%")} click={fontSize} defaultChecked={isInputChecked("125%")} name="font-size" />
-          <label htmlFor="medium-font">medium</label>
-          <input type="radio" onClick={() => handleClick("150%")} click={fontSize} defaultChecked={isInputChecked("150%")} name="font-size" />
-          <label htmlFor="large-font">large</label>
+        <fieldset className="setting-font-size">
+          <legend className="setting-font-size__header">Font Size</legend>
+          <input className="setting-font-size__input" type="radio" onClick={() => handleClick("100%")} click={fontSize} defaultChecked={isInputChecked("100%")} name="font-size" />
+          <label className="setting-font-size__label" htmlFor="small-font">
+            Small
+          </label>
+          <input className="setting-font-size__input" type="radio" onClick={() => handleClick("125%")} click={fontSize} defaultChecked={isInputChecked("125%")} name="font-size" />
+          <label className="setting-font-size__label" htmlFor="medium-font">
+            Medium
+          </label>
+          <input className="setting-font-size__input" type="radio" onClick={() => handleClick("150%")} click={fontSize} defaultChecked={isInputChecked("150%")} name="font-size" />
+          <label className="setting-font-size__label" htmlFor="large-font">
+            Large
+          </label>
         </fieldset>
       </div>
     </Layout>
