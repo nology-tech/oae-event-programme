@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { getDarkTheme } from "../../utils/localStorageHelper";
+import { getDarkTheme, getFontSize } from "../../utils/localStorageHelper";
 import Navbar from "../Navbar/Navbar";
 import "./Layout.scss";
 
@@ -15,6 +15,8 @@ const Layout = (props) => {
 
   const darkTheme = getDarkTheme();
 
+  const fontSize = getFontSize();
+
   useEffect(() => {
     let { style } = document.documentElement;
 
@@ -24,6 +26,9 @@ const Layout = (props) => {
     themeColorText && style.setProperty("--theme-color-text", themeColorText);
     themeColorHighlight &&
       style.setProperty("--theme-color-highlight", themeColorHighlight);
+
+    // setting font size
+    style.setProperty("--font-size", fontSize ?? "100%");  
 
     //set dark/ light mode colours
     style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");

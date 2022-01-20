@@ -6,15 +6,89 @@ exports[`renders settings component 1`] = `
     class="layout modern"
   >
     <div>
-      <input
-        id="dark-mode"
-        type="checkbox"
-      />
-      <label
-        for="dark-mode"
+      <div
+        class="settings-content"
       >
-        Dark Mode
-      </label>
+        <div
+          class="page-header page-header--only"
+        >
+          <div
+            class="header-home"
+          >
+            <span
+              class="header-home__subtitle"
+            />
+            <h1
+              class="header-home__title"
+            >
+              Settings
+            </h1>
+          </div>
+        </div>
+        <div
+          class="settings-item-toggle"
+        >
+          <span
+            class="settings-item-toggle__label"
+          >
+            Dark Mode
+          </span>
+          <label
+            class="settings-item-toggle__switch"
+          >
+            <input
+              class="settings-item-toggle__checkbox"
+              type="checkbox"
+            />
+            <span
+              class="settings-item-toggle__slider"
+            />
+          </label>
+        </div>
+        <fieldset
+          class="setting-font-size"
+        >
+          <legend
+            class="setting-font-size__header"
+          >
+            Font Size
+          </legend>
+          <input
+            checked=""
+            class="setting-font-size__input"
+            name="font-size"
+            type="radio"
+          />
+          <label
+            class="setting-font-size__label"
+            for="small-font"
+          >
+            Small
+          </label>
+          <input
+            class="setting-font-size__input"
+            name="font-size"
+            type="radio"
+          />
+          <label
+            class="setting-font-size__label"
+            for="medium-font"
+          >
+            Medium
+          </label>
+          <input
+            class="setting-font-size__input"
+            name="font-size"
+            type="radio"
+          />
+          <label
+            class="setting-font-size__label"
+            for="large-font"
+          >
+            Large
+          </label>
+        </fieldset>
+      </div>
     </div>
     <nav
       class="navbar"
