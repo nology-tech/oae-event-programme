@@ -2,16 +2,18 @@ import "./Layout.scss";
 import { useEffect } from "react";
 
 import getFontType from "../../utils/stringHelper";
-import { getDarkTheme } from "../../utils/localStorageHelper";
+import { getDarkTheme, getFontSize } from "../../utils/localStorageHelper";
 import Navbar from "../Navbar/Navbar";
 
 const Layout = (props) => {
-  const { fontType, children, eventId, themeType, textColor, highlightColor, fontSize } =
+  const { fontType, children, eventId, themeType, textColor, highlightColor } =
     props;
 
   let theme = getFontType(fontType);
 
   const darkTheme = getDarkTheme();
+
+  const fontSize = getFontSize();
 
   useEffect(() => {
     let { style } = document.documentElement;
