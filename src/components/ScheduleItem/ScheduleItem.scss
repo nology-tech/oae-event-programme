@@ -57,5 +57,9 @@
     &--rotated {
       transform: rotate(270deg);
     }
+
+    &--hidden{
+      display: none;
+    }
   }
 }

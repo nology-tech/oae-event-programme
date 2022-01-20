@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Description from "../Description/Description";
 import ChevronIcon from "../NavbarIcon/ChevronIcon";
 import "./ScheduleItem.scss";
@@ -7,19 +7,13 @@ const ScheduleItem = (props) => {
   const { header, subHeader, description, alternateDescription } = props;
   const [showText, setShowText] = useState(false);
 
-  useEffect(() => {
-    if (description === null) {
-      console.log("set chevron to disappear");
-    }
-  }, [description]);
-
   const handleClick = () => {
     setShowText(!showText);
   };
 
   const chevronClassname = `schedule-item__chevron${
     showText ? " schedule-item__chevron--rotated" : ""
-  }`;
+  }${description ? "":"schedule-item__chevron--hidden"}`;
 
   const scheduleItemContent = (
     <>
