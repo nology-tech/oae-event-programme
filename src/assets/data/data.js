@@ -48,10 +48,10 @@ export const events = [
       },
     ],
     theme: {
-      fontType: 1,
+      templateTheme: "Modern",
       primaryColour: "#8BA0E3",
       textColour: "#FFFFFF",
-      highlightColour: "#FFFFC7",
+      subtitleColor: "#FFFFC7",
     },
   },
   {
@@ -135,10 +135,10 @@ export const events = [
       },
     ],
     theme: {
-      fontType: 2,
+      templateTheme: "Classic",
       primaryColour: "#FA825D",
       textColour: "#FFFFFF",
-      highlightColour: "#FFFFC7",
+      subtitleColor: "#FFFFC7",
     },
   },
   {
@@ -184,10 +184,10 @@ export const events = [
       },
     ],
     theme: {
-      fontType: 1,
+      templateTheme: "Modern",
       primaryColour: "#e6bfd3",
       textColour: "#000000",
-      highlightColour: "#FFFFC7",
+      subtitleColor: "#FFFFC7",
     },
   },
 ];

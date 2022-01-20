@@ -4,9 +4,15 @@
   --theme-color-primary: #ffffff;
   --theme-color-text: #000000;
   --theme-color-highlight: #000000;
+  --font-size: 100%;
+
+  font-size: var(--font-size);
 
   --background-color: hsl(0, 0%, 13%);
   --text-color: hsl(240, 25%, 98%);
+  --header-color: #ffffff;
+  --sub-header-color: #bfbfc7;
+  --hr-color: #bfbfc7;
 }
 
 .layout {
