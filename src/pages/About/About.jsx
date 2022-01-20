@@ -30,10 +30,10 @@ const About = () => {
   return (
     <Layout
       eventId={eventId}
-      fontType={theme.fontType}
-      themeType={theme.primaryColour}
-      textColor={theme.textColour}
-      highlightColor={theme.highlightColour}
+      theme={theme.templateTheme.toLowerCase()}
+      themeColorPrimary={theme.primaryColor}
+      themeColorText={theme.textColour}
+      themeColorHighlight={theme.subtitleColor}
     >
       <PageHeader
         title="30 Years of Breaking The Rules"
