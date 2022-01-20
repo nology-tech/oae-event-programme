@@ -33,7 +33,7 @@ const About = () => {
       theme={theme.templateTheme.toLowerCase()}
       themeColorPrimary={theme.primaryColor}
       themeColorText={theme.textColour}
-      themeColorHighlight={theme.highlightColour}
+      themeColorHighlight={theme.subtitleColor}
     >
       <PageHeader
         title="30 Years of Breaking The Rules"

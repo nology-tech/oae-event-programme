@@ -34,7 +34,7 @@ const Settings = () => {
       theme={theme.templateTheme.toLowerCase()}
       themeColorPrimary={theme.primaryColor}
       themeColorText={theme.textColour}
-      themeColorHighlight={theme.highlightColour}
+      themeColorHighlight={theme.subtitleColor}
     >
       <input
         type="checkbox"
