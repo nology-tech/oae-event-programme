@@ -51,7 +51,6 @@ const Settings = () => {
         <PageHeader title="Settings" className="settings-content__header" />
         <SettingsItemToggle settingsLabel="Dark Mode" onChange={handleChange} checked={isDarkMode} />
 
-        <br />
         <fieldset>
           <legend>Font Size</legend>
           <input type="radio" onClick={() => handleClick("100%")} click={fontSize} defaultChecked={isInputChecked("100%")} name="font-size" />
