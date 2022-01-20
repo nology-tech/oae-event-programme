@@ -54,7 +54,6 @@ const Settings = () => {
       themeColorPrimary={theme.primaryColor}
       themeColorText={theme.textColour}
       themeColorHighlight={theme.subtitleColor}
-      fontSize={fontSize}
     >
       <input
         type="checkbox"
