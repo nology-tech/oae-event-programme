@@ -19,7 +19,10 @@ const Layout = (props) => {
       style.setProperty("--theme-color-highlight", highlightColor);
 
     style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");
-    style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
+    style.setProperty("--text-color", darkTheme ? "#e4e5f0" : "#333333");
+    style.setProperty("--header-color", darkTheme ? "#ffffff" : "#333333");
+    style.setProperty("--sub-header-color", darkTheme ? "#bfbfc7" : "#333333");
+    style.setProperty("--hr-color", darkTheme ? "#bfbfc7" : "#e4e5f0");
   }, [themeType, textColor, highlightColor]);
 
   return (

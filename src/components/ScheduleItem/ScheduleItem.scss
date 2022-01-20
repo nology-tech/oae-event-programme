@@ -32,13 +32,16 @@
     font: inherit;
     line-height: normal;
   }
+  &__header {
+    color: var(--header-color);
+  }
   &__subheader {
-    color: rgb(156, 156, 156);
+    color: var(--sub-header-color);
     // color to be changed to a variable of #5F6068 (CURRENTLY BLOCKED BY DARK MODE)
   }
   &__hr {
     width: 100%;
-    color: lightgray;
+    border: 1px solid var(--hr-color);
     margin: 0 0.5rem 0 0.5rem;
   }
 }

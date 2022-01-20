@@ -1,5 +1,11 @@
+@import "../../assets/sass/typography";
+@import "../../assets/sass/variables";
+
 .home {
   &__content {
     padding: 0 2.5rem;
+    &-heading {
+      color: var(--header-color);
+    }
   }
 }

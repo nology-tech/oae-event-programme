@@ -1,8 +1,12 @@
-@use "../../assets/sass/variables" as *;
+@import "../../assets/sass/typography";
+@import "../../assets/sass/variables";
 
 .about {
   &__content {
     padding: 0 2.5rem;
+    &-heading {
+      color: var(--header-color);
+    }
   }
   &__callout {
     color: var(--theme-color-text);
