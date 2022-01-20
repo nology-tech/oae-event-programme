@@ -5,7 +5,7 @@ import "./Layout.scss";
 
 const Layout = (props) => {
   const {
-    theme,
+    theme = "modern",
     children,
     eventId,
     themeColorPrimary,
