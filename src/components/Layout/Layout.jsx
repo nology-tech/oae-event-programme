@@ -2,6 +2,7 @@ import "./Layout.scss";
 import { useEffect } from "react";
 
 import getFontType from "../../utils/stringHelper";
+import { getDarkTheme } from "../../utils/localStorageHelper";
 import Navbar from "../Navbar/Navbar";
 
 const Layout = (props) => {
@@ -9,6 +10,8 @@ const Layout = (props) => {
     props;
 
   let theme = getFontType(fontType);
+
+  const darkTheme = getDarkTheme();
 
   useEffect(() => {
     let { style } = document.documentElement;
@@ -18,7 +21,11 @@ const Layout = (props) => {
       style.setProperty("--theme-color-highlight", highlightColor);
     console.log(fontSize);
     style.setProperty("--font-size", fontSize);
+
+    style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");
+    style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
   }, [themeType, textColor, highlightColor, fontSize]);
+
   return (
     <div className={`layout ${theme}`}>
       <div>{children}</div>

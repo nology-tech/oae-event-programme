@@ -23,24 +23,27 @@ const ScheduleItem = (props) => {
       setImg(chevronUp);
     }
   };
+  const scheduleItemContent = (
+    <>
+      <span className="schedule-item__headers">
+        <h3 className="schedule-item__header">{header}</h3>
+        <p className="schedule-item__subheader">{subHeader}</p>
+      </span>
+      <span className="schedule-item__icon-container">
+        <img className="schedule-item__icon" src={Img} alt="" />
+      </span>
+    </>
+  );
 
   return (
     <div className="schedule-item">
-      <div className="schedule-item__top">
-        <span className="schedule-item__headers">
-          <h3 className="schedule-item__header">{header}</h3>
-          <p className="schedule-item__subheader">{subHeader}</p>
-        </span>
-        <span className="schedule-item__button-container">
-          <img
-            role="button"
-            className="schedule-item__button"
-            src={Img}
-            alt=""
-            onClick={handleClick}
-          ></img>
-        </span>
-      </div>
+      {description ? (
+        <button className="schedule-item__top-button" onClick={handleClick}>
+          {scheduleItemContent}
+        </button>
+      ) : (
+        <div className="schedule-item__top-div">{scheduleItemContent}</div>
+      )}
       {showText && (
         <Description text={description} altText={alternateDescription} />
       )}

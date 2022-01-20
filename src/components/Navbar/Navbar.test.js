@@ -11,17 +11,6 @@ test("The links are contained in the page", () => {
   expect(links[2]).toHaveAttribute("href", "/123/our-story");
 });
 
-test("When landing on the homepage ScheduleIcon classname should be inactive", () => {
-  customRender(<Navbar eventId="123" />);
-  const links = screen.getAllByRole("link");
-  const eventSchedule = links[0];
-  expect(eventSchedule).toBeInTheDocument();
-  expect(eventSchedule).toHaveAttribute(
-    "class",
-    "navbar__nav-link navbar__nav-link--inactive"
-  );
-});
-
 test("When you click on the AboutIcon the classname changes to active", () => {
   customRender(<Navbar eventId="123/home" />);
   const links = screen.getAllByRole("link");

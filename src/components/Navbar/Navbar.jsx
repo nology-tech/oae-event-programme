@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 import AboutIcon from "../NavbarIcon/AboutIcon";
 import ScheduleIcon from "../NavbarIcon/ScheduleIcon";
 import HomeIcon from "../NavbarIcon/HomeIcon";
+import SettingsIcon from "../NavbarIcon/SettingsIcon";
 import "./Navbar.scss";
 
 const Navbar = (props) => {
   const { eventId } = props;
 
   const checkActive = ({ isActive }) =>
-    `navbar__nav-link navbar__nav-link--${isActive ? "" : "in"}active`;
+    `navbar__nav-link ${isActive ? "navbar__nav-link--active" : ""}`;
 
   return (
     <nav className="navbar">
@@ -25,11 +26,17 @@ const Navbar = (props) => {
           <span className="navbar__title">HOME</span>
         </NavLink>
       </div>
-
       <div className="navbar__content">
         <NavLink className={checkActive} to={`/${eventId}/our-story`}>
           <AboutIcon />
           <span className="navbar__title">ABOUT</span>
+        </NavLink>
+      </div>
+
+      <div className="navbar__content">
+        <NavLink className={checkActive} to={`/${eventId}/settings`}>
+          <SettingsIcon />
+          <span className="navbar__title">SETTINGS</span>
         </NavLink>
       </div>
     </nav>
