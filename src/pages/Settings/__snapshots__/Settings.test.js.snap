@@ -15,6 +15,40 @@ exports[`renders settings component 1`] = `
       >
         Dark Mode
       </label>
+      <br />
+      <fieldset>
+        <legend>
+          Font Size
+        </legend>
+        <input
+          checked=""
+          name="font-size"
+          type="radio"
+        />
+        <label
+          for="small-font"
+        >
+          small
+        </label>
+        <input
+          name="font-size"
+          type="radio"
+        />
+        <label
+          for="medium-font"
+        >
+          medium
+        </label>
+        <input
+          name="font-size"
+          type="radio"
+        />
+        <label
+          for="large-font"
+        >
+          large
+        </label>
+      </fieldset>
     </div>
     <nav
       class="navbar"
