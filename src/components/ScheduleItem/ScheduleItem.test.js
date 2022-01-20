@@ -40,23 +40,3 @@ it("header should render and description should render on button click", () => {
   const description = screen.queryAllByText("lorem ipsum");
   expect(description[0]).toBeVisible();
 });
-it("should render the image and change on the click of the button", () => {
-  customRender(
-    <ScheduleItem
-      header="header"
-      subHeader="subheader"
-      description="lorem ipsum"
-    />
-  );
-  const chevronImg = screen.getByRole("img");
-  expect(chevronImg).toBeInTheDocument();
-  expect(chevronImg).toHaveAttribute("src", "chevron-down.png");
-  userEvent.click(chevronImg);
-  expect(chevronImg).toHaveAttribute("src", "chevron-up.png");
-});
-
-it("the image should not appear in the document when there is no {description} prop", () => {
-  customRender(<ScheduleItem header="header" subHeader="subheader" />);
-  const chevronImg = screen.getByRole("img");
-  expect(chevronImg).not.toHaveAttribute("src", "lorem ipsum");
-});
