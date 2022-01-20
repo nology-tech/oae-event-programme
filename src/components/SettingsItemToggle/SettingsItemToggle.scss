@@ -1,0 +1,55 @@
+@use "../../assets/sass/variables" as *;
+
+.settings-item-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e4e5f0;
+  margin: 0 2.5rem;
+  padding: 1rem 0;
+  position: relative;
+  top: 1em;
+  &__label {
+    font-weight: 700;
+    margin: 0;
+  }
+  &__switch {
+    width: 2.813rem;
+    height: 1.5rem;
+    position: relative;
+    display: inline-block;
+  }
+  &__checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    &:checked + .settings-item-toggle__slider {
+      background-color: var(--theme-color-primary);
+    }
+    &:checked + .settings-item-toggle__slider:before {
+      transform: translateX(1.2rem);
+    }
+  }
+  &__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eaeaea;
+    transition: 0.4s;
+    border-radius: 34px;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 1.3rem;
+      width: 1.3rem;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      transition: 0.4s;
+      border-radius: 50%;
+    }
+  }
+}

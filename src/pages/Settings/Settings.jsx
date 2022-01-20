@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
+import "./Settings.scss";
 import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 import { getDarkTheme, setDarkTheme } from "../../utils/localStorageHelper";
 import ErrorPage from "../ErrorPage/ErrorPage";
+import SettingsItemToggle from "../../components/SettingsItemToggle/SettingsItemToggle";
+import PageHeader from "../../components/PageHeader/PageHeader";
 
 const Settings = () => {
   const { eventId } = useParams();
@@ -29,20 +32,11 @@ const Settings = () => {
   const isDarkMode = getDarkTheme();
 
   return (
-    <Layout
-      eventId={eventId}
-      fontType={theme.fontType}
-      themeType={theme.primaryColour}
-      textColor={theme.textColour}
-      highlightColor={theme.highlightColour}
-    >
-      <input
-        type="checkbox"
-        id="dark-mode"
-        onChange={handleChange}
-        checked={isDarkMode}
-      />
-      <label htmlFor="dark-mode">Dark Mode</label>
+    <Layout eventId={eventId} fontType={theme.fontType} themeType={theme.primaryColour} textColor={theme.textColour} highlightColor={theme.highlightColour}>
+      <div className="settings-content">
+        <PageHeader title="Settings" className="settings-content__header" />
+        <SettingsItemToggle settingsLabel="Dark Mode" onChange={handleChange} checked={isDarkMode} />
+      </div>
     </Layout>
   );
 };
