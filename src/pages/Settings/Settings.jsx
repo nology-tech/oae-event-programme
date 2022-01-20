@@ -3,7 +3,12 @@ import Layout from "../../components/Layout/Layout";
 import { useParams } from "react-router-dom";
 import { getEvent } from "../../assets/data/api";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
-import { getDarkTheme, setDarkTheme } from "../../utils/localStorageHelper";
+import {
+  getDarkTheme,
+  setDarkTheme,
+  getFontSize,
+  setFontSize,
+} from "../../utils/localStorageHelper";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
 const Settings = () => {
@@ -28,6 +33,20 @@ const Settings = () => {
 
   const isDarkMode = getDarkTheme();
 
+  const fontSize = getFontSize();
+
+  const handleClick = (num) => {
+    setFontSize(num);
+    window.location.reload();
+  };
+
+  const isInputChecked = (inputFontSize) => {
+    if (fontSize === null) {
+      return inputFontSize === "100%";
+    }
+    return inputFontSize === fontSize;
+  };
+
   return (
     <Layout
       eventId={eventId}
@@ -43,6 +62,36 @@ const Settings = () => {
         checked={isDarkMode}
       />
       <label htmlFor="dark-mode">Dark Mode</label>
+
+      <br />
+      <fieldset>
+        <legend>Font Size</legend>
+        <input
+          type="radio"
+          onClick={() => handleClick("100%")}
+          click={fontSize}
+          defaultChecked={isInputChecked("100%")}
+          name="font-size"
+        />
+        <label htmlFor="small-font">small</label>
+        <input
+          type="radio"
+          onClick={() => handleClick("125%")}
+          click={fontSize}
+          defaultChecked={isInputChecked("125%")}
+          name="font-size"
+        />
+        <label htmlFor="medium-font">medium</label>
+        <input
+          type="radio"
+          onClick={() => handleClick("150%")}
+          click={fontSize}
+          defaultChecked={isInputChecked("150%")}
+          name="font-size"
+        />
+        <label htmlFor="large-font">large</label>
+      </fieldset>
+
     </Layout>
   );
 };
