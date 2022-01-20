@@ -8,7 +8,12 @@ const SettingsItemToggle = (props) => {
     <div className="settings-item-toggle">
       <span className="settings-item-toggle__label">{settingsLabel}</span>
       <label className="settings-item-toggle__switch">
-        <input className="settings-item-toggle__checkbox" type="checkbox" onChange={onChange} checked={checked} />
+        <input
+          className="settings-item-toggle__checkbox"
+          type="checkbox"
+          onChange={onChange}
+          checked={checked}
+        />
         <span className="settings-item-toggle__slider"></span>
       </label>
     </div>
