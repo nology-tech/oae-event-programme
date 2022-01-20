@@ -10,9 +10,6 @@ import {
   setFontSize,
 } from "../../utils/localStorageHelper";
 import ErrorPage from "../ErrorPage/ErrorPage";
-// import font1 from "../../assets/images/font1.svg";
-// import font2 from "../../assets/images/font2.svg";
-// import font3 from "../../assets/images/font3.svg";
 
 const Settings = () => {
   const { eventId } = useParams();
@@ -96,9 +93,6 @@ const Settings = () => {
         <label htmlFor="large-font">large</label>
       </fieldset>
 
-      {/* <img src={font1} onClick={()=>handleClick("100%")} alt=""/>
-      <img src={font2}  onClick={()=>handleClick("125%")} alt="" />
-      <img src={font3}  onClick={()=>handleClick("150%")} alt="" /> */}
     </Layout>
   );
 };

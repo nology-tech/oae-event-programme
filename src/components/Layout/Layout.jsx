@@ -30,7 +30,7 @@ const Layout = (props) => {
     //set dark/ light mode colours
     style.setProperty("--background-color", darkTheme ? "#333333" : "#fafafc");
     style.setProperty("--text-color", darkTheme ? "#fafafc" : "#333333");
-    style.setProperty("--font-size", fontSize);
+    style.setProperty("--font-size", fontSize ?? "100%");
   }, [themeColorPrimary, themeColorText, themeColorHighlight]);
 
   return (
