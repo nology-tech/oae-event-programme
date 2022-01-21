@@ -24,7 +24,7 @@ const Settings = () => {
 
   if (event === undefined) return <LoadingSpinner />;
 
-  if (event === null) return <ErrorPage />;
+  if (!event) return <ErrorPage />;
 
   const { theme } = event;
 
