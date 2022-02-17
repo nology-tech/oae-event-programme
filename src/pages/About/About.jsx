@@ -1,4 +1,4 @@
-textColorimport React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Layout from "../../components/Layout/Layout";
 import Photo from "../../components/Photo/Photo";
 import { useParams } from "react-router-dom";
