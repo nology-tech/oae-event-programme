@@ -1,4 +1,4 @@
-export const getMockEventById = (id) => {
+textColorexport const getMockEventById = (id) => {
   return events.filter((event) => event.id === id.toString())[0];
 };
 

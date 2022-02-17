@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+textColorimport React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 import ScheduleItem from "../../components/ScheduleItem/ScheduleItem";

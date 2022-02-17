@@ -38,7 +38,7 @@ const Home = () => {
       eventId={eventId}
       theme={theme.templateTheme.toLowerCase()}
       themeColorPrimary={theme.primaryColor}
-      themeColorText={theme.textColour}
+      themeColorText={theme.textColor}
       themeColorHighlight={theme.subtitleColor}
     >
       <div className="home">
